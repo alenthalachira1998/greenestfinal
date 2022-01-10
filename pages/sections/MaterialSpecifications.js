@@ -277,7 +277,7 @@ const MaterialSpecifications = () => {
                 <p> Cement : Dalmia green/ultra tech</p>
                 <p> TMT bars : Tata Steel</p>
                 <p> Foundation : Rcc framed structure / Rubble masonry</p>
-                <p> Walls : 8" Cement stabilized Mudblock</p>
+                <p> Walls : 8 Cement stabilized Mudblock</p>
                 <p> Floor slab : Rcc slab 110mm thick</p>
                 <p> Plastering : External walls - Cement plastering</p>
                 <p> Internal walls - Gypsum plastering</p>

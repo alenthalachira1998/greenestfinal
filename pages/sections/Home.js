@@ -21,7 +21,7 @@ return (
 <div className="flex-col flex   text-center h-screen">
 
 <div className=" text-gray-900  mt-36 lg:text-3xl  text-sm  lg:font-normal flex flex-col items-center justify-center  ">
-"Lets build a Home <br/> that sings with the rain<br/> hums with the Earth<br/> and slieving the sun for night."<br/>
+&quot;Lets build a Home <br/> that sings with the rain<br/> hums with the Earth<br/> and slieving the sun for night.&quot;<br/>
 <h1 className="text-gray-900 lg:text-4xl text-xl font-bold mt-6 lg:mt-10">Buildings that breathe</h1>
 <img  className=" lg:mt-10 mt-6 lg:w-60 z-30 w-36 drop-shadow-xl "src="/images/OneLogo.png"/>
 </div>
