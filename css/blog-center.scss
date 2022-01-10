@@ -1,0 +1,29 @@
+
+.blog-image {
+    margin-bottom: 10px;
+  
+
+  
+    text-align: center;
+  
+    &-left {
+      float: left;
+      margin-right: 30px;
+      max-width: 70%;
+   
+    
+    }
+  
+  
+    
+    &-right {
+      float: right;
+      margin-left: 30px;
+      max-width: 70%;
+     
+    }
+  
+    > img {
+      max-width: 100%;
+    }
+  }

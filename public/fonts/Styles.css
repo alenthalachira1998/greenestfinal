@@ -1,0 +1,15 @@
+
+@font-face {
+    font-family: "VKTS";
+    src: url(/public/fonts/VTKSFLOWERSINOURSOUL.ttf) format("ttf");
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+  }
+  @font-face {
+    font-family: "Nella";
+    src: url(/public/fonts/NellaSueDEMO.ttf) format("ttf");
+    font-style: medium;
+    font-weight: 500;
+    font-display: swap;
+  }
