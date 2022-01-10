@@ -68,7 +68,7 @@ export default class SimpleSlider extends Component {
 <div className="flex-col w-screen flex h-screen items-center    ">
 
   <h1 className="mt-40 mb-4  sm:mb-10 text-2xl sm:text-5xl lg:text-7xl">FOR YOUR HOLIDAY</h1>
-  <h1 className="font-Tourney mb-4 sm:mb-10 text-2xl sm:text-5xl lg:text-7xl ">"COME HOME"</h1>
+  <h1 className="font-Tourney mb-4 sm:mb-10 text-2xl sm:text-5xl lg:text-7xl ">&quot;COME HOME&quot;</h1>
   <h1 className="font-Satisfy text-xl sm:text-3xl">Introducing</h1>
   <img  className="  lg:w-56  z-30 w-36 drop-shadow-xl "src="/images/OneLogo.png"/>
 
@@ -123,7 +123,7 @@ export default class SimpleSlider extends Component {
 <div className="absolute bg-black h-full lg:h-screen w-full opacity-5 flex flex-col items-center justify-center"></div>
 <div className="relative ">
 
-<div className="flex-col w-screen  flex h-screen items-center     ">
+<div className="flex-col w-screen  flex h-screen items-center">
 
   <h1 className="   sm:mb-5 text-2xl sm:text-5xl text-gray-900 mt-48 lg:text-7xl font-semibold">Panoramic Views</h1>
   <h2 className="mt-2 font-medium  text-base sm:text-xl text-gray-900 lg:text-5xl">From Sunrise to Sunset</h2>
@@ -142,7 +142,7 @@ export default class SimpleSlider extends Component {
 <div className="absolute bg-black h-full lg:h-screen w-full opacity-5 flex flex-col items-center justify-center"></div>
 <div className="relative ">
 
-<div className="flex-col w-screen  flex h-screen items-center    ">
+<div className="flex-col w-screen  flex h-screen items-center">
 
   <h1 className="   sm:mb-5 text-2xl sm:text-5xl font-medium mt-48 text-white lg:text-7xl">High performance</h1>
   <h2 className="mt-2 font-medium text-xs sm:text-base text-white lg:text-4xl"><span className="font-bold">.</span> Energy <span className="font-bold ">.</span> Water <span className="font-bold">.</span> BuildQuality . Health and Welbeing <span className="font-bold">.</span> Safety</h2>
