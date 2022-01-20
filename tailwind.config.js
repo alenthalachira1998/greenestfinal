@@ -57,6 +57,7 @@ module.exports = {
         '2xl': '1536px',
         // => @media (min-width: 1536px) { ... }
       },
+  
        extend: {
         fontFamily: {
           sans: ['Montserrat', ...defaultTheme.fontFamily.sans],
@@ -68,6 +69,7 @@ module.exports = {
 
 
         },
+       
         screens: {
   
           'landscape1': {'raw': '(max-height: 552px)'},
