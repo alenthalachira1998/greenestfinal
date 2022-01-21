@@ -21,7 +21,6 @@
     "@sanity/image-url": "^1.0.1",
     "@zeit/next-sass": "^1.0.1",
     "@zeit/next-typescript": "^1.1.1",
-    "autoprefixer": "^10.3.7",
     "css-loader": "^6.2.0",
     "emailjs": "^3.6.0",
     "emailjs-com": "^3.2.0",
@@ -46,13 +45,13 @@
     "slick-carousel": "^1.8.1",
     "style-loader": "^3.2.1",
     "swr": "^0.2.3",
-
-     "tailwindcss": "^2.2.16",
+    "tailwindcss": "^2.2.16",
     "url-loader": "^4.1.1",
     "use-sound": "^4.0.1",
     "use-swr": "^1.0.3"
   },
   "devDependencies": {
+    "autoprefixer": "^10.4.2",
     "eslint": "7.32.0",
     "eslint-config-next": "11.1.2",
     "postcss": "^8.4.5",

@@ -21,7 +21,7 @@ const MainHome = () => {
 
 
 
-                <div className=" relative" style={{height:'100vh', height:'-webkit-fill-available;'}} >
+                <div className=" relative h-screen" >
                 <div className="w-screen" style={bg}>
              
                     <div className="absolute  z-10  bg-black w-full opacity-40 flex flex-col items-center justify-center"></div>
@@ -29,7 +29,7 @@ const MainHome = () => {
 
                     <div className="relative  ">
 
-                        <div className="flex-col" style={{height:'100vh', height:'-webkit-fill-available;'}}>
+                        <div className="flex-col h-screen">
 
                             <div className="flex  flex-col items-center h-full   justify-center">
 
