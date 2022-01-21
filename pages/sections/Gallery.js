@@ -17,9 +17,9 @@ const Gallery = () => {
    
         <>
              { next ? (
-                   <div className="flex flex-col  h-screen w-screen">
+                   <div className="flex flex-col  w-screen" style={{height:'100vh', height:'-webkit-fill-available;'}}>
      
-                   <div className="flex h-screen w-screen   ">
+                   <div className="flex w-screen" style={{height:'100vh', height:'-webkit-fill-available;'}}>
                        
                  
                       
@@ -61,8 +61,8 @@ const Gallery = () => {
       
        
              ) : (
-                <div className="flex flex-col h-screen w-screen">
-                <div className="flex h-screen w-screen ">
+                <div className="flex flex-col w-screen" style={{height:'100vh', height:'-webkit-fill-available;'}}>
+                <div className="flex w-screen " style={{height:'100vh', height:'-webkit-fill-available;'}}>
                 
                 
                 <div className=" flex-grow flex lg:items-center items-start ">

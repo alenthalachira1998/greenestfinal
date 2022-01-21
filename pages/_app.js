@@ -7,7 +7,7 @@ import '../css/overrides.css'
 import '../css/textv.css'
 import '../css/blog-center.scss'
 import '../css/Arrow.css'
-import '../css/heightfix.css'
+import '../css/height.css'
 config.autoAddCss = false
 import {useState, useEffect} from "react";
 

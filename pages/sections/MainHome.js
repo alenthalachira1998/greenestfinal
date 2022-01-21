@@ -19,11 +19,11 @@ const MainHome = () => {
 
 
 
-                <div className="h-screen lg:h-screen relative" >
-                <div className="h-screen w-screen" style={bg}>
+                <div className=" relative" style={{height:'100vh', height:'-webkit-fill-available;'}} >
+                <div className="w-screen" style={{bg},{height:'100vh', height:'-webkit-fill-available;'}}>
              
                     <div className="absolute  
-                     h-full z-10 lg:h-screen bg-black w-full opacity-40 flex flex-col items-center justify-center"></div>
+                     h-full z-10 lg:hscreen bg-black w-full opacity-40 flex flex-col items-center justify-center"></div>
                     
 
                     <div className="relative  ">
