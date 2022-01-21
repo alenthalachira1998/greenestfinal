@@ -9,7 +9,7 @@ backgroundImage: 'url("/images/resort/Home.jpg")',
 backgroundSize: 'cover',
 backgroundPosition: 'center',
 backgroundRepeat: 'no-repeat',
-height:'90vh',
+height:'94vh',
 
 
 }
@@ -18,9 +18,9 @@ return (
 <section id="home">
 
 <div className=" relative" style={bg}>
-<div className="absolute bg-black  w-full opacity-5 flex flex-col items-center justify-center" style={{height:'100vh'}}></div>
+<div className="absolute bg-black  w-full opacity-5 flex flex-col items-center justify-center" style={{height:'94vh'}}></div>
 <div className="relative ">
-<div className="flex-col flex   text-center " style={{height:'90vh'}}>
+<div className="flex-col flex   text-center " style={{height:'94vh'}}>
 
 <div className=" text-gray-900  mt-36 lg:text-3xl  text-sm  lg:font-normal flex flex-col items-center justify-center  " >
 &quot;Lets build a Home <br/> that sings with the rain<br/> hums with the Earth<br/> and slieving the sun for night.&quot;<br/>
