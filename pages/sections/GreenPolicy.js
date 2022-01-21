@@ -7,8 +7,8 @@ const GreenPolicy = () => {
     return (
         
         <section className="elegant-resort-living">
-       <div className="flex flex-col w-screen" style={{height:'100vh'}}>
-            <div className="flex  w-screen   " style={{height:'100vh'}}>
+       <div className="flex flex-col w-screen" style={{height:'100vh', height:'-webkit-fill-available;'}}>
+            <div className="flex  w-screen   " style={{height:'100vh', height:'-webkit-fill-available;' }}>
                 <div className=" lg:ml-4 hidden justify-center transform rotate-180 items-center vtext lg:flex  w-10 md:w-36">
    
 
