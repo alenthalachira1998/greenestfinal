@@ -28,7 +28,7 @@ const MainHome = () => {
 
                     <div className="relative  ">
 
-                        <div className="flex-col h-screen">
+                        <div className="flex-col hscreen">
 
                             <div className="flex  flex-col items-center h-full   justify-center">
 
