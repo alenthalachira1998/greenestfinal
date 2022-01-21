@@ -74,8 +74,8 @@ const ElegantResortLiving = () => {
     return (
         <>
             <section className="elegant-resort-living ">
-           <div className="flex flex-col h-screen w-screen">
-                <div className="flex h-screen w-screen   ">
+           <div className="flex flex-col h-screens w-screen">
+                <div className="flex h-screens w-screen   ">
                     <div className=" lg:ml-4 hidden justify-center transform rotate-180 items-center vtext lg:flex  w-10 md:w-36">
                         <h1 className="text-gray-300 xl:font-bold 2xl:text-8xl xl:text-7xl sm:text-5xl md:text-6xl font-medium  text-center  ">
                             
