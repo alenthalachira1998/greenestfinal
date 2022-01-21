@@ -1,11 +1,8 @@
 module.exports = {
-
-
-    plugins: {
-      'postcss-import': {},
-      autoprefixer: {},
-      tailwindcss: {},
-      'postcss-preset-env': { stage: 2 },
-    },
-  };
-
+  plugins: [
+    require('postcss-import'),
+    require('tailwindcss/nesting'),
+    require('tailwindcss'),
+    require('autoprefixer'),
+  ]
+}
