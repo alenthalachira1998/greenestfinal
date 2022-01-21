@@ -6,7 +6,9 @@ import Link from 'next/link'
 import Sound from '../../components/sound';
 const bg = {
     background:'url(/images/main11-min.gif)',
-    objectFit:'cover'
+    objectFit:'cover',
+    height:'100vh',
+    height:'-webkit-fill-available;'
 
 
 
@@ -20,10 +22,9 @@ const MainHome = () => {
 
 
                 <div className=" relative" style={{height:'100vh', height:'-webkit-fill-available;'}} >
-                <div className="w-screen" style={{bg},{height:'100vh', height:'-webkit-fill-available;'}}>
+                <div className="w-screen" style={bg}>
              
-                    <div className="absolute  
-                     h-full z-10 lg:hscreen bg-black w-full opacity-40 flex flex-col items-center justify-center"></div>
+                    <div className="absolute  z-10  bg-black w-full opacity-40 flex flex-col items-center justify-center"></div>
                     
 
                     <div className="relative  ">
