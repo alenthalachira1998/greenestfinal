@@ -38,12 +38,7 @@ module.exports = {
     purge: ['./pages/**/*.{js,ts,jsx,tsx}', './components/**/*.{js,ts,jsx,tsx}'],
      darkMode: false, // or 'media' or 'class'
      theme: {
-      height: theme => ({
-        auto: 'auto',
-        ...theme('spacing'),
-        full: '100%',
-        screen: 'calc(var(--vh) * 100)',
-      }),
+     
       screens:{
         'xs':'500px',
         'xxs':'400px',
