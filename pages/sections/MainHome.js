@@ -28,7 +28,7 @@ const MainHome = () => {
 
                     <div className="relative  ">
 
-                        <div className="flex-col hscreen">
+                        <div className="flex-col" style={{height:'100vh', height:'-webkit-fill-available;'}}>
 
                             <div className="flex  flex-col items-center h-full   justify-center">
 
