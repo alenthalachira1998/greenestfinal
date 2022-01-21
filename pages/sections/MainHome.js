@@ -7,7 +7,7 @@ import Sound from '../../components/sound';
 const bg = {
     background:'url(/images/main11-min.gif)',
     objectFit:'cover',
-    height:'100vh',
+    height:'90vh',
     height:'-webkit-fill-available;'
 
 
@@ -21,7 +21,7 @@ const MainHome = () => {
 
 
 
-                <div className=" relative h-screen" >
+                <div className='relative h-screen' style={{height:'90vh'}} >
                 <div className="w-screen" style={bg}>
              
                     <div className="absolute  z-10  bg-black w-full opacity-40 flex flex-col items-center justify-center"></div>
@@ -29,7 +29,7 @@ const MainHome = () => {
 
                     <div className="relative  ">
 
-                        <div className="flex-col h-screen">
+                        <div className="flex-col" style={{height:'90vh'}}>
 
                             <div className="flex  flex-col items-center h-full   justify-center">
 
