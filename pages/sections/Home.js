@@ -9,14 +9,16 @@ backgroundImage: 'url("/images/resort/Home.jpg")',
 backgroundSize: 'cover',
 backgroundPosition: 'center',
 backgroundRepeat: 'no-repeat',
+height:'100vh',
+height:'-webkit-fill-available;'
 
 }
 
 return (
 <section id="home">
 
-<div className="h-screen  lg:h-screen relative" style={bg}>
-<div className="absolute bg-black h-full lg:h-screen w-full opacity-5 flex flex-col items-center justify-center"></div>
+<div className=" relative" style={bg}>
+<div className="absolute bg-black  w-full opacity-5 flex flex-col items-center justify-center" style={{height:'100vh', height:'-webkit-fill-available;'}}></div>
 <div className="relative ">
 <div className="flex-col flex   text-center h-screen">
 

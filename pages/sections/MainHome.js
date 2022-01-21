@@ -21,7 +21,7 @@ const MainHome = () => {
 
 
 
-                <div className='relative h-screen' style={{height:'90vh'}} >
+                <div className='relative' style={{height:'90vh'}} >
                 <div className="w-screen" style={bg}>
              
                     <div className="absolute  z-10  bg-black w-full opacity-40 flex flex-col items-center justify-center"></div>
