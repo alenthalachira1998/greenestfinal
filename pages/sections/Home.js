@@ -28,7 +28,7 @@ return (
 <h1 className="text-gray-900 lg:text-4xl text-xl font-bold mt-6 lg:mt-10">Buildings that breathe</h1>
 <img  className=" lg:mt-10 mt-6 lg:w-60 z-30 w-36 drop-shadow-xl "src="/images/OneLogo.png"/>
 </div>
-<span className="text-white  z-20 absolute  text-center bottom-16 sm:bottom:4  w-screen  lg:text-8xl text-6xl  font-thin"><IoIosArrowRoundDown className="w-screen animate-bounce" /></span>
+<span className="text-white  z-20 absolute  text-center bottom-20 sm:bottom-4  w-screen  lg:text-8xl text-6xl  font-thin"><IoIosArrowRoundDown className="w-screen animate-bounce" /></span>
 </div>
 </div>
 
