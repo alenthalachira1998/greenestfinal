@@ -3,24 +3,25 @@
 import React from 'react'
 import { IoIosArrowRoundDown } from 'react-icons/io';
 import Iframe from "react-iframe"
+import Div100vh from 'react-div-100vh'
 const HomePageGreen = () => {
 const bg = {
 backgroundImage: 'url("/images/resort/Home.jpg")',
 backgroundSize: 'cover',
 backgroundPosition: 'center',
 backgroundRepeat: 'no-repeat',
-height:'92vh',
+height:'100vh',
 
 
 }
 
 return (
 <section id="home">
-
+<Div100vh>
 <div className=" relative" style={bg}>
-<div className="absolute bg-black  w-full opacity-5 flex flex-col items-center justify-center" style={{height:'92vh'}}></div>
+<div className="absolute bg-black  w-full opacity-5 flex flex-col items-center justify-center" style={{height:'100vh'}}></div>
 <div className="relative ">
-<div className="flex-col flex   text-center " style={{height:'92vh'}}>
+<div className="flex-col flex   text-center " style={{height:'100vh'}}>
 
 <div className=" text-gray-900  mt-36 lg:text-3xl  text-sm  lg:font-normal flex flex-col items-center justify-center  " >
 &quot;Lets build a Home <br/> that sings with the rain<br/> hums with the Earth<br/> and slieving the sun for night.&quot;<br/>
@@ -34,7 +35,7 @@ return (
 
 </div>
 
-
+</Div100vh>
 
 
 
