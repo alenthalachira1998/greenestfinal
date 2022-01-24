@@ -9,7 +9,7 @@
 // //     super(props);
 // //     // create a ref to store the textInput DOM element
 // //     this.myref = React.createRef();
-  
+
 // //   }
 
 // //   handleMouseDown() {
@@ -51,7 +51,7 @@
 // //           id="flyoutMenu"
 // //           onClick={() => this.handleMouseDown()}
 // //         >
-          
+
 // //           <Link href="/about">
 // //           <h2>
 // //             <a >Home</a>
@@ -74,8 +74,8 @@
 // //             <a>Contact</a>
 // //           </h2>
 // //         </Link>
-          
-          
+
+
 // //         </div>
 // //       </div>
 // //     );
@@ -89,6 +89,7 @@ import React, { useState } from 'react';
 import * as FaIcons from 'react-icons/fa';
 import * as MdIcons from 'react-icons/md';
 import * as VscIcons from 'react-icons/vsc';
+import * as AiIcons from 'react-icons/ai';
 import { IconContext } from 'react-icons';
 import Link from 'next/link'
 import ContactModal from './ContactModal';
@@ -100,53 +101,53 @@ function Menuu() {
 
   return (
     <>
-    
-     
-        <div className="z-20">
+
+
+      <div className="z-20">
         <div className="nav-bar  relative">
           <div className='text-4xl text-gray-600  cursor-pointer'>
-          <Link href='#' >
-            <VscIcons.VscMenu onClick={showSidebar} />
-          </Link>
+            <Link href='#' >
+              <VscIcons.VscMenu onMouseOver={showSidebar} onClick={showSidebar} />
+            </Link>
           </div>
         </div>
         <nav className={sidebar ? 'nav-menu active ' : '  nav-menu'}>
           <ul className='nav-menu-items  cursor-pointer' onClick={showSidebar}>
-        
-            <li className='navbar-toggle text-gray-400 text-4xl'>
-           
-              <Link href='#' >
-            
-                <MdIcons.MdArrowBack />
-                  
-              </Link>
-              
-              
-              
-            </li>
-            
-                <li>
-                <Link href="/">
-           <span className="nav-text cursor-pointer">
-           <a >Home</a>
-          </span>
-        </Link> <Link href="/">
-       <span className="nav-text  cursor-pointer">
-           <a>Projects</a>
-        </span>
-       </Link>
-     <Link href="/Blogshome">
-     <span className="nav-text  cursor-pointer">
-           <a>Blog</a>
-        </span>
 
-       </Link> 
-       <span className="nav-textc  cursor-pointer">   <ContactModal />   </span></li>
-            
-          
+            <li className='navbar-toggle ml-full text-gray-400 text-4xl'>
+
+              <Link href='#' >
+
+                <MdIcons.MdArrowBack />
+
+              </Link>
+
+
+
+            </li>
+
+            <li>
+              <Link href="/">
+                <span className="nav-text cursor-pointer">
+                  <a >Home</a>
+                </span>
+              </Link> <Link href="/">
+                <span className="nav-text  cursor-pointer">
+                  <a>Projects</a>
+                </span>
+              </Link>
+              <Link href="/Blogshome">
+                <span className="nav-text  cursor-pointer">
+                  <a>Blog</a>
+                </span>
+
+              </Link>
+              <span className="nav-textc  cursor-pointer">   <ContactModal />   </span></li>
+
+
           </ul>
         </nav>
-        </div>
+      </div>
     </>
   );
 }

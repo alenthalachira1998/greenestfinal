@@ -44,7 +44,7 @@ const FooterPage = () => {
             </div>
             <div className="flex sm:flex-row flex-col w-screen h-full justify-start md:justify-between lg:px-20  ">
                 <div className="text-sm mt-10 xs:mt-16 md:mt-8 text-gray-900 sm:text-base lg:text-xl"> <h1 className="font-medium text-sm sm:text-base lg:text-2xl" >Contact us</h1><div>
-                    <p >Greenest Buildings and Business pvt ltd</p><p>
+                    <p >Greenest Buildings and Business Pvt Ltd,</p><p>
                         Nandavanam</p><p> Thiruvananthapuram - 695033</p>  <p className="flex"> <FaPhoneAlt className="mr-2" />0471-2991231, 8078079111</p><p className="flex"><AiOutlineMail className="mr-4" />mail@greenest.co.in</p></div></div>
 
                 <div className="flex flex-col  md:max-w-48 justify-center text-sm sm:text-base lg:text-xl"> <div className=" lg:text-2xl sm:text-base text-sm font-medium flex mt-2 items-center">

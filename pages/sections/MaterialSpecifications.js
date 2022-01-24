@@ -178,14 +178,14 @@ const MaterialSpecifications = () => {
               <h1 className="text-center  font-medium text-sm lg:text-xl uppercase" style={{color:'#59a23e'}}>Electrical</h1>{" "}
               <div className="xl:p-10 lg:p-5 p-2 bg-green-200rounded-3xl text-xs sm:text-sm  rounded-3xl text-gray-700 bg-gradient-to-r from-green-200 via-green-400 to-green-200 ... lg:text-xl">
                 <p> Conduct pipes : Balcon</p>
-                <p> Wiring : 3 phase concealed conduct wiring  RR/Havells</p>
+                <p> Wiring : 3 phase concealed conduit wiring  RR green/Havells</p>
                 <p> Switches : Legrand Myrius / Lyncus</p>
                 <p> DB : Legrand 3 phase</p>
                
               </div>
               <h1 className="text-center uppercase lg:mt-10  font-medium text-sm lg:text-xl" style={{color:'#59a23e'}}>SANITARY</h1>{" "}
               <div className="shadow-lg ...   xl:p-10 lg:p-5 p-2 rounded-3xl text-gray-700  bg-gradient-to-r from-green-200 via-green-400 to-green-200 ...  text-xs sm:text-sm    lg:text-xl">
-                <p> WaterSource : Bore well + rain water</p>
+                <p> Water source : Bore well + rain water</p>
                 <p> PVC pipes :  Supreme/finolex</p>
                 <p> CPVC pipes : Supreme/finolex</p>
                 <p> CP Fittings :  Grohe/ Jaquar - Low flow rate</p>
@@ -285,10 +285,10 @@ const MaterialSpecifications = () => {
               <h1 className="text-center uppercase lg:mt-10  font-medium text-sm lg:text-xl" style={{color:'#59a23e'}}>Doors and Windows</h1>{" "}
               <div className="shadow-lg ...   xl:p-10 lg:p-5 p-2 rounded-3xl text-gray-700  bg-gradient-to-r from-green-200 via-green-400 to-green-200 ...  text-xs sm:text-sm    lg:text-xl">
                 <p> Main Door : Teak Wood</p>
-                <p> Door lock : Biometric digital door lock</p>
+                <p> Door lock : Biometric digital door lock Yale/Godrej</p>
                 <p> Other Door : Anjilli / Jack Tree</p>
                 <p> Door lock : Stainless Steel mortise lock 
-                Yale/Goderej </p>
+                Yale/Godrej </p>
                 <p> Windows : Premium aluminum windows  Tostem/Fenesta</p>
             
               </div>
@@ -303,7 +303,7 @@ const MaterialSpecifications = () => {
           
                 <p> Kitchen : Matt finish vitrified tiles   60 x 60 (Somany/ Kajaria)</p>
              
-                <p>Toilet: Matt finish vitrified tiles 60 x 60  (Somany/ Kajaria)</p>
+                <p>Toilets: Matt finish vitrified tiles 60 x 60  (Somany/ Kajaria)</p>
             
                 <p> Kitchen Counter : Nano white crystallized glass (AGL)</p>
                 <p> Staires : Lappato finish granite 20 mm thick</p>
