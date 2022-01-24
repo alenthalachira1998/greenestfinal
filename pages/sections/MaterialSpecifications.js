@@ -163,12 +163,12 @@ const MaterialSpecifications = () => {
   return (
     <>
       {next ? (
-        <div className="flex   flex-col ">
+        <div className=" mx-4 sm:mx-0 flex   flex-col ">
          <div className="font-medium xl:text-3xl lg:text-2xl md:text-xl mt-16 flex text-base    xxs:mt-0 lg:ml-20 lg:mb-10 sm:mb-4 mb-2"><button
             className=""
             onClick={() => setNext(false)}
           > <VscArrowLeft className="  z-20  text-gray-500 hover:text-green-500 animate-pulse  text-2xl ml-4    lg:hidden font-thin" />
-          </button> <h1 className="font-bold" style={{color:'#59a23e'}}>Specification </h1>
+          </button> <h1 className="font-bold ml-2" style={{color:'#59a23e'}}>Specification </h1>
              </div>
          
           <div className=" lg:justify-center  flex flex-col lg:flex-row">
@@ -261,14 +261,14 @@ const MaterialSpecifications = () => {
         <div className=" flex flex-col  ">
 
 
-        <div className="font-medium xl:text-3xl lg:text-2xl md:text-xl mt-16 flex text-base    xxs:mt-0 lg:ml-20 lg:mb-10 sm:mb-4 mb-2">  <h1 className="font-bold" style={{color:'#59a23e'}}>Specification </h1><button
+        <div className="font-medium xl:text-3xl lg:text-2xl md:text-xl mt-16 flex text-base  mx-4 sm:mx-0   xxs:mt-0 lg:ml-20 lg:mb-10 sm:mb-4 mb-2">  <h1 className="font-bold  " style={{color:'#59a23e'}}>Specification </h1><button
             className=""
             onClick={() => setNext(true)}
           >
-            <VscArrowRight className="  z-20  text-gray-500 hover:text-green-500 animate-pulse  text-2xl ml-4    lg:hidden font-thin" />
+            <VscArrowRight className="  z-20  text-gray-500 hover:text-green-500 animate-pulse  text-2xl ml-2   lg:hidden font-thin" />
           </button> </div>
          
-          <div className=" lg:justify-center  flex flex-col lg:flex-row">
+          <div className=" lg:justify-center mx-4 sm:mx-0  flex flex-col lg:flex-row">
        
             <div className=" flex flex-col mr-10  ">
            

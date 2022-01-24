@@ -17,8 +17,6 @@ const FooterPage = () => {
                     <div className="text-xs xxxs:text-sm lg:mt-10  text-gray-900 sm:text-base lg:text-xl" >
                         <p className="lg:py-2"> Mannanthala
                            - 4.7Km</p>
-                        <p className="lg:py-2">Sreekaryam
-                            - 5.3 km</p>
 
                         <p className="lg:py-2">Sreekaryam
                             -5.3km</p>

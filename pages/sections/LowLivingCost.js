@@ -104,11 +104,12 @@
 // export default LowLivingCost;
 
 import { IoIosArrowRoundForward } from 'react-icons/io';
-
+import Div100vh from 'react-div-100vh'
 const LowLivingCost = () => {
     return (
         <>
             <section className="elegant-resort-living ">
+                <Div100vh>
            <div className="flex flex-col h-screen w-screen">
                 <div className="flex h-screen w-screen   ">
                     <div className=" lg:ml-4 hidden justify-center transform rotate-180 items-center vtext lg:flex  w-10 md:w-36">
@@ -143,8 +144,8 @@ const LowLivingCost = () => {
                             <div className="  flex justify-center 2xl max-w-80 2xl:h-80 flex-col text-gray-700 2xl-mb-8 lg:mb-4 hover:transform scale-75 xl:mt-24 mt-20 md:mt-36 "> <img className=" shadow-xl resize-none  rounded-2xl border-2xl   h-full w-full     object-cover   " src="../images/resort//featurepic/Page - 05 Low living-02-min.png" ></img><p className="text-xs xs:text-sm text-center whitespace-nowrap  lg:text-sm lg:pt-2">Low monthly <br />Maintenance <br/><br/> </p></div>
                             <div className="  flex justify-center 2xl max-w-80 2xl:h-80 flex-col text-gray-700 2xl-mb-8 lg:mb-4 hover:transform scale-75 xl:mt-24  "> <img className=" shadow-xl resize-none  rounded-2xl border-2xl   h-full w-full     object-cover   " src="../images/resort//featurepic/Page - 05 Low living-03-min..png" ></img><p className="text-xs xs:text-sm text-center whitespace-nowrap  lg:text-sm lg:pt-2">Up to 50%<br />Water Usage<br/> Reduction <br/></p></div>
                             <div className="  flex justify-center 2xl max-w-80 2xl:h-80 flex-col text-gray-700  hover:transform scale-75   xl:mb-10 "> <img className="shadow-xl resize-none  rounded-2xl border-2xl   h-full w-full     object-cover    " src="../images/resort/featurepic/Page - 05 Low living-04-min.png" ></img><p className="text-xs xs:text-sm text-center  whitespace-nowrap   lg:text-sm lg:pt-2">Electric Vehicle<br /> Fast charging <br />stations<br/>  </p></div>
-                            <div className="  flex justify-center 2xl max-w-80 2xl:h-80 flex-col text-gray-700  hover:transform scale-75   mb-5  xl:mb-10"> <img className=" shadow-xl resize-none  rounded-2xl border-2xl   h-full w-full     object-cover   " src="../images/resort/featurepic/Page - 05 Low living-05-min.png" ></img><p className="text-xs xs:text-sm text-center   lg:text-sm lg:pt-2 whitespace-nowrap">Energy Management <br/>System<br/><br/></p></div>
-                            <div className="  flex justify-center 2xl max-w-80 2xl:h-80 flex-col text-gray-700  hover:transform scale-75   mb-5  xl:mb-10 "> <img className=" shadow-xl resize-none  rounded-2xl border-2xl   h-full w-full     object-cover   " src="../images/resort/featurepic/Page - 05 Low living-06-min.png" ></img><p className="text-xs xs:text-sm text-center whitespace-nowrap  lg:text-sm lg:pt-2">Up to 30% Energy<br /> Usage Reduction<br/><br/></p></div>
+                            <div className="  flex justify-center 2xl max-w-80 2xl:h-80 flex-col text-gray-700  hover:transform scale-75   mb-16 sm:mb-5  xl:mb-10"> <img className=" shadow-xl resize-none  rounded-2xl border-2xl   h-full w-full     object-cover   " src="../images/resort/featurepic/Page - 05 Low living-05-min.png" ></img><p className="text-xs xs:text-sm text-center   lg:text-sm lg:pt-2 whitespace-nowrap">Energy Management <br/>System<br/><br/></p></div>
+                            <div className="  flex justify-center 2xl max-w-80 2xl:h-80 flex-col text-gray-700  hover:transform scale-75   mb-16 sm:mb-5  xl:mb-10 "> <img className=" shadow-xl resize-none  rounded-2xl border-2xl   h-full w-full     object-cover   " src="../images/resort/featurepic/Page - 05 Low living-06-min.png" ></img><p className="text-xs xs:text-sm text-center whitespace-nowrap  lg:text-sm lg:pt-2">Up to 30% Energy<br /> Usage Reduction<br/><br/></p></div>
 
                     </div>
                                    
@@ -160,6 +161,7 @@ const LowLivingCost = () => {
                
                 {/* <div className="2xl:flex absolute text-gray-400 justify-center 2xl:bottom-8  lg:bottom-36   hidden  w-screen z-30 text-4xl sm:text-6xl md:text-6xl 2xl:text-7xl"><div> <IoIosArrowRoundDown /></div></div> */}
                 {/* <div className="flex  text-gray-400 h-30    right-5 height-36 absolute items-center  bottom-0  z-30 lg:text-3xl md:text-3xl text-xl font-medium   "  style={{color:'#59a23e'}}><h4 className="">Explore </h4><img src="greenone.png" className="lg:w-18 lg:h-18 md:w-24 md:h-12 2xl:w-24 2xl:h-12  w-16 h-8 bottom-0" /> <i className="text-4xl sm:text-5xl text-gray-400 self-center"><IoIosArrowRoundForward /></i> </div> */}  </div> 
+                </Div100vh>
             </section>
 
         </>
