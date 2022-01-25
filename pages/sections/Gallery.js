@@ -48,9 +48,9 @@ const Gallery = () => {
                   <div className=" flex justify-center flex-col text-gray-700 hover:transform scale-75 mt-32 xl:mt-20    "><iframe className=" shadow-xl resize-none rounded-2xl border-2xl h-full w-full object-cover " src="https://www.youtube.com/embed/TjOALPVpDNo" ></iframe> </div>
                   <div className=" flex justify-center flex-col text-gray-700 hover:transform scale-75 mt-32 xl:mt-20 "> <img className=" shadow-xl resize-none rounded-2xl border-2xl h-full w-full object-cover " src="../images/resort/Page - 03-03-min.jpg" ></img></div>
                   <div className=" flex justify-center flex-col text-gray-700 hover:transform scale-75 xl:mt-20  "><img className=" shadow-xl resize-none rounded-2xl border-2xl h-full w-full object-cover " src="../images/resort/Work from Nature_6_11zon.jpg" ></img> </div>
-                  <div className=" flex justify-center flex-col text-gray-700 hover:transform scale-75"><img className="shadow-xl resize-none  rounded-2xl border-2xl   h-full w-full     object-cover    " src="../images/resort/Page - 03-04-min.jpg" ></img></div>
-                  <div className=" flex justify-center flex-col text-gray-700 hover:transform scale-75 mb-24 sm:mb-0"> <img className=" shadow-xl resize-none rounded-2xl border-2xl h-full w-full object-cover " src="../images/resort/Page - 04 Improved-02-min.jpg" ></img></div>
-                  <div className=" flex justify-center flex-col text-gray-700 hover:transform scale-75 mb-24 sm:mb-0"> <img className="shadow-xl resize-none rounded-2xl border-2xl h-full w-full object-cover " src="../images/resort/Page - 04 Improved-03-min.jpg" ></img> </div>
+                  <div className=" flex justify-center flex-col text-gray-700 hover:transform scale-75  "><img className="shadow-xl resize-none  rounded-2xl border-2xl   h-full w-full     object-cover    " src="../images/resort/Page - 03-04-min.jpg" ></img></div>
+                  <div className=" flex justify-center flex-col text-gray-700 hover:transform scale-75 mb-36  sm:mb-0 "> <img className=" shadow-xl resize-none rounded-2xl border-2xl h-full w-full object-cover " src="../images/resort/Page - 04 Improved-02-min.jpg" ></img></div>
+                  <div className=" flex justify-center flex-col text-gray-700 hover:transform scale-75 mb-36 sm:mb-0"> <img className="shadow-xl resize-none rounded-2xl border-2xl h-full w-full object-cover " src="../images/resort/Page - 04 Improved-03-min.jpg" ></img> </div>
 
                 </div>
 
@@ -75,11 +75,11 @@ const Gallery = () => {
               <div className=" flex-grow flex lg:items-center items-start ">
                 <div className="grid lg:mx-28 relative md:mt-0 sm:gap-2 mx-6 md:mx-0 landscape1:grid-cols-3 sm:grid-cols-2 md:grid-cols-2 xl:grid-cols-3 xs:grid-cols-2 grid-cols-2 h-full xs:h-full w-11/12 sm:h-full xs:w-11/12 lg:h-3/4 sm:w-11/12 2xl:w-11/12 md:w-11/12 xl:h-11/12 2xl:h-full p-4 gap-4 lg:content-center justify-center lg:gap-4 ">
                   <div className=" mt-24 md:mt-28 absolute w-full "><h1 className=" font-medium text-center xl:text-left md:text-3xl text-xl xs:text-xl " style={{ color: '#59a23e' }}>Gallery</h1></div>
-                  <div className=" flex justify-center flex-col text-gray-700 hover:transform scale-75 mt-32 xl:mt-20 "> <img className=" shadow-xl resize-none rounded-2xl border-2xl h-full w-full object-cover " src="../images/resort/Work from Nature_6_11zon.jpg" ></img></div>
+                  <div className=" flex justify-center flex-col text-gray-700 hover:transform scale-75 mt-32 xl:mt-20 "> <img className=" shadow-xl resize-none rounded-2xl border-2xl h-full w-full object-cover " src="../images/resort/Page - 06 Green policy-06-min.jpg" ></img></div>
                   <div className=" flex justify-center flex-col text-gray-700 hover:transform scale-75 mt-32 xl:mt-20 "> <img className=" shadow-xl resize-none rounded-2xl border-2xl h-full w-full object-cover " src="../images/resort/Recreational pond_4_11zon.jpg" ></img></div>
-                  <div className=" flex justify-center flex-col text-gray-700 hover:transform scale-75 xl:mt-20 row-span-2   mb-24 12 sm:mb-0"> <iframe className=" shadow-xl resize-none rounded-2xl border-2xl h-full w-full object-cover " src="https://www.youtube.com/embed/TjOALPVpDNo" ></iframe></div>
+                  <div className=" flex justify-center flex-col text-gray-700 hover:transform scale-75 xl:mt-20 row-span-2   mb-36 12 sm:mb-0"> <iframe className=" shadow-xl resize-none rounded-2xl border-2xl h-full w-full object-cover " src="https://www.youtube.com/embed/TjOALPVpDNo" ></iframe></div>
                   <div className=" flex justify-center flex-col text-gray-700 hover:transform scale-75"> <img className="shadow-xl resize-none rounded-2xl border-2xl h-full w-full object-cover " src="../images/resort/Tree House_5_11zon.jpg" ></img></div>
-                  <div className=" flex justify-center flex-col text-gray-700 hover:transform scale-75 mb-24 sm:mb-0"> <img className=" shadow-xl resize-none rounded-2xl border-2xl h-full w-full object-cover " src="../images/resort/Club house_1_11zon.jpg" ></img></div>
+                  <div className=" flex justify-center flex-col text-gray-700 hover:transform scale-75 mb-36 sm:mb-0"> <img className=" shadow-xl resize-none rounded-2xl border-2xl h-full w-full object-cover " src="../images/resort/Club house_1_11zon.jpg" ></img></div>
                  
 
                 </div>
