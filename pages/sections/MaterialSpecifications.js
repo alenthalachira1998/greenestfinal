@@ -205,7 +205,7 @@ const MaterialSpecifications = () => {
 
               </div>
       
-              <div className=" xl:p-10 lg:p-5 p-2 rounded-3xl text-xs sm:text-sm  text-gray-700  lg:text-xl">
+              <div className=" xl:p-10 lg:p-5 p-2 mb-4 rounded-3xl text-xs sm:text-sm  text-gray-700  lg:text-xl">
                 <div className="flex">
               <div className=" text-center max-h-48 max-w-48 xl:mr-20">
                 <img className=" max-h-36" src="/images/resort/specpic/Page - 08- Icon 1.jpg"></img>
@@ -239,7 +239,7 @@ const MaterialSpecifications = () => {
                 <div className="text-center xl:mr-20 max-h-48 max-w-48">
                 <img className=" max-h-36" src="/images/resort/specpic/Page - 08- Icon 6.jpg"></img>
                 <div className="flex flex-col">
-                <h2 className="text-center">WaterProofing and </h2><h2>Termite treatment</h2></div>
+                <h2 className="text-center">Water Proofing and </h2><h2>Termite treatment</h2></div>
             
                 </div>
 
