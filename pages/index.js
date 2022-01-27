@@ -21,7 +21,7 @@ import HomePageGreen from "./sections/Home";
 import FooterPage from "./sections/FooterPage";
 import MaterialSpecifications from "./sections/MaterialSpecifications";
 import GreenPolicy from "./sections/GreenPolicy";
-import Gallery from "./sections/Gallery";
+import Gallery from "./sections/Gallery/Gallery";
 import Player from "components/sound";
 
 export default function Home() {
@@ -42,9 +42,9 @@ export default function Home() {
          
       </div>
       <div className="absolute pl-2 pr-2 pb-2 pt-4 lg:px-4 lg:pb-4 lg:pt-6 flex w-screen justify-between ">
-        
-       <img src="/logoo.png" className="md:ml-4 ml-2  z-10 drop-shadow-2xl brightness-150 saturate-200 md:w-10 w-8 h-10  md:h-12"/>
-     <div className="z-40"><Player/></div> 
+        <div className="md:ml-4 ml-2  z-10 flex items-center ">  <img src="/logoo.png" className=" md:w-10 w-8 h-10  md:h-12 drop-shadow-2xl brightness-150 saturate-200 mr-2"/>    <div className="z-40"><Player/></div> </div>
+      
+  
         <div className="flex text-3xl mr-4  lg:text-5xl text-gray-200 ">
      
        <Menuu/>

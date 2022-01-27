@@ -99,6 +99,7 @@ function Menuu() {
 
   const showSidebar = () => setSidebar(!sidebar);
 
+
   return (
     <>
 
@@ -121,8 +122,15 @@ function Menuu() {
                 <MdIcons.MdArrowBack />
 
               </Link>
-
-
+              <div className='w-full flex  text-2xl'>
+              <Link href="https://www.facebook.com/GreenestBuildings/">
+                        <a className="hover:text-blue-400 mx-5 hover:animate-ping"><FaIcons.FaFacebookF /></a>
+                    </Link>
+                    <Link href="https://youtu.be/TjOALPVpDNo">
+                                <a className="hover:text-pink-600 mr-5 hover:animate-ping"><AiIcons.AiFillYoutube /></a></Link>
+                                <Link href="https://www.facebook.com/GreenestBuildings/">
+                                <a className="hover:text-pink-600 mr-5 hover:animate-ping"><AiIcons.AiOutlineInstagram /></a></Link>
+                                </div>
 
             </li>
 
@@ -133,12 +141,12 @@ function Menuu() {
                 </span>
               </Link> <Link href="/">
                 <span className="nav-text  cursor-pointer">
-                  <a>Projects</a>
+                  <a>Project</a>
                 </span>
               </Link>
               <Link href="/Blogshome">
                 <span className="nav-text  cursor-pointer">
-                  <a>Blog</a>
+                  <a>About</a>
                 </span>
 
               </Link>
