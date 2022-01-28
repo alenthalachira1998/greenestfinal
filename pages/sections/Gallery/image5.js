@@ -1,6 +1,7 @@
 import Menuu from 'components/Menuu';
 import React from 'react';
 import Image from 'next/image'
+import Link from 'next/link'
 import Div100vh from 'react-div-100vh';
 const image5 = () => {
   return <div>
@@ -14,8 +15,7 @@ const image5 = () => {
          
       </div>
       <div className="absolute pl-2 pr-2 pb-2 pt-4 lg:px-4 lg:pb-4 lg:pt-6 flex w-screen justify-between ">
-        
-       <img src="/logoo.png" className="md:ml-4 ml-2  z-10 drop-shadow-2xl brightness-150 saturate-200 md:w-10 w-8 h-10  md:h-12"/>
+ <Link href='/'><a className="z-50"><img src="/logoo.png" className="md:ml-4 ml-2 md:w-8 w-8 h-auto  md:h-auto  drop-shadow-2xl brightness-150 saturate-200 "/></a></Link>
      <div className="z-40"></div> 
         <div className="flex text-3xl mr-3  lg:text-5xl text-gray-200 ">
      

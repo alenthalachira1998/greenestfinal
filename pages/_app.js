@@ -8,6 +8,7 @@ import '../css/textv.css'
 import '../css/blog-center.scss'
 import '../css/Arrow.css'
 import '../css/height.css'
+
 config.autoAddCss = false
 import {useState, useEffect} from "react";
 import Div100vh from 'react-div-100vh';
@@ -21,7 +22,7 @@ function MyApp({ Component, pageProps }) {
     useEffect(() => {
         setTimeout(() => {
           setIsLoading(false);
-        },50);
+        },5000);
       })
 
   return (

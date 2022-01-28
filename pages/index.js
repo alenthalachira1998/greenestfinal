@@ -24,6 +24,8 @@ import GreenPolicy from "./sections/GreenPolicy";
 import Gallery from "./sections/Gallery/Gallery";
 import Player from "components/sound";
 
+
+
 export default function Home() {
 
   return (
@@ -31,9 +33,10 @@ export default function Home() {
       <Head>
         <title>Greenest ONE</title>
         <link rel="icon" href="/favicon.ico" />
+<script defer src="../path/to/tw-elements/dist/js/index.min.js"></script>
        
       </Head>
-      <div className="absolute   top-4 w-full flex justify-center z-10">
+      <div className="absolute  bg-white z-20  pb-2 pt-4 w-full flex justify-center ">
         <img
           src="/logo.png"
           alt="Picture of the author"
@@ -41,8 +44,8 @@ export default function Home() {
         />
          
       </div>
-      <div className="absolute pl-2 pr-2 pb-2 pt-4 lg:px-4 lg:pb-4 lg:pt-6 flex w-screen justify-between ">
-        <div className="md:ml-4 ml-2  z-10 flex items-center "><a href=""><img src="/logoo.png" className=" md:w-10 w-8 h-10  md:h-12 drop-shadow-2xl brightness-150 saturate-200 mr-2"/></a>    <div className="z-40"><Player/></div> </div>
+      <div className="absolute pl-2 pr-2 pt-4 pb-2  lg:px-4 lg:pb-4 lg:pt-6 flex w-screen justify-between ">
+        <div className="md:ml-4 ml-2  z-30  flex items-center "><a href=""><img src="/logoo.png" className=" md:w-8 w-8 h-auto   md:h-auto drop-shadow-2xl brightness-150 saturate-200 mr-2"/></a>    <div className="z-40"><Player/></div> </div>
       
   
         <div className="flex text-3xl mr-4  lg:text-5xl text-gray-200 ">
@@ -93,12 +96,13 @@ export default function Home() {
               <div className="section">
               <DesignFeatures/>
               </div> */}
-               <div className="section">
-               <HomePageGreen/>
-              </div>
               <div className="section">
            <SimpleSlider/>
               </div>
+               <div className="section">
+               <HomePageGreen/>
+              </div>
+              
                <div className="section">
                 <ElegantResortLiving />
               </div>

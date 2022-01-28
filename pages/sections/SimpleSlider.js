@@ -6,6 +6,7 @@ import "slick-carousel/slick/slick-theme.css";
 import { IoIosArrowRoundDown } from 'react-icons/io';
 import { BiMouse } from 'react-icons/bi';
 import Div100vh from 'react-div-100vh'
+
 export default class SimpleSlider extends Component {
   render() {
     const bg = {
