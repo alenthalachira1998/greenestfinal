@@ -25,8 +25,8 @@ return (
 
 <div className=" text-gray-900  mt-28 lg:36 lg:text-3xl  text-sm  lg:font-normal flex flex-col items-center justify-center  " >
 &quot;Lets build a Home <br/> that sings with the rain<br/> hums with the Earth<br/> and sieving the sun for night.&quot;<br/>
-<h1 className="text-gray-800 lg:text-4xl text-base font-bold mt-2 lg:mt-10">Buildings that breathe</h1>
-<img  className=" lg:mt-10 mt-2 lg:w-60 z-30 w-32 drop-shadow-xl "src="/images/OneLogo.png"/>
+<h1 className="text-gray-800 lg:text-4xl text-base font-bold mt-2 lg:mt-4">Buildings that breathe</h1>
+<img  className=" lg:mt-4 mt-2 lg:w-60 z-30 w-32 drop-shadow-xl "src="/images/OneLogo.png"/>
 </div>
 <span className="text-white  z-20 absolute  text-center bottom-12 sm:bottom-4  w-screen  lg:text-8xl text-6xl  font-thin"><IoIosArrowRoundDown className="w-screen animate-bounce" /></span>
 </div>

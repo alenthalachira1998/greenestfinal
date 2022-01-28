@@ -4,7 +4,7 @@ import Link from 'next/link';
 import ContactModal2 from "../../components/ContactModal2";
 
 
-export default function FooterandLocation() {
+export default function Location() {
   const wrapper= {
     position: 'relative',
     overflow: 'hidden',

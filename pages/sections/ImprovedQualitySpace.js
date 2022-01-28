@@ -69,7 +69,7 @@ const ImprovedQualitySpace = () => {
     return (
         <>
         <Div100vh>
-            <section className="elegant-resort-living ">
+            <section className="low-living-cost ">
            <div className="flex flex-col h-screen w-screen">
                 <div className="flex h-screen w-screen   ">
                     <div className=" lg:ml-4 hidden justify-center transform rotate-180 items-center vtext lg:flex  w-10 md:w-36">

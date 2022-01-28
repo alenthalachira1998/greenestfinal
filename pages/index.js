@@ -2,6 +2,7 @@ import About from "./sections/About";
 import Head from "next/head";
 import Link from 'next/link'
 
+
 import BuildQuality from "./sections/BuildQuality";
 import ElegantResortLiving from "./sections/ElegantResortLiving";
 import ReactFullpage from "@fullpage/react-fullpage";
@@ -13,7 +14,6 @@ import Menuu from "../components/Menuu";
 
 import ImprovedQualityOfSpace from "./sections/ImprovedQualitySpace";
 import LowLivingCost from "./sections/LowLivingCost";
-import FooterandLocation from "./sections/FooterandLocation";
 import DesignFeatures from "./sections/DesignFeatures";
 import GoGreenPolicy from "./sections/GoGreenPolicy";
 import SimpleSlider from "./sections/SimpleSlider";
@@ -37,12 +37,12 @@ export default function Home() {
         <img
           src="/logo.png"
           alt="Picture of the author"
-          className="md:w-44 md:h-14 h-10 w-32"
+          className="md:w-44 md:h-auto h-auto w-32"
         />
          
       </div>
       <div className="absolute pl-2 pr-2 pb-2 pt-4 lg:px-4 lg:pb-4 lg:pt-6 flex w-screen justify-between ">
-        <div className="md:ml-4 ml-2  z-10 flex items-center ">  <img src="/logoo.png" className=" md:w-10 w-8 h-10  md:h-12 drop-shadow-2xl brightness-150 saturate-200 mr-2"/>    <div className="z-40"><Player/></div> </div>
+        <div className="md:ml-4 ml-2  z-10 flex items-center "><a href=""><img src="/logoo.png" className=" md:w-10 w-8 h-10  md:h-12 drop-shadow-2xl brightness-150 saturate-200 mr-2"/></a>    <div className="z-40"><Player/></div> </div>
       
   
         <div className="flex text-3xl mr-4  lg:text-5xl text-gray-200 ">
@@ -126,6 +126,7 @@ export default function Home() {
               <div className="section">
          <FooterPage/>
               </div>
+          
 {/*            
               <div className="section">
                 <BuildQuality />
@@ -143,8 +144,9 @@ export default function Home() {
               
              
               
-              
+            
             </div>
+             
           );
         }}
       />

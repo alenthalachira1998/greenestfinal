@@ -112,8 +112,8 @@ function Menuu() {
             </Link>
           </div>
         </div>
-        <nav className={sidebar ? 'nav-menu active ' : '  nav-menu'}>
-          <ul className='nav-menu-items  cursor-pointer' onClick={showSidebar}>
+        <nav className={sidebar ? 'nav-menu active ' : '  nav-menu'} onMouseLeave={showSidebar}>
+          <ul className='nav-menu-items  cursor-pointer'  onClick={showSidebar}>
 
             <li className='navbar-toggle ml-full text-gray-400 text-4xl'>
 
@@ -141,12 +141,12 @@ function Menuu() {
                 </span>
               </Link> <Link href="/">
                 <span className="nav-text  cursor-pointer">
-                  <a>Project</a>
+                  <a>About &#38;  Blog</a>
                 </span>
               </Link>
               <Link href="/Blogshome">
                 <span className="nav-text  cursor-pointer">
-                  <a>About</a>
+                  <a>Project</a>
                 </span>
 
               </Link>

@@ -7,7 +7,7 @@ const GreenPolicy = () => {
 
     return (
         
-        <section className="elegant-resort-living">
+        <section className="green-policy">
             <Div100vh>
        <div className="flex flex-col w-screen h-screen">
             <div className="flex  w-screen h-screen">

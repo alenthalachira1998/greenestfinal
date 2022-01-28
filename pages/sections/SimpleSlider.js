@@ -55,13 +55,13 @@ export default class SimpleSlider extends Component {
     };
   
     return (
-     
-      <div>
-        <Div100vh>
-  <span className="text-white animate-bounce  z-20 absolute  text-center bottom-6 sm:bottom-4  w-screen  lg:text-8xl text-6xl  font-thin"><IoIosArrowRoundDown className="w-screen fade-in-text" /></span>
+      <Div100vh>
+      <div className="">
+        
+  <span className=" text-white animate-bounce  z-20 absolute  text-center bottom-6 sm:bottom-4  w-screen  lg:text-8xl text-6xl  font-thin"><IoIosArrowRoundDown className="w-screen fade-in-text" /></span>
         <Slider   {...settings}>
           <div>
-        <div className="h-screen  w-screen lg:h-screen relative" style={bg}>
+        <div className="  w-screen lg:h-screen relative" style={bg}>
 <div className="absolute bg-black h-full lg:h-screen w-full opacity-5 flex flex-col items-center justify-center"></div>
 <div className="relative ">
 
@@ -91,7 +91,7 @@ export default class SimpleSlider extends Component {
   <div className="mt-56 sm:mx-4 text-center mr-6 w-screen  sm:mt-0">
 
   <h1 className="sm:mb-5 text-2xl  sm:text-5xl font-medium text-white lg:text-7xl">LUSH COMMUNITY</h1>
-  <h2 className="mt-2 font-medium mr-2  text-base sm:text-xl text-white lg:text-5xl">Serene gardens .Rich bio diversity</h2>
+  <h2 className="mt-2 font-medium mr-2  text-base sm:text-xl text-white lg:text-5xl">Serene gardens . Rich bio diversity</h2>
 
   </div>
            </div>
@@ -159,8 +159,9 @@ export default class SimpleSlider extends Component {
           </div>
      
         </Slider>
-        </Div100vh>
+      
       </div>
+      </Div100vh>
     
     );
   }

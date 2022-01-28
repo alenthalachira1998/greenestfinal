@@ -70,7 +70,9 @@ module.exports = {
 
 
         },
-       
+       height:{
+         '95':'95vh',
+       },
         screens: {
   
           'landscape1': {'raw': '(max-height: 552px)'},
@@ -81,6 +83,7 @@ module.exports = {
           
           // => @media (max-height: 1234px) { ... }
         },
+
        },
      },
     
