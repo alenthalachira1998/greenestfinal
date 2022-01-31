@@ -7,4 +7,10 @@
   background-color: rgb(172, 168, 168);
 }
 
-
+#fp-nav ul li, .fp-slidesNav ul li {
+  display: block;
+  width: '40px' !important;
+  height: '40px'!important;
+  margin: 7px;
+  position: relative;
+}

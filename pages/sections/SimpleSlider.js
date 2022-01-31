@@ -48,10 +48,10 @@ export default class SimpleSlider extends Component {
     const settings = {
       dots: false,
       infinite: true,
-      speed: 5,
+      speed: 500,
       slidesToShow: 1,
       slidesToScroll: 1,
-      autoplay: true,
+      autoplay: false,
   
     };
   
@@ -68,10 +68,10 @@ export default class SimpleSlider extends Component {
 
 <div className="flex-col w-screen flex h-screen items-center    ">
 
-  <h1 className="mt-40 mb-4  sm:mb-10 text-2xl sm:text-5xl lg:text-7xl">FOR YOUR HOLIDAY</h1>
-  <h1 className="font-Tourney mb-4 sm:mb-10 text-2xl sm:text-5xl lg:text-7xl ">&quot;COME HOME&quot;</h1>
-  <h1 className="font-Satisfy text-xl sm:text-3xl">Introducing</h1>
-  <img  className="  lg:w-56  z-30 w-36 drop-shadow-xl "src="/images/OneLogo.png"/>
+  <h1 className="mt-40 mb-0  sm:mb-10 text-2xl sm:text-5xl lg:text-7xl">FOR YOUR HOLIDAY</h1>
+  <h1 className="font-Tourney  -mt-5 sm:mb-10 text-2xl sm:text-5xl lg:text-7xl ">&quot;COME HOME&quot;</h1>
+  <h1 className="font-Caveat -mt-5 text-xl sm:text-3xl">Introducing</h1>
+  <img  className="  lg:w-52  z-30 w-36 drop-shadow-xl "src="/images/OneLogo.png"/>
 
  {/* <span className="  z-20 flex flex-col w-screen h-screen sm:text-4xl text-3xl  md:text-5xl lg:text-6xl  text-gray-400  font-thin animate-pulse "><span className="absolute bottom-2/4"><BiMouse className="" /><p className="lg:text-sm md:text-base text-xs font-bold ">ScrollPrev</p></span></span>  */}
            </div>

@@ -67,7 +67,9 @@ module.exports = {
           Tourney:['Tourney'],
           londrina:['Londrina Outline'],
           nella: ["NellaSueDEMO, Nella"],
-          VKTS: ['VTKSFLOWERSINOURSOUL,VKTS']
+          VKTS: ['VTKSFLOWERSINOURSOUL,VKTS'],
+          Caveat:['Caveat'],
+           Cedarvill:['Cedarville Cursive']
 
 
         },
