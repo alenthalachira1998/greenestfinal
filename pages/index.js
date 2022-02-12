@@ -96,10 +96,10 @@ export default function Home() {
               <div className="section">
               <DesignFeatures/>
               </div> */}
-              <div className="section">
+              <div className="section overflow-hidden">
            <SimpleSlider/>
               </div>
-               <div className="section">
+               <div className="section overflow-hidden">
                <HomePageGreen/>
               </div>
               
