@@ -97,8 +97,8 @@ import ContactModal from './ContactModal';
 function Menuu() {
   const [sidebar, setSidebar] = useState(false);
 
-  const showSidebar = () => setSidebar(!sidebar);
-
+  const showSidebar = () => setSidebar(true);
+  const Close = () => setSidebar(false);
 
   return (
     <>
@@ -112,8 +112,8 @@ function Menuu() {
             </Link>
           </div>
         </div>
-        <nav className={sidebar ? 'nav-menu active ' : '  nav-menu'} onMouseLeave={showSidebar}>
-          <ul className='nav-menu-items  cursor-pointer'  onClick={showSidebar}>
+        <nav className={sidebar ? 'nav-menu active ' : '  nav-menu'} onMouseLeave={Close}>
+          <ul className='nav-menu-items  cursor-pointer'  onClick={Close}>
 
             <li className='navbar-toggle ml-full text-gray-400 text-4xl'>
 
