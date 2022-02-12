@@ -108,7 +108,7 @@ function Menuu() {
         <div className="nav-bar  relative">
           <div className='text-4xl text-gray-600  cursor-pointer'>
             <Link href='#' >
-              <VscIcons.VscMenu onMouseOver={showSidebar}/>
+              <VscIcons.VscMenu  onClick={showSidebar} onMouseOver={showSidebar}/>
             </Link>
           </div>
         </div>
