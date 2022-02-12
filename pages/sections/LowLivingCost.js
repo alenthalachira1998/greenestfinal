@@ -112,24 +112,24 @@ const LowLivingCost = () => {
                 <Div100vh>
            <div className="flex flex-col h-screen w-screen">
                 <div className="flex h-screen w-screen   ">
-                    <div className=" lg:ml-4 hidden justify-center transform rotate-180 items-center vtext lg:flex  w-10 md:w-36">
+                <div className=" lg:ml-4 hidden justify-center transform rotate-180 items-center vtext lg:flex  w-10 md:w-36">
                         <h1 className="text-gray-300 xl:font-bold 2xl:text-8xl xl:text-7xl sm:text-5xl md:text-6xl font-medium  text-center  ">
                             
-                            <span className=" text-gray-300"> EX</span>PERIENCE</h1>
+                            <span className=" text-gray-300  "> EX</span>PERIENCE</h1>
 
                     </div>
                     <div className="  ml-3 justify-center transform rotate-180 items-center vtext flex lg:hidden w-20 md:w-36">
-                        <h1 className="text-gray-400 md:text-3xl text-base xs:text-xl  2xl:text-8xl xl:text-7xl lg:text-6xl font-medium   text-center  ">
+                        <h1 className="text-gray-400 md:text-3xl text-xl xs:text-xl  2xl:text-8xl xl:text-7xl lg:text-6xl font-medium   text-center  ">
                             
                             EXPERIENCE </h1>
 
                     </div>
 
 
-                    <div className=" 2xl:w-3/12 lg:ml-16 xl:w-80 lg:w-56 w-16  lg:flex flex-col hidden  justify-center  items-start xl:items-center text-center">
-                        <h2 className="lg:font-semibold xl:font-medium   lg:text-5xl xl:text-6xl 2xl:text-7xl pb-4  " style={{color:'#59a23e'}}>Low </h2>
-                        <h2 className="lg:font-semibold xl:font-medium   lg:text-5xl xl:text-6xl 2xl:text-7xl pb-4" style={{color:'#59a23e'}}>Living</h2>
-                        <h2 className="lg:font-semibold xl:font-medium   lg:text-5xl xl:text-6xl 2xl:text-7xl pb-4" style={{color:'#59a23e'}}>Cost</h2>
+                  < div className=" 2xl:w-3/12 lg:ml-16 xl:w-24 lg:w-24 w-16  lg:flex flex-col hidden  justify-center  items-start xl:items-center text-center">
+                        <h2 className="lg:font-semibold xl:font-medium   lg:text-5xl  2xl:text-7xl pb-4  " style={{color:'#59a23e'}}>Low </h2>
+                        <h2 className="lg:font-semibold xl:font-medium   lg:text-5xl  2xl:text-7xl pb-4" style={{color:'#59a23e'}}>Living</h2>
+                        <h2 className="lg:font-semibold xl:font-medium   lg:text-5xl  2xl:text-7xl pb-4" style={{color:'#59a23e'}}>Cost</h2>
        
 
                     </div>
@@ -140,12 +140,12 @@ const LowLivingCost = () => {
 
                         <div className="grid lg:mx-28  relative mt-5 md:mt-0 sm:gap-2 landscape1:grid-cols-3 sm:grid-cols-2 md:grid-cols-2 xl:grid-cols-3 xs:grid-cols-2 grid-cols-2  h-full xs:h-full w-11/12 sm:h-full xs:w-11/12  lg:h-3/4  sm:w-11/12 2xl:w-11/12 md:w-11/12  xl:h-11/12 2xl:h-full  p-4 gap-4  lg:content-center justify-center  lg:gap-4  ">
                         <div className=" mt-14 md:mt-28 lg:hidden absolute w-full  text-center "><h1 className=" md:text-2xl text-base xs:text-xl font-bold"  style={{color:'#59a23e'}}>LOW LIVING <span className="">COST</span></h1></div>
-                            <div className="flex justify-center 2xl:max-w-80 2xl:h-80 flex-col text-gray-700 2xl-mb-8 lg:mb-4 hover:transform scale-75 xl:mt-24 mt-20 md:mt-36 "> <img className=" shadow-xl resize-none  rounded-2xl border-2xl   h-full w-full     object-cover   " src="../images/resort/featurepic/Page - 05 Low living-01-min.png" ></img><p className=" text-xs xs:text-sm text-center  hitespace-nowrap  lg:text-sm lg:pt-2">100% Solar Energy <br />Certification<br/> <br/></p></div>
-                            <div className="flex justify-center 2xl:max-w-80 2xl:h-80 flex-col text-gray-700 2xl-mb-8 lg:mb-4 hover:transform scale-75 xl:mt-24 mt-20 md:mt-36 "> <img className=" shadow-xl resize-none  rounded-2xl border-2xl   h-full w-full     object-cover   " src="../images/resort//featurepic/Page - 05 Low living-02-min.png" ></img><p className="text-xs xs:text-sm text-center whitespace-nowrap  lg:text-sm lg:pt-2">Low monthly <br />Maintenance <br/>Charges<br/> </p></div>
-                            <div className="flex justify-center 2xl:max-w-80 2xl:h-80 flex-col text-gray-700 2xl-mb-8 lg:mb-4 hover:transform scale-75 xl:mt-24  "> <img className=" shadow-xl resize-none  rounded-2xl border-2xl   h-full w-full     object-cover   " src="../images/resort//featurepic/Page - 05 Low living-03-min..png" ></img><p className="text-xs xs:text-sm text-center whitespace-nowrap  lg:text-sm lg:pt-2">Up to 50%<br />Water Usage<br/> Reduction <br/></p></div>
-                            <div className="flex justify-center 2xl:max-w-80 2xl:h-80 flex-col text-gray-700  hover:transform scale-75   xl:mb-10 "> <img className="shadow-xl resize-none  rounded-2xl border-2xl   h-full w-full     object-cover    " src="../images/resort/featurepic/Page - 05 Low living-04-min.png" ></img><p className="text-xs xs:text-sm text-center  whitespace-nowrap   lg:text-sm lg:pt-2">EV<br /> Fast charging <br />Station<br/>  </p></div>
-                            <div className="flex justify-center 2xl:max-w-80 2xl:h-80 flex-col text-gray-700  hover:transform scale-75   mb-16 sm:mb-5  xl:mb-10"> <img className=" shadow-xl resize-none  rounded-2xl border-2xl   h-full w-full     object-cover   " src="../images/resort/featurepic/Page - 05 Low living-05-min.png" ></img><p className="text-xs xs:text-sm text-center   lg:text-sm lg:pt-2 whitespace-nowrap">Energy Management <br/>System<br/><br/></p></div>
-                            <div className="flex justify-center 2xl:max-w-80 2xl:h-80 flex-col text-gray-700  hover:transform scale-75   mb-16 sm:mb-5  xl:mb-10 "> <img className=" shadow-xl resize-none  rounded-2xl border-2xl   h-full w-full     object-cover   " src="../images/resort/featurepic/Page - 05 Low living-06-min.png" ></img><p className="text-xs xs:text-sm text-center whitespace-nowrap  lg:text-sm lg:pt-2">Up to 30% Energy<br /> Usage Reduction<br/><br/></p></div>
+                            <div className="flex justify-center 2xl:w-auto  xl:h-62 2xl:h-80  flex-col text-gray-700 2xl-mb-8 lg:mb-4 hover:transform scale-75 xl:mt-24 mt-20 md:mt-36 "> <img className=" shadow-xl resize-none  rounded-2xl border-2xl   h-full w-full     object-cover   " src="../images/resort/featurepic/Page - 05 Low living-01-min.png" ></img><p className=" text-xs xs:text-sm text-center  hitespace-nowrap  lg:text-sm lg:pt-2">100% Solar Energy <br />Certification<br/> <br/></p></div>
+                            <div className="flex justify-center 2xl:w-auto  xl:h-62 2xl:h-80  flex-col text-gray-700 2xl-mb-8 lg:mb-4 hover:transform scale-75 xl:mt-24 mt-20 md:mt-36 "> <img className=" shadow-xl resize-none  rounded-2xl border-2xl   h-full w-full     object-cover   " src="../images/resort//featurepic/Page - 05 Low living-02-min.png" ></img><p className="text-xs xs:text-sm text-center whitespace-nowrap  lg:text-sm lg:pt-2">Low monthly <br />Maintenance <br/>Charges<br/> </p></div>
+                            <div className="flex justify-center 2xl:w-auto  xl:h-62 2xl:h-80  flex-col text-gray-700 2xl-mb-8 lg:mb-4 hover:transform scale-75 xl:mt-24  "> <img className=" shadow-xl resize-none  rounded-2xl border-2xl   h-full w-full     object-cover   " src="../images/resort//featurepic/Page - 05 Low living-03-min..png" ></img><p className="text-xs xs:text-sm text-center whitespace-nowrap  lg:text-sm lg:pt-2">Up to 50%<br />Water Usage<br/> Reduction <br/></p></div>
+                            <div className="flex justify-center 2xl:w-auto  xl:h-62 2xl:h-80  flex-col text-gray-700  hover:transform scale-75   xl:mb-10 "> <img className="shadow-xl resize-none  rounded-2xl border-2xl   h-full w-full     object-cover    " src="../images/resort/featurepic/Page - 05 Low living-04-min.png" ></img><p className="text-xs xs:text-sm text-center  whitespace-nowrap   lg:text-sm lg:pt-2">EV<br /> Fast charging <br />Station<br/>  </p></div>
+                            <div className="flex justify-center 2xl:w-auto  xl:h-62 2xl:h-80  flex-col text-gray-700  hover:transform scale-75   mb-16 sm:mb-5  xl:mb-10"> <img className=" shadow-xl resize-none  rounded-2xl border-2xl   h-full w-full     object-cover   " src="../images/resort/featurepic/Page - 05 Low living-05-min.png" ></img><p className="text-xs xs:text-sm text-center   lg:text-sm lg:pt-2 whitespace-nowrap">Energy Management <br/>System<br/><br/></p></div>
+                            <div className="flex justify-center 2xl:w-auto  xl:h-62 2xl:h-80  flex-col text-gray-700  hover:transform scale-75   mb-16 sm:mb-5  xl:mb-10 "> <img className=" shadow-xl resize-none  rounded-2xl border-2xl   h-full w-full     object-cover   " src="../images/resort/featurepic/Page - 05 Low living-06-min.png" ></img><p className="text-xs xs:text-sm text-center whitespace-nowrap  lg:text-sm lg:pt-2">Up to 30% Energy<br /> Usage Reduction<br/><br/></p></div>
 
                     </div>
                                    

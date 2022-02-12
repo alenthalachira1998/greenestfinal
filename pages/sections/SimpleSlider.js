@@ -57,7 +57,7 @@ export default class SimpleSlider extends Component {
   
     return (
       <Div100vh>
-      <div className="">
+      <div className=" overflow-hidden">
         
   <span className=" text-white animate-bounce  z-20 absolute  text-center bottom-6 sm:bottom-4  w-screen  lg:text-8xl text-6xl  font-thin"><IoIosArrowRoundDown className="w-screen fade-in-text" /></span>
         <Slider   {...settings}>
@@ -68,10 +68,10 @@ export default class SimpleSlider extends Component {
 
 <div className="flex-col w-screen flex h-screen items-center    ">
 
-  <h1 className="mt-40 mb-0  sm:mb-10 text-2xl sm:text-5xl lg:text-7xl">FOR YOUR HOLIDAY</h1>
-  <h1 className="font-Tourney  -mt-5 sm:mb-10 text-2xl sm:text-5xl lg:text-7xl ">&quot;COME HOME&quot;</h1>
-  <h1 className="font-Caveat -mt-5 text-xl sm:text-3xl">Introducing</h1>
-  <img  className="  lg:w-52  z-30 w-36 drop-shadow-xl "src="/images/OneLogo.png"/>
+  <h1 className="mt-40 mb-0  sm:mb-10 text-2xl sm:text-5xl  2xl:text-6xl">FOR YOUR NEXT HOLIDAY</h1>
+  <h1 className="font-Tourney  sm:-mt-5 mt-2 mb-2 sm:mb-10 text-4xl sm:text-7xl 2xl:text-8xl ">&quot;COME HOME&quot;</h1>
+  <h1 className="font-Caveat sm:-mt-5 text-xl sm:text-3xl">Introducing</h1>
+  <img  className="  2xl:w-56 lg:w-48  z-30 w-36 drop-shadow-xl "src="/images/OneLogo.png"/>
 
  {/* <span className="  z-20 flex flex-col w-screen h-screen sm:text-4xl text-3xl  md:text-5xl lg:text-6xl  text-gray-400  font-thin animate-pulse "><span className="absolute bottom-2/4"><BiMouse className="" /><p className="lg:text-sm md:text-base text-xs font-bold ">ScrollPrev</p></span></span>  */}
            </div>
@@ -91,8 +91,8 @@ export default class SimpleSlider extends Component {
 <div className="flex-col mx-4 w-screen sm:justify-center justify-start flex h-screen items-center ">
   <div className="mt-56 sm:mx-4 text-center mr-6 w-screen  sm:mt-0">
 
-  <h1 className="sm:mb-5 text-2xl  sm:text-5xl font-medium text-white lg:text-7xl">LUSH COMMUNITY</h1>
-  <h2 className="mt-2 font-medium mr-2  text-base sm:text-xl text-white lg:text-5xl">Serene gardens . Rich bio diversity</h2>
+  <h1 className="sm:mb-5 text-2xl  sm:text-5xl font-medium text-white lg:text-6xl">LUSH COMMUNITY</h1>
+  <h2 className="mt-2 font-medium mr-2  text-base sm:text-3xl text-white lg:text-5xl">Serene gardens . Rich bio diversity</h2>
 
   </div>
            </div>
@@ -109,7 +109,7 @@ export default class SimpleSlider extends Component {
 
 <div className="flex-col w-screen  flex h-screen items-center     ">
 
-  <h1 className="   sm:mb-5 text-2xl sm:text-5xl text-gray-900 mt-48 lg:text-7xl font-semibold">Zero Electricity Bill</h1>
+  <h1 className="   sm:mb-5 text-2xl sm:text-5xl text-gray-900 mt-48 lg:text-6xl font-semibold">Zero Electricity Bill</h1>
 
 
  
@@ -127,8 +127,8 @@ export default class SimpleSlider extends Component {
 
 <div className="flex-col w-screen flex h-screen items-center">
 
-  <h1 className="sm:mb-5 text-2xl sm:text-5xl text-gray-900 mt-48 lg:text-7xl font-semibold">Panoramic Views</h1>
-  <h2 className="mt-2 font-medium  text-base sm:text-xl text-gray-900 lg:text-5xl">From Sunrise to Sunset</h2>
+  <h1 className="sm:mb-5 text-2xl sm:text-5xl text-gray-900 mt-48 lg:text-6xl font-semibold">Panoramic Views</h1>
+  <h2 className="mt-2 font-medium  text-base sm:text-3xl text-gray-900 lg:text-5xl">From Sunrise to Sunset</h2>
 
  
            </div>
@@ -147,9 +147,9 @@ export default class SimpleSlider extends Component {
 <div className="flex-col w-screen   flex h-screen items-center">
   <div className="mx-10 sm:mx-0 flex flex-col items-center">
 
-  <h1 className="sm:mb-5 text-2xl sm:text-5xl font-medium mt-48 text-white lg:text-7xl">High performance</h1>
-  <h2 className="mt-2 hidden sm:block font-medium text-xs sm:text-base text-white lg:text-4xl"><span className="font-bold">.</span> Energy <span className="font-bold ">.</span> Water <span className="font-bold">.</span> BuildQuality <span className="font-bold">.</span> Health and Welbeing <span className="font-bold">.</span> Safety</h2>
-  <h2 className="mt-2 sm:hidden font-medium text-base sm:text-base text-white lg:text-4xl"><span className="font-bold">.</span> Energy <span className="font-bold ">.</span> Water <span className="font-bold">.</span> BuildQuality  <br/> <span className="font-bold">.</span> Health and Welbeing <span className="font-bold">.</span> Safety</h2>
+  <h1 className="sm:mb-5 text-2xl sm:text-5xl font-medium mt-48 text-white lg:text-6xl">High performance</h1>
+  <h2 className="mt-2 hidden sm:block font-medium text-xs sm:text-2xl text-white lg:text-4xl"> Energy <span className="font-bold ">.</span> Water <span className="font-bold">.</span> Build Quality <span className="font-bold">.</span> Health and Welbeing <span className="font-bold">.</span> Safety</h2>
+  <h2 className="mt-2 sm:hidden font-medium text-base sm:text-3xl text-white lg:text-4xl">Energy <span className="font-bold ">.</span> Water <span className="font-bold">.</span> Build Quality  <br/> <span className="font-bold">.</span> Health and Welbeing <span className="font-bold">.</span> Safety</h2>
   </div>
  
            </div>

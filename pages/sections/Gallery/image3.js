@@ -10,12 +10,12 @@ const image3 = () => {
         <img
           src="/logo.png"
           alt="Picture of the author"
-          className="md:w-44 md:h-14 h-10 w-32"
+          className="md:h-14 md:w-auto  h-10 w-32 md:w-auto"
         />
          
       </div>
       <div className="absolute pl-2 pr-2 pb-2 pt-4 lg:px-4 lg:pb-4 lg:pt-6 flex w-screen justify-between ">
-      <Link href='/'><a className="z-50"><img src="/logoo.png" className="md:ml-4 ml-2   drop-shadow-2xl brightness-150 saturate-200 md:w-10 w-8 h-10  md:h-12"/></a></Link>
+      <Link href='/'><a className="z-50"><img src="/logoo.png" className="md:ml-4 ml-2 md:w-8 w-8 h-auto  md:h-auto  drop-shadow-2xl brightness-150 saturate-200 "/></a></Link>
      <div className="z-40"></div> 
         <div className="flex text-3xl mr-3  lg:text-5xl text-gray-200 ">
      
@@ -31,7 +31,7 @@ const image3 = () => {
         </div>
       </div>
       <div className="w-screen flex justify-center   items-center h-screen">
-      <img className="h-auto lg:h-3/5 w-screen  lg:w-auto"
+      <img className="h-auto lg:h-75 w-screen  lg:w-auto"
     
       src="/images/resort/gallery/Page - 04 Improved-05.jpg"
      

@@ -144,12 +144,12 @@ function Menuu() {
                   <a>About &#38;  Blog</a>
                 </span>
               </Link>
-              <Link href="/Blogshome">
+              {/* <Link href="/Blogshome">
                 <span className="nav-text  cursor-pointer">
                   <a>Project</a>
                 </span>
 
-              </Link>
+              </Link> */}
               <span className="nav-textc  cursor-pointer">   <ContactModal />   </span></li>
 
 

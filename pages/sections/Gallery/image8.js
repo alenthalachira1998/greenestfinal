@@ -10,7 +10,7 @@ const image8 = () => {
         <img
           src="/logo.png"
           alt="Picture of the author"
-          className="md:w-44 md:h-14 h-10 w-32"
+          className="md:h-14 md:w-auto  h-10 w-32 md:w-auto"
         />
          
       </div>
@@ -32,7 +32,7 @@ const image8 = () => {
         </div>
       </div>
       <div className="w-screen flex justify-center   items-center h-screen">
-      <img className="h-auto lg:h-3/5 w-screen  lg:w-auto"
+      <img className="h-auto lg:h-75 w-screen  lg:w-auto"
     
       src="/images/resort/gallery/Page - 03-04.jpg"
      

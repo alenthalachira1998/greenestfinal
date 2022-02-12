@@ -22,7 +22,7 @@ return (
         <img
           src="/logo.png"
           alt="Picture of the author"
-          className="md:w-44 md:h-14 h-10 w-32"
+          className="md:h-14 md:w-auto  h-10 w-32 md:w-auto"
         />
          
       </div>
