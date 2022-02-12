@@ -10,7 +10,7 @@ const image3 = () => {
         <img
           src="/logo.png"
           alt="Picture of the author"
-          className="md:h-14 md:w-auto  h-10 w-32 md:w-auto"
+          className="md:h-14 md:w-auto  h-10 w-32 "
         />
          
       </div>

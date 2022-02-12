@@ -16,7 +16,7 @@ height:'100vh',
 }
 
 return (
-<section id="home">
+<section id="  home" className="overflow-hidden">
 <Div100vh>
 <div className=" relative" style={bg}>
 <div className="absolute bg-black  w-full opacity-5 flex flex-col items-center justify-center h-screen"></div>
