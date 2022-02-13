@@ -11,7 +11,7 @@ export default class SimpleSlider extends Component {
   render() {
     const bg = {
       backgroundImage: 'url("/images/resort/Pageslide1.jpg")',
-   
+      backgroundSize: 'cover',
       backgroundPosition: 'center',
       backgroundRepeat: 'no-repeat',
       height:'100vh'

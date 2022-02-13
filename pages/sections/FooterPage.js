@@ -32,7 +32,7 @@ const FooterPage = () => {
                         <p className="lg:py-2">Sreekaryam
                              - 5.3 km</p>
                         <p className="lg:py-2">Pothencode
-                            - 5.8 Km</p>
+                            - 5.8 km</p>
                         <p className="lg:py-2">Sabarigiri International School
                             - 1.4 km</p>
                         <p className="lg:py-2">College of Engineering
@@ -81,19 +81,19 @@ const FooterPage = () => {
            <div className='hidden lg:h-95 lg:flex' style={bg}><div className="flex-col pl-6 mt-3 text-white text-2xl  flex">  
            <h1 className="font-medium   text-base sm:text-3xl lg:text-3xl   lg:mt-10" style={{ color: '#59a23e' }}>Distance from ONE</h1> 
             <p className="lg:py-2"> Mannanthala
-                            - 4.7Km</p>
+                            - 4.7 km</p>
 
                         <p className="lg:py-2">Sreekaryam
-                            -5.3km</p>
+                            -5.3 km</p>
                             <p className="lg:py-2">Technopark
-                            - 7.5 Km</p>
+                            - 7.5 km</p>
                         <p className="lg:py-2">Sabarigiri International School
                             - 1.4 km</p>
                         <p className="lg:py-2">College of Engineering Trivandrum
                             - 6.8 km</p>
                       
                             <p className="lg:py-2">Pothencode
-                            - 5.8 Km</p>
+                            - 5.8 km</p>
                         <p className="lg:py-2">Medical College
                             - 8.8 km</p>
 
