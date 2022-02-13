@@ -5,7 +5,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { IoIosArrowRoundDown } from 'react-icons/io';
 import { BiMouse } from 'react-icons/bi';
-import Div100vh from 'react-div-100vh'
+
 
 export default class SimpleSlider extends Component {
   render() {
@@ -64,7 +64,7 @@ export default class SimpleSlider extends Component {
     };
   
     return (
-      <Div100vh>
+    
       <div className=" overflow-hidden">
         
   <span className=" text-white animate-bounce  z-20 absolute  text-center bottom-6 sm:bottom-4  w-screen  lg:text-8xl text-6xl  font-thin"><IoIosArrowRoundDown className="w-screen fade-in-text" /></span>
@@ -170,7 +170,7 @@ export default class SimpleSlider extends Component {
         </Slider>
       
       </div>
-      </Div100vh>
+   
     
     );
   }

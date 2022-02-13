@@ -4,7 +4,7 @@ import React from 'react'
 import Link from 'next/link'
 import { IoIosArrowRoundDown } from 'react-icons/io';
 import Iframe from "react-iframe"
-import Div100vh from 'react-div-100vh'
+
 import Menuu from 'components/Menuu';
 const About = () => {
 // const bg = {

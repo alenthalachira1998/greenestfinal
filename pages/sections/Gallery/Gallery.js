@@ -1,5 +1,5 @@
 import React from 'react'
-import Div100vh from 'react-div-100vh';
+;
 import Iframe from "react-iframe";
 import react, { useEffect, useState } from "react";
 import { IoIosArrowRoundForward } from 'react-icons/io';
@@ -18,7 +18,7 @@ const Gallery = () => {
 
 
     <>
-      <Div100vh>
+    
         {next ? (
 
           <div className="flex flex-col  h-screen w-screen">
@@ -113,7 +113,7 @@ const Gallery = () => {
 
 
         )}
-      </Div100vh>
+   
     </>
 
 

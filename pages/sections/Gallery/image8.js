@@ -1,11 +1,11 @@
 import Menuu from 'components/Menuu';
 import React from 'react';
 import Image from 'next/image'
-import Div100vh from 'react-div-100vh';
+;
 import Link from 'next/link'
 const image8 = () => {
   return <div>
-    <Div100vh>
+  
         <div className="absolute  top-4 w-screen  lg:right-10 text-center flex justify-center  z-10">
         <img
           src="/logo.png"
@@ -38,7 +38,7 @@ const image8 = () => {
      
     />
     </div>
-    </Div100vh>
+ 
   </div>
 
 };
