@@ -36,7 +36,7 @@ function MyApp({ Component, pageProps }) {
  <Layout><Component {...pageProps} /></Layout> 
      
  } 
- </Div100vh>
+
    </>
   );
 }
