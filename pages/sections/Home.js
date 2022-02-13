@@ -3,7 +3,6 @@
 import React from 'react'
 import { IoIosArrowRoundDown } from 'react-icons/io';
 import Iframe from "react-iframe"
-import Div100vh from 'react-div-100vh'
 const HomePageGreen = () => {
 const bg = {
 backgroundImage: 'url("/images/resort/Home.jpg")',
@@ -18,7 +17,7 @@ height:'100vh',
 
 return (
 <section id="home">
-<Div100vh>
+
 <div className=" relative" style={bg}>
 <div className="absolute bg-black  w-full opacity-5 flex flex-col items-center justify-center h-screen"></div>
 <div className="relative ">
@@ -35,8 +34,6 @@ return (
 
 
 </div>
-
-</Div100vh>
 
 
 
