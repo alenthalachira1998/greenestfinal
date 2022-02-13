@@ -10,7 +10,7 @@ class MyDocument extends Document {
     return (
       <Html>
         <Head>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+      
 <link href="https://fonts.googleapis.com/css2?family=Metrophobic&family=Montserrat:ital,wght@0,200;0,400;0,500;1,100;1,200;1,500;1,600&display=swap" rel="stylesheet"/>
 
 <link href="https://fonts.googleapis.com/css2?family=Londrina+Outline&family=Satisfy&family=Tourney:wght@300&display=swap" rel="stylesheet"/>
