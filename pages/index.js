@@ -36,7 +36,7 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
        
       </Head>
-      <div className="absolute   bg-white z-20  pb-2 pt-4 w-full flex justify-center ">
+      <div className="absolute    z-10  pb-2 pt-4 w-full flex justify-center ">
         <img
           src="/logo.png"
           alt="Picture of the author"

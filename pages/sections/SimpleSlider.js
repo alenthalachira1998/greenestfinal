@@ -11,16 +11,18 @@ export default class SimpleSlider extends Component {
   render() {
     const bg = {
       backgroundImage: 'url("/images/resort/Pageslide1.jpg")',
-      backgroundSize: 'cover',
+   
       backgroundPosition: 'center',
       backgroundRepeat: 'no-repeat',
-      
+      height:'100vh'
+   
       };
       const bgOne = {
         backgroundImage: 'url("/images/resort/Page - 01 - Slide 2.jpg")',
         backgroundSize: 'cover',
         backgroundPosition: 'center',
         backgroundRepeat: 'no-repeat',
+        height:'100vh'
         
         };
         const bgTwo = {
@@ -28,6 +30,7 @@ export default class SimpleSlider extends Component {
           backgroundSize: 'cover',
           backgroundPosition: 'center',
           backgroundRepeat: 'no-repeat',
+          height:'100vh'
           
           };
           const bgThree = {
@@ -35,6 +38,7 @@ export default class SimpleSlider extends Component {
             backgroundSize: 'cover',
             backgroundPosition: 'center',
             backgroundRepeat: 'no-repeat',
+            height:'100vh'
             
             };
             const bgFour = {
@@ -42,6 +46,8 @@ export default class SimpleSlider extends Component {
               backgroundSize: 'cover',
               backgroundPosition: 'center',
               backgroundRepeat: 'no-repeat',
+              height:'100vh'
+             
               
               };
 
@@ -52,6 +58,8 @@ export default class SimpleSlider extends Component {
       slidesToShow: 1,
       slidesToScroll: 1,
       autoplay: false,
+      className: "slides"
+    
   
     };
   
@@ -62,11 +70,11 @@ export default class SimpleSlider extends Component {
   <span className=" text-white animate-bounce  z-20 absolute  text-center bottom-6 sm:bottom-4  w-screen  lg:text-8xl text-6xl  font-thin"><IoIosArrowRoundDown className="w-screen fade-in-text" /></span>
         <Slider   {...settings}>
           <div>
-        <div className="  w-screen lg:h-screen relative" style={bg}>
+        <div className="  w-screen lg:h-screen   relative" style={bg}>
 <div className="absolute bg-black h-full lg:h-screen w-full opacity-5 flex flex-col items-center justify-center"></div>
 <div className="relative ">
 
-<div className="flex-col w-screen flex h-screen items-center    ">
+<div className="flex-col w-screen flex h-screen items-center">
 
   <h1 className="mt-40 mb-0  sm:mb-10 text-2xl sm:text-5xl  2xl:text-6xl">FOR YOUR NEXT HOLIDAY</h1>
   <h1 className="font-Tourney  sm:-mt-5 mt-2 mb-2 sm:mb-10 text-4xl sm:text-7xl 2xl:text-8xl ">&quot;COME HOME&quot;</h1>
@@ -84,7 +92,7 @@ export default class SimpleSlider extends Component {
           </div>
           
           <div>
-          <div className="h-screen  w-screen lg:h-screen relative" style={bgOne}>
+          <div className="h-screen  z-50 w-screen lg:h-screen relative" style={bgOne}>
 <div className="absolute bg-black h-full lg:h-screen w-full opacity-5 flex flex-col items-center justify-center"></div>
 <div className="relative ">
 

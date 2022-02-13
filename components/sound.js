@@ -28,8 +28,8 @@ const Player = ({ url }) => {
 
   return (
     <div>
-      <button onClick={toggle}>{playing ? <BiVolumeFull className="  text-xl lg:text-2xl text-gray-900  animate-pulse" style={{'writing-mode': 'vertical-rl',
-'text-orientation': 'sideways-right'}}/> : <BiVolumeMute className=" lg:text-xl text-base text-gray-800"/>}</button>
+      <button onClick={toggle}>{playing ? <BiVolumeFull className="  text-xl lg:text-2xl text-gray-600  animate-pulse" style={{'writing-mode': 'vertical-rl',
+'text-orientation': 'sideways-right'}}/> : <BiVolumeMute className=" lg:text-xl text-base text-gray-600"/>}</button>
     </div>
   );
 };
