@@ -17,7 +17,7 @@ const About = () => {
 
 return (
 <section id="about ">
-<Div100vh>
+
         <div className="absolute  top-4 w-screen  text-center flex justify-center  z-10">
         <img
           src="/logo.png"
@@ -58,7 +58,7 @@ Greenest Building and Business Pvt Ltd is managed by a core team of two Civil en
 
 </div>
 
-</Div100vh>
+
 
 </section>
 )
