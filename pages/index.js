@@ -33,7 +33,7 @@ export default function Home() {
       <Head>
         <title>Greenest ONE</title>
         <link rel="icon" href="/favicon.ico" />
-        <meta name="viewport" content="initial-scale=0.8 width=device-width" />
+        <meta name="viewport" content="initial-scale=1.0 width=device-width" />
        
       </Head>
       <div className="absolute    z-10  pb-2 pt-4 w-full flex justify-center ">
