@@ -3,6 +3,10 @@ import React from 'react';
 import Image from 'next/image'
 import Link from 'next/link'
 ;
+import {
+  VscArrowRight,
+  VscArrowLeft,
+} from "react-icons/vsc";
 const image1 = () => {
   return <div>
   
@@ -24,7 +28,7 @@ const image1 = () => {
         </div>
       </div>
       <div className="w-screen flex justify-center   items-center h-screen">
-      <img className="h-auto lg:h-75 w-screen  lg:w-auto"
+    <VscArrowRight/>  <img className="h-auto lg:h-75 w-screen  lg:w-auto"
     
       src="/images/resort/gallery/Page - 06 Green policy-06.jpg"
      

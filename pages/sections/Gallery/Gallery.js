@@ -3,11 +3,12 @@ import React from 'react'
 import Iframe from "react-iframe";
 import react, { useEffect, useState } from "react";
 import { IoIosArrowRoundForward } from 'react-icons/io';
-import Link from 'next/link'
 import {
   VscArrowRight,
   VscArrowLeft,
 } from "react-icons/vsc";
+import Link from 'next/link'
+
 const Gallery = () => {
   const [next, setNext] = useState(false);
   useEffect(() => {
@@ -17,7 +18,7 @@ const Gallery = () => {
   return (
 
 
-    <>
+    <section className ="gallery">
     
         {next ? (
 
@@ -114,7 +115,7 @@ const Gallery = () => {
 
         )}
    
-    </>
+    </section>
 
 
   )
