@@ -210,45 +210,45 @@ const MaterialSpecifications = () => {
 
               </div>
       
-              <div className=" 2xl:p-10  p-2 mb-4  rounded-2xl text-xs sm:text-sm  text-gray-700  lg:text-sm xl:text-base 2xl:text-lg">
-                <div className="flex">
-              <div className=" text-center  xl:max-w-48 xl:mr-8 2xl:max-w-48 2xl:mr-16">
+              <div className="  grid grid-cols-3  grid-rows-2  justify-center rounded-2xl text-xs sm:text-sm  text-gray-700  lg:text-sm xl:text-base 2xl:text-lg">
+              
+              <div className=" text-center  flex justify-center flex-col items-center ">
                 <img className=" max-h-24 2xl:max-h-32 " src="/images/resort/specpic/Page - 08- Icon 1.jpg"></img>
                 <div className="flex flex-col">
                 <h2 className="text-center">100% </h2><h2>Treated Water</h2></div>
               </div>
-              <div className=" text-center 2xl:mr-24  xl:max-w-48 xl:mr-8 2xl:max-w-48">
+              <div className=" text-center  flex justify-center flex-col items-center ">
                 <img className=" max-h-24 2xl:max-h-32 " src="/images/resort/specpic/Page - 08- Icon 2.jpg"></img>
                 <div className="flex flex-col">
                 <h2 className="text-center">FTTH </h2><h2>Fibre To The Home</h2></div>
               </div>
-              <div className=" text-center  xl:max-w-48 2xl:max-w-48">
+              <div className=" text-center  flex justify-center flex-col items-center ">
                 <img className="max-h-24 2xl:max-h-32 " src="/images/resort/specpic/Page - 08- Icon 3.jpg"></img>
                 <div className="flex flex-col">
                 <h2 className="text-center">DG Backup for </h2><h2>common areas</h2></div>
               </div>
-              </div>
-              <div className="xl:mt-2 flex ">
-                <div className="text-center 2xl:mr-16 max- xl:max-w-48 xl:mr-8 2xl:max-w-48">
+             
+             
+                <div className="text-center  flex justify-center flex-col items-center  ">
                 <img className=" max-h-24 2xl:max-h-32 " src="/images/resort/specpic/Page - 08- Icon 4.jpg"></img>
                 <div className="flex flex-col">
                 <h2 className="text-center">Automated </h2><h2>Street Lighting</h2></div>
             
                 </div>
-                <div className="text-center 2xl:mr-16  xl:max-w-48 xl:mr-8 2xl:max-w-48">
+                <div className="text-center  flex justify-center flex-col items-center   ">
                 <img className=" max-h-24 2xl:max-h-32 " src="/images/resort/specpic/Page - 08- Icon 5.jpg"></img>
                 <div className="flex flex-col">
                 <h2 className="text-center">Automated </h2><h2>Watering</h2></div>
             
                 </div>
-                <div className="text-center   xl:max-w-48  2xl:max-w-48">
-                <img className=" max-h-24 2xl:max-h-40 " src="/images/resort/specpic/Page - 08- Icon 6.jpg"></img>
+                <div className="text-center  flex justify-center flex-col items-center    ">
+                <img className=" max-h-24 2xl:max-h-36 " src="/images/resort/specpic/Page - 08- Icon 6.jpg"></img>
                 <div className="flex flex-col">
                 <h2 className="text-center">Water Proofing and </h2><h2>Termite treatment</h2></div>
-            
                 </div>
+             
 
-              </div>
+              
               
               
               {/* </div> */}
