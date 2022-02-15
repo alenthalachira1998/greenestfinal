@@ -78,7 +78,7 @@ const FooterPage = () => {
         </div>
        
        <div className='lg:flex hidden font-thin  font-Open flex-col  justify-center'>
-           <div className='hidden lg:h-98 lg:flex' style={bg}><div className="flex-col pl-6 mt-3 text-white 2xl:text-2xl xl:text-lg desk:text-lg   ml-10 justify-center flex">  
+           <div className='hidden lg:h-screen lg:flex' style={bg}><div className="flex-col pl-6 mt-3 text-white 2xl:text-2xl xl:text-lg desk:text-lg   ml-10 justify-center flex">  
            <h1 className="font-medium   text-base sm:text-3xl 2xl:text-3xl xl:text-3xl xl:mb-4  mb-6 lg:mt-10" style={{ color: '#59a23e' }}>Distance from ONE</h1> 
             <p className="lg:py-2 xl:py-1 2xl:py-2 desk:py-1 "> Mannanthala
             &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#8202;&#8202;&#8202;&#8202;-&#160;4.7 km</p>
@@ -102,7 +102,7 @@ const FooterPage = () => {
                         <p className="lg:py-2 xl:py-1 2xl:py-2 desk:py-1">International Airport
                         &#160;&#160;&#160;&#160; -&#160;13.8 km</p></div>
                </div>
-          <div className= "lg:flex hidden   w-screen justify-between px-10 items-center pb-10 lg:pb-2 h-52">
+          <div className= "lg:flex hidden   w-screen justify-between px-10 items-center pb-10 lg:pb-10 h-52">
           <div className="text-sm  ml-4 lg:ml-0 mt-8  md:mt-4 text-gray-800 sm:text-base lg:text-xl"> <h1 className="font-medium text-sm sm:text-xl lg:text-2xl" >Contact us</h1><div>
                     <p >Greenest Buildings and Business Pvt Ltd,</p><p>
                         Nandavanam</p><p> Thiruvananthapuram - 695033</p>  <p className="flex"> <FaPhoneAlt className="mr-2" />0471-2991231, 8078079111</p><p className="flex"><AiOutlineMail className="mr-4" />mail@greenest.co.in</p></div></div>
