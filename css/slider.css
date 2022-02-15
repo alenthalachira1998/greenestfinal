@@ -30,9 +30,22 @@
   .slick-arrow:hover {
     background-color: grey;
   }
+  @media only screen and (min-width: 1024px) {
   .slick-prev {
     z-index: 100;
-    left: 20px !important;
+    left: 22px !important;
+   
+  }
+ .slick-next {
+    z-index: 100;
+    right: 70px !important;
+   
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .slick-prev {
+    z-index: 100;
+    left: 22px !important;
    
   }
  .slick-next {
@@ -40,12 +53,13 @@
     right: 60px !important;
    
   }
+}
 
   
   @media only screen and (min-width: 1024px) {
     .slick-prev:before, .slick-next:before {
       font-family: 'slick';
-      font-size: 40px !important;
+      font-size: 48px !important;
       line-height: 1;
       opacity: .95 !important;
       color: black;

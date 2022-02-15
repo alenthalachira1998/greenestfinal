@@ -77,30 +77,30 @@ const FooterPage = () => {
                 <img src='/images/resort/Page - 04 Improved-01.jpg' className='lg:h-36 hidden lg:flex sm:h-28 h-24  self-center ' />      </div>
         </div>
        
-       <div className='lg:flex hidden font-thin  font-Open flex-col  mt-20 justify-center'>
-           <div className='hidden lg:h-95 lg:flex' style={bg}><div className="flex-col pl-6 mt-3 text-white text-2xl  flex">  
-           <h1 className="font-medium   text-base sm:text-3xl lg:text-3xl   lg:mt-10" style={{ color: '#59a23e' }}>Distance from ONE</h1> 
+       <div className='lg:flex hidden font-thin  font-Open flex-col  justify-center'>
+           <div className='hidden lg:h-98 lg:flex' style={bg}><div className="flex-col pl-6 mt-3 text-white text-2xl    ml-10 justify-center flex">  
+           <h1 className="font-medium   text-base sm:text-3xl lg:text-3xl  mb-6 lg:mt-10" style={{ color: '#59a23e' }}>Distance from ONE</h1> 
             <p className="lg:py-2"> Mannanthala
-                            - 4.7 km</p>
+            &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#8202;&#8202;&#8202;&#8202;-&#160;4.7 km</p>
 
                         <p className="lg:py-2">Sreekaryam
-                            -5.3 km</p>
-                            <p className="lg:py-2">Technopark
-                            - 7.5 km</p>
-                        <p className="lg:py-2">Sabarigiri International School
-                            - 1.4 km</p>
-                        <p className="lg:py-2">College of Engineering Trivandrum
-                            - 6.8 km</p>
+                        &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#8202;&#8202;-&#160;5.3 km</p>
+                            <p className="lg:py-2">Technopark&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#8202;&#8202;
+                            -&#160;7.5 km</p>
+                        <p className="lg:py-2">Sabarigiri INT School
+                        &#160;&#160;&#8202;-&#160;1.4 km</p>
+                        <p className="lg:py-2">College of ENGG TVM
+                            -&#160;6.8 km</p>
                       
                             <p className="lg:py-2">Pothencode
-                            - 5.8 km</p>
+                            &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#8202;&#8202;&#8202;&#8202;-&#160;5.8 km</p>
                         <p className="lg:py-2">Medical College
-                            - 8.8 km</p>
+                        &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; &#8202;&#8202;-&#160;8.8 km</p>
 
-                        <p className="lg:py-2">LULU Mall
-                            - 12.4 km</p>
+                        <p className="lg:py-2">LULU Mall&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#8202;&#8202;&#8202;&#8202;&#8202;
+                            -&#160;12.4 km</p>
                         <p className="lg:py-2">International Airport
-                            - 13.8 km</p></div>
+                        &#160;&#160;&#160;&#160; -&#160;13.8 km</p></div>
                </div>
           <div className= "lg:flex hidden   w-screen justify-between px-10 items-center pb-10 lg:pb-2 h-52">
           <div className="text-sm  ml-4 lg:ml-0 mt-8  md:mt-4 text-gray-800 sm:text-base lg:text-xl"> <h1 className="font-medium text-sm sm:text-xl lg:text-2xl" >Contact us</h1><div>
@@ -108,8 +108,8 @@ const FooterPage = () => {
                         Nandavanam</p><p> Thiruvananthapuram - 695033</p>  <p className="flex"> <FaPhoneAlt className="mr-2" />0471-2991231, 8078079111</p><p className="flex"><AiOutlineMail className="mr-4" />mail@greenest.co.in</p></div></div>
 
      
-                        <div className="flex flex-col pb-4  ml-4 lg:ml-0  md:max-w-48 justify-center text-sm sm:text-base lg:text-xl"> <div className=" lg:text-2xl sm:text-base text-sm font-medium flex 4 mt-2 items-center">
-                    <div className="mr-2  lg:mr-8">About</div><div className="mr-2">Blog</div><div className="flex lg:hidden lg:mx-0 md:ml-2 mx-2"><Link href="https://youtu.be/TjOALPVpDNo">
+                        <div className="flex flex-col pb-4  ml-4 lg:ml-0  md:max-w-48 justify-center text-sm sm:text-base lg:text-xl items-center"> <div className=" lg:text-2xl sm:text-base text-sm mb-4 font-medium flex 4  mt-2 items-center">
+                    <div className="mr-2  lg:mr-8">About</div><div className="mr-8">Blog</div><div className="flex lg:hidden lg:mx-0 md:ml-2 mx-2"><Link href="https://youtu.be/TjOALPVpDNo">
                         <a className="hover:text-pink-600  text-2xl hover:animate-ping mx-2"><AiFillYoutube /></a></Link></div><div className="text-xl flex lg:hidden mx-2 md:mx-0"><Link href="https://www.facebook.com/GreenestBuildings/">
                             <a className="hover:text-blue-400   text-2xl hover:animate-ping"><FaFacebookF /></a>
                         </Link></div><div className="   text-2xl flex lg:hidden mx-2 "> <Link href="https://www.facebook.com/GreenestBuildings/">

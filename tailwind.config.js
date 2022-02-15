@@ -90,7 +90,8 @@ module.exports = {
        height:{
          '95':'95vh',
          '90':'90vh',
-         '75':'75vh'
+         '75':'75vh',
+         '98':'98vh'
        },
 
         screens: {
@@ -100,7 +101,7 @@ module.exports = {
           'lphone': {'raw': '(min-height: 750px),(min-width:365px)'},
           'landsc': {'raw': '(max-height: 1234px),(min-width:920px)'},
           'tb': {'raw': '(min-height: 1024px) and (min-width:789px)'},
-          'desk':{'raw': '(min-width: 1536px) and (max-height: 900px)'},
+          'desk':{'raw': '(min-width: 1536px) and (max-width: 1700px)'},
           
           
         

@@ -74,12 +74,12 @@ export default class SimpleSlider extends Component {
 <div className="absolute bg-black h-full lg:h-screen w-full opacity-5 flex flex-col items-center justify-center"></div>
 <div className="relative ">
 
-<div className="flex-col w-screen flex h-screen items-center">
+<div className="flex-col  w-screen flex h-screen items-center">
 
-  <h1 className="mt-40 mb-0  sm:mb-10 text-2xl sm:text-5xl  2xl:text-6xl">FOR YOUR NEXT HOLIDAY</h1>
-  <h1 className="font-Tourney  sm:-mt-5 mt-2 mb-2 sm:mb-10 text-4xl sm:text-7xl 2xl:text-8xl ">&quot;COME HOME&quot;</h1>
+  <h1 className="xl:mt-32 2xl:mt-36 mt-36  mb-0  desk:text-5xl sm:mb-10 text-2xl sm:text-5xl  xl:4xl 2xl:text-6xl">FOR YOUR NEXT HOLIDAY</h1>
+  <h1 className="font-Tourney  sm:-mt-5 mt-2 mb-2 desk:text-7xl xl:text-6xl sm:mb-10 text-4xl sm:text-7xl 2xl:text-8xl ">&quot;COME HOME&quot;</h1>
   <h1 className="font-Caveat sm:-mt-5 text-xl sm:text-3xl">Introducing</h1>
-  <img  className="  2xl:w-56 lg:w-48  z-30 w-36 drop-shadow-xl "src="/images/OneLogo.png"/>
+  <img  className="  2xl:w-56 lg:w-48 xl:w-44  desk:w-40 z-30 w-36 drop-shadow-xl "src="/images/OneLogo.png"/>
 
  {/* <span className="  z-20 flex flex-col w-screen h-screen sm:text-4xl text-3xl  md:text-5xl lg:text-6xl  text-gray-400  font-thin animate-pulse "><span className="absolute bottom-2/4"><BiMouse className="" /><p className="lg:text-sm md:text-base text-xs font-bold ">ScrollPrev</p></span></span>  */}
            </div>
@@ -135,7 +135,7 @@ export default class SimpleSlider extends Component {
 
 <div className="flex-col w-screen flex h-screen items-center">
 
-  <h1 className="sm:mb-5 text-2xl sm:text-5xl text-gray-900 mt-48 lg:text-6xl font-semibold">Panoramic Views</h1>
+  <h1 className="sm:mb-5 text-2xl sm:text-5xl xl:mt-32 2xl:mt-44 text-gray-900 mt-48 lg:text-6xl font-semibold">Panoramic Views</h1>
   <h2 className="mt-2 font-medium  text-base sm:text-3xl text-gray-900 lg:text-5xl">From Sunrise to Sunset</h2>
 
  
