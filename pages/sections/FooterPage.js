@@ -23,7 +23,7 @@ const FooterPage = () => {
         <div className="lg:hidden flex-col  font-Open   flex lg:h-screen h-full w-screen ">
             <div className="  lg:mt-36  mt-10 md:mt-28 lg:flex-row flex-col flex  justify-center h-3/5  ">
                 <div className="flex mx-4 lg:mx-0 flex-col mr-20">
-                    <h1 className="font-medium   text-base sm:text-2xl lg:text-4xl  mt-8 md:mt-2  lg:mt-0" style={{ color: '#59a23e' }}>Distance from ONE</h1>
+                    <h1 className="font-medium   text-base sm:text-2xl  lg:text-4xl  mt-8 md:mt-2  lg:mt-0" style={{ color: '#59a23e' }}>Distance from ONE</h1>
 
                     <div className="  text-xs xxxs:text-sm lg:mt-10   text-gray-800 sm:text-base lg:text-xl" >
                         <p className="lg:py-2 "> Mannanthala
@@ -78,28 +78,28 @@ const FooterPage = () => {
         </div>
        
        <div className='lg:flex hidden font-thin  font-Open flex-col  justify-center'>
-           <div className='hidden lg:h-98 lg:flex' style={bg}><div className="flex-col pl-6 mt-3 text-white text-2xl    ml-10 justify-center flex">  
-           <h1 className="font-medium   text-base sm:text-3xl lg:text-3xl  mb-6 lg:mt-10" style={{ color: '#59a23e' }}>Distance from ONE</h1> 
-            <p className="lg:py-2"> Mannanthala
+           <div className='hidden lg:h-98 lg:flex' style={bg}><div className="flex-col pl-6 mt-3 text-white 2xl:text-2xl xl:text-lg desk:text-lg   ml-10 justify-center flex">  
+           <h1 className="font-medium   text-base sm:text-3xl 2xl:text-3xl xl:text-3xl xl:mb-4  mb-6 lg:mt-10" style={{ color: '#59a23e' }}>Distance from ONE</h1> 
+            <p className="lg:py-2 xl:py-1 2xl:py-2 desk:py-1 "> Mannanthala
             &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#8202;&#8202;&#8202;&#8202;-&#160;4.7 km</p>
 
-                        <p className="lg:py-2">Sreekaryam
+                        <p className="lg:py-2 xl:py-1 2xl:py-2 desk:py-1">Sreekaryam
                         &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#8202;&#8202;-&#160;5.3 km</p>
-                            <p className="lg:py-2">Technopark&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#8202;&#8202;
+                            <p className="lg:py-2 xl:py-1 2xl:py-2 desk:py-1">Technopark&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#8202;&#8202;
                             -&#160;7.5 km</p>
-                        <p className="lg:py-2">Sabarigiri INT School
+                        <p className="lg:py-2 xl:py-1 2xl:py-2 desk:py-1">Sabarigiri INT School
                         &#160;&#160;&#8202;-&#160;1.4 km</p>
-                        <p className="lg:py-2">College of ENGG TVM
+                        <p className="lg:py-2 xl:py-1 2xl:py-2 desk:py-1">College of ENGG TVM
                             -&#160;6.8 km</p>
                       
-                            <p className="lg:py-2">Pothencode
+                            <p className="lg:py-2 xl:py-1 2xl:py-2 desk:py-1">Pothencode
                             &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#8202;&#8202;&#8202;&#8202;-&#160;5.8 km</p>
-                        <p className="lg:py-2">Medical College
+                        <p className="lg:py-2 xl:py-1 2xl:py-2 desk:py-1">Medical College
                         &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; &#8202;&#8202;-&#160;8.8 km</p>
 
-                        <p className="lg:py-2">LULU Mall&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#8202;&#8202;&#8202;&#8202;&#8202;
+                        <p className="lg:py-2 xl:py-1 2xl:py-2 desk:py-1">LULU Mall&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#8202;&#8202;&#8202;&#8202;&#8202;
                             -&#160;12.4 km</p>
-                        <p className="lg:py-2">International Airport
+                        <p className="lg:py-2 xl:py-1 2xl:py-2 desk:py-1">International Airport
                         &#160;&#160;&#160;&#160; -&#160;13.8 km</p></div>
                </div>
           <div className= "lg:flex hidden   w-screen justify-between px-10 items-center pb-10 lg:pb-2 h-52">
