@@ -4,8 +4,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 ;
 import {
-  VscArrowRight,
-  VscArrowLeft,
+  VscArrowLeft
 } from "react-icons/vsc";
 const image1 = () => {
   return <div>
@@ -21,18 +20,19 @@ const image1 = () => {
       <div className="absolute pl-2 pr-2 pb-2 pt-4 lg:px-4 lg:pb-4 lg:pt-6 flex w-screen justify-between ">
  <Link href='/'><a className="z-50"><img src="/logoo.png" className="md:ml-4 ml-2 md:w-8 w-8 h-auto  md:h-auto  drop-shadow-2xl brightness-150 saturate-200 "/></a></Link>
      <div className="z-40"></div> 
-        <div className="flex text-3xl mr-3  lg:text-5xl text-gray-200 ">
+        <div className="flex  text-3xl mr-3  lg:text-5xl text-gray-200 ">
      
        <Menuu/>
        
         </div>
       </div>
-      <div className="w-screen flex justify-center   items-center h-screen">
-    <VscArrowRight/>  <img className="h-auto lg:h-75 w-screen  lg:w-auto"
+      <div className="w-screen  lg:flex-row-reverse flex-col flex justify-center   items-center h-screen">
+     <img className="h-auto lg:h-75 w-screen  lg:w-auto"
     
       src="/images/resort/gallery/Page - 06 Green policy-06.jpg"
      
     />
+      <Link className="z-30  " href='/#slide8'><a><VscArrowLeft className=" lg:mt-0 lg:text-6xl lg:mx-4 mt-7 text-4xl"/></a></Link>
     </div>
  
   </div>

@@ -1,8 +1,12 @@
+
 import Menuu from 'components/Menuu';
 import React from 'react';
 import Image from 'next/image'
-;
 import Link from 'next/link'
+;
+import {
+  VscArrowLeft
+} from "react-icons/vsc";
 const image7 = () => {
   return <div>
   

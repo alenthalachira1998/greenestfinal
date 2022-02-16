@@ -72,12 +72,16 @@ export default function Home() {
 
       <ReactFullpage
         licenseKey="6E5201D5-E37447CD-AE1913F6-91AFE3AA"
-        scrollSpeed={1000}
-        navigation="true"
+        scrollSpeed={700}
+        navigation={true}
         scrollOverflow={true}
+       
+      
+          
+       
         render={({ state, fullpageApi }) => {
           return (
-            <div id="fullpage-wrapper">
+            <ReactFullpage.Wrapper>
               {/*
               
 
@@ -96,38 +100,38 @@ export default function Home() {
               <div className="section">
               <DesignFeatures/>
               </div> */}
-              <div className="section overflow-hidden">
+              <div data-anchor="slide1" id="section1"className="section overflow-hidden">
            <SimpleSlider/>
               </div>
-               <div className="section overflow-hidden">
+               <div data-anchor="slide2" id="section2"className="section overflow-hidden">
                <HomePageGreen/>
               </div>
               
-               <div className="section">
+               <div data-anchor="slide3" id="section3" className="section">
                 <ElegantResortLiving />
               </div>
-              <div className="section">
+              <div data-anchor="slide4" id="section4" className="section">
                <ImprovedQualityOfSpace/>
               </div>
-              <div className="section">
+              <div  data-anchor="slide5" id="section5"className="section">
               <LowLivingCost/>
               </div>
-              <div className="section">
+              <div data-anchor="slide6" id="section6" className="section">
               <GreenPolicy/>
               </div>
              
            
             
           
-              <div className="section">
+              <div  data-anchor="slide7" id="section7" className="section">
         <MaterialSpecifications/>
               </div>
 
-              <div className="section">
+              <div  data-anchor="slide8" id="section8" className=" overflow-hidden section">
         <Gallery/>
               </div>
               
-              <div className="section">
+              <div  data-anchor="slide9" id="section9" className="section">
          <FooterPage/>
               </div>
           
@@ -148,8 +152,7 @@ export default function Home() {
               
              
               
-            
-            </div>
+              </ReactFullpage.Wrapper>
              
           );
         }}

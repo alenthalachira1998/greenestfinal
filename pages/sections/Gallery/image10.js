@@ -3,6 +3,9 @@ import React from 'react';
 import Image from 'next/image'
 import Link from 'next/link'
 ;
+import {
+  VscArrowLeft
+} from "react-icons/vsc";
 const image10 = () => {
   return <div>
   
@@ -31,15 +34,16 @@ const image10 = () => {
           </Link> */}
         </div>
       </div>
-      <div className="w-screen flex justify-center   items-center h-screen">
-      <img className="h-auto lg:h-75 w-screen  lg:w-auto"
+        <div className="w-screen  lg:flex-row-reverse flex-col flex justify-center   items-center h-screen">
+     <img className="h-auto lg:h-75 w-screen  lg:w-auto"
     
       src="/images/resort/gallery/Page - 04 Improved-03.jpg"
-     
-    />
+       />
+      <Link className="z-30  " href='/#slide8'><a><VscArrowLeft className=" lg:mt-0 lg:text-6xl lg:mx-4 mt-7 text-4xl"/></a></Link>
     </div>
  
   </div>
+
 
 };
 

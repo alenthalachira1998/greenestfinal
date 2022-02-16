@@ -18,7 +18,7 @@ const Gallery = () => {
   return (
 
 
-    <section className ="gallery">
+    <section id="gallery" className ="h-screen overflow-hidden">
     
         {next ? (
 
