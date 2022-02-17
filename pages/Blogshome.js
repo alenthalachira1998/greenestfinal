@@ -3,7 +3,7 @@ import { useGetBlogsPages } from 'actions/pagination';
 import { getAllBlogs } from 'lib/api';
 import { AiOutlineInstagram } from "react-icons/ai";
 import { AiOutlineFacebook } from "react-icons/ai";
-import Menu2 from "../components/Menu2";
+import Menuu from "../components/Menuu";
 import Link from 'next/link'
 export default function BlogsHome({blogs}) {
 
@@ -17,7 +17,24 @@ export default function BlogsHome({blogs}) {
   return (
     <>
     <Pagelayout>
-    <div className="absolute bg-black pb-4  overflow-x-hidden  lg:top-0  w-full flex justify-center z-10">
+    <div className="absolute bg-white top-4 w-screen  lg:right-10 text-center flex justify-center  z-10">
+        <img
+          src="/logo.png"
+          alt="Picture of the author"
+          className=" md:h-14 md:w-auto  h-10 w-32"
+        />
+         
+      </div>
+      <div className="absolute pl-2 pr-2 pb-2 pt-4 lg:px-4 lg:pb-4 lg:pt-6 flex w-screen justify-between ">
+ <Link href='/'><a className="z-50"><img src="/logoo.png" className="md:ml-4 ml-2 md:w-8 w-8 h-auto  md:h-auto  drop-shadow-2xl brightness-150 saturate-200 "/></a></Link>
+     <div className="z-40"></div> 
+        <div className="flex  text-3xl mr-3  lg:text-5xl text-gray-200 ">
+     
+       <Menuu/>
+       
+        </div>
+      </div>
+    {/* <div className="absolute bg-black pb-4  overflow-x-hidden  lg:top-0  w-full flex justify-center z-10">
         <img
           src="/logo.png"
           alt="Picture of the author"
@@ -39,8 +56,8 @@ export default function BlogsHome({blogs}) {
           </a>
           </Link>
         </div>
-      </div>
-      
+      </div> */}
+    
       {/* {JSON.stringify(blogs)} */}
       {/* <Head>
         <title>Create Next App</title>
@@ -101,7 +118,7 @@ export default function BlogsHome({blogs}) {
           </span>
         </a>
       </footer> */}
-      <div className="  relative lg:px-28 lg:py-20 py-14 mb-2   text-white grid grid-cols-1  md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-4 gap-5">
+      <div className=" mt-12 relative lg:px-28 lg:py-20 py-14 mb-2   text-white grid grid-cols-1  md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-4 gap-5">
       {pages}
       <div className=" absolute text-center text-white  left-1/2 transform  -translate-x-1/2 bottom-0  bg-green-500  px-4 py-2  ">
     <button
