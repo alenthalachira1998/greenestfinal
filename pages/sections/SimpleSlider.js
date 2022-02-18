@@ -129,7 +129,7 @@ export default class SimpleSlider extends Component {
           </div>
           <div>
           <div>
-            <h3><div className="h-screen  w-screen lg:h-screen relative" style={bgThree}>
+            <h3><div className="h-screen overflow-y-clip  w-screen lg:h-screen relative" style={bgThree}>
 <div className="absolute bg-black h-full lg:h-screen w-full opacity-5 flex flex-col items-center justify-center"></div>
 <div className="relative ">
 
