@@ -9,14 +9,14 @@ backgroundImage: 'url("/images/resort/Home.jpg")',
 backgroundSize: 'cover',
 backgroundPosition: 'center',
 backgroundRepeat: 'no-repeat',
-height:'100vh',
+height:'100%',
 
 
 
 }
 
 return (
-<section id="home absolute">
+<section id="home" className="inset-0 absolute">
 
 <div className=" relative" style={bg}>
 <div className="absolute bg-black  w-full opacity-5 flex flex-col items-center justify-center h-full"></div>
