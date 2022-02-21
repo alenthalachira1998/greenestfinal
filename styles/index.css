@@ -9,11 +9,15 @@
 
     color: black
   } */
-  .hscreen {
-    height:'100vh';
-    height:'-webkit-fill-available;';
-}
+
 .bgbr
 {
     color:'yellow';
+}
+body {
+  min-height: 100vh;
+  min-height: '-webkit-fill-available';
+}
+html {
+  height: '-webkit-fill-available';
 }
