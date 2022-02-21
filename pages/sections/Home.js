@@ -67,9 +67,9 @@ return (
 <section id="home overflow-hidden">
 
 <div className=" relative" style={bg}>
-<div className="absolute bg-black  w-full opacity-5 flex flex-col items-center justify-center" style={height}></div>
+<div className="absolute bg-black  w-full opacity-5 flex flex-col items-center justify-center" style={ht}></div>
 <div className="relative ">
-<div className="flex-col flex   text-center " style={height}>
+<div className="flex-col flex   text-center " style={ht}>
 
 <div className=" text-gray-800 mt-36  3xl:mt-72 lg:text-xl 3xl:text-9xl desk:text-xl xl:mt-28  2xl:mt-32 tb:text-2xl  xl:text-xl  2xl:text-3xl  text-sm  2xl:font-normal flex flex-col items-center justify-center  " >
 &quot;Lets build a Home <br/> that sings with the rain<br/> hums with the Earth<br/> and sieving the sun, for night.&quot;<br/>
