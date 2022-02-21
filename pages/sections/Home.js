@@ -53,13 +53,13 @@ backgroundSize: 'cover',
 backgroundPosition: 'center',
 backgroundRepeat: 'no-repeat',
 height:'100vh',
-
+height:'-webkit-fill-available;'
 
 
 }
 
 return (
-<section id="home">
+<section id="home overflow-hidden">
 
 <div className=" relative" style={bg}>
 <div className="absolute bg-black  w-full opacity-5 flex flex-col items-center justify-center" style={{'height':'100vh','height':'-webkit-fill-available;'}}></div>
