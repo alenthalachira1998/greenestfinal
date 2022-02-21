@@ -17,7 +17,7 @@ export default function BlogsHome({blogs}) {
   return (
     <>
     <Pagelayout>
-    <div className="absolute bg-white top-4 w-screen  lg:right-10 text-center flex justify-center  z-10">
+    <div className="absolute bg-white p-4 w-screen  lg:right-10 text-center flex justify-center  z-10">
         <img
           src="/logo.png"
           alt="Picture of the author"
