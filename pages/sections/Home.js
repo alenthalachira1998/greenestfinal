@@ -15,8 +15,7 @@ height: '-webkit-fill-available'
 
 
 }
-ht=
-{   
+const ht = {   
     height: '100vh',
     height: '-webkit-fill-available'
 }
