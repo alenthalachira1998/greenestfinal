@@ -10,6 +10,7 @@ backgroundSize: 'cover',
 backgroundPosition: 'center',
 backgroundRepeat: 'no-repeat',
 height:'100vh',
+height: '-webkit-fill-available'
 
 
 
