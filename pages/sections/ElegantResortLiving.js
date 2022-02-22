@@ -5,10 +5,10 @@ const ElegantResortLiving = () => {
     return (
         <>
          
-            <section className="elegant-resort-living ">
+            <section className="absolute inset-0" id="elegant-resort-living ">
          
-           <div className="flex flex-col  w-screen h-screen">
-                <div className="flex  w-screen h-screen ">
+           <div className="flex flex-col  w-screen h-full">
+                <div className="flex  w-screen h-full ">
                 <div className="  hidden justify-center transform rotate-180 items-center vtext lg:flex lg:m-4 xl:ml-0 2xl:ml-2  w-10 md:w-36">
                 <h1 className="text-gray-300 xl:font-bold 2xl:text-8xl xl:text-6xl  desk:text-7xl sm:text-5xl md:text-6xl font-medium  text-center   ">
                             
@@ -39,8 +39,8 @@ const ElegantResortLiving = () => {
                             <div className="  flex justify-center 2xl:w-auto  xl:h-48 2xl:h-72 desk:h-60 flex-col text-gray-700 2xl-mb-8 lg:mb-4 xl:mt-24 mt-20 md:mt-36 ">    <img className=" shadow-xl resize-none  rounded-2xl border-2xl   h-full w-full     object-cover   " src="../images/resort/Work from Nature_6_11zon.jpg" ></img><p className=" text-xs xs:text-sm text-center  whitespace-nowrap 2xl:text-lg lg:text-base lg:pt-2">Work from <br/>Nature  Zone</p></div>
                             <div className="  flex justify-center 2xl:w-auto  xl:h-48 2xl:h-72 desk:h-60 flex-col text-gray-700 2xl-mb-8 lg:mb-4 xl:mt-24  ">     <img className=" shadow-xl resize-none  rounded-2xl border-2xl   h-full w-full     object-cover   " src="../images/resort/Recreational pond_4_11zon.jpg" ></img><p className="text-xs xs:text-sm text-center  whitespace-nowrap 2xl:text-lg lg:text-base lg:pt-2">Recreational Pond <br/>and waterfall  </p></div>   
                             <div className="  flex justify-center 2xl:w-auto  xl:h-48 2xl:h-72 desk:h-60 flex-col text-gray-700     "><img className=" shadow-xl resize-none  rounded-2xl border-2xl   h-full w-full     object-cover   " src="../images/resort/Miawaki_3_11zon.jpg" ></img><p className="text-xs xs:text-sm text-center  whitespace-nowrap 2xl:text-lg lg:text-base lg:pt-2">Miawaki Fruit <br/>Forest</p></div> 
-                            <div className="  flex justify-center 2xl:w-auto  xl:h-48 2xl:h-72 desk:h-60 flex-col text-gray-700    mb-16 sm:mb-5 "> <img className=" shadow-xl resize-none  rounded-2xl border-2xl   h-full w-full     object-cover   " src="../images/resort/Club house_1_11zon.jpg" ></img><p className="text-xs xs:text-sm text-center  whitespace-nowrap 2xl:text-lg lg:text-base lg:pt-2">Fully Equipped<br/> Clubhouse</p></div>
-                            <div className="  flex justify-center 2xl:w-auto  xl:h-48 2xl:h-72 desk:h-60 flex-col text-gray-700    mb-16 sm:mb-5  "> <img className=" shadow-xl resize-none  rounded-2xl border-2xl   h-full w-full     object-cover   " src="../images/resort/Infinity Pond_2_11zon.jpg" ></img><p className="text-xs xs:text-sm text-center  whitespace-nowrap 2xl:text-lg lg:text-base lg:pt-2">Infinity Pond <br/> &#160; &#160; &#160;</p></div>
+                            <div className="  flex justify-center 2xl:w-auto  xl:h-48 2xl:h-72 desk:h-60 flex-col text-gray-700   mb-5 lg:mb-0 "> <img className=" shadow-xl resize-none  rounded-2xl border-2xl   h-full w-full     object-cover   " src="../images/resort/Club house_1_11zon.jpg" ></img><p className="text-xs xs:text-sm text-center  whitespace-nowrap 2xl:text-lg lg:text-base lg:pt-2">Fully Equipped<br/> Clubhouse</p></div>
+                            <div className="  flex justify-center 2xl:w-auto  xl:h-48 2xl:h-72 desk:h-60 flex-col text-gray-700   mb-5 lg:mb-0  "> <img className=" shadow-xl resize-none  rounded-2xl border-2xl   h-full w-full     object-cover   " src="../images/resort/Infinity Pond_2_11zon.jpg" ></img><p className="text-xs xs:text-sm text-center  whitespace-nowrap 2xl:text-lg lg:text-base lg:pt-2">Infinity Pond <br/> &#160; &#160; &#160;</p></div>
                     </div>
                                    
 

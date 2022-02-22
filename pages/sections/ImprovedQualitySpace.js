@@ -69,9 +69,9 @@ const ImprovedQualitySpace = () => {
     return (
         <>
       
-            <section className="low-living-cost ">
-           <div className="flex flex-col h-screen w-screen">
-                <div className="flex h-screen w-screen   ">
+            <section id="low-living-cost " className="absolute inset-0">
+           <div className="flex flex-col h-full w-screen">
+                <div className="flex h-full w-screen   ">
                <div className="  hidden justify-center transform rotate-180 items-center vtext lg:flex lg:m-4 xl:ml-0 2xl:ml-2  w-10 md:w-36">
                 {/* <h1 className="text-gray-300 xl:font-bold 2xl:text-8xl xl:text-6xl  desk:text-7xl sm:text-5xl md:text-6xl font-medium  text-center   "> */}
                 <h1 className="text-gray-300 xl:font-bold 2xl:text-8xl xl:text-6xl  desk:text-7xl sm:text-5xl md:text-6xl font-medium  text-center  ">  
@@ -105,8 +105,8 @@ const ImprovedQualitySpace = () => {
                             <div className="  flex justify-center 2xl:w-auto  xl:h-48 2xl:h-72 desk:h-60 flex-col text-gray-700 2xl-mb-8 lg:mb-4 xl:mt-24 mt-20 md:mt-36 "> <img className=" shadow-xl resize-none  rounded-2xl border-2xl   h-full w-full     object-cover   " src="../images/resort/featurepic/Page - 04 Improved-02-min.jpg" ></img><p className="text-xs xs:text-sm text-center whitespace-nowrap  2xl:text-lg lg:text-base lg:pt-2">Excellent <br/>Day lighting  </p></div>
                             <div className="  flex justify-center 2xl:w-auto  xl:h-48 2xl:h-72 desk:h-60 flex-col text-gray-700 2xl-mb-8 lg:mb-4 xl:mt-24  "> <img className=" shadow-xl resize-none  rounded-2xl border-2xl   h-full w-full     object-cover   " src="../images/resort/featurepic/Page - 04 Improved-03-min.jpg" ></img><p className="text-xs xs:text-sm text-center whitespace-nowrap  lg:text-base lg:pt-2">Improved Air  <br /> Quality</p></div>
                             <div className="  flex justify-center 2xl:w-auto  xl:h-48 2xl:h-72 desk:h-60 flex-col text-gray-700    "> <img className="shadow-xl resize-none  rounded-2xl border-2xl   h-full w-full     object-cover    " src="../images/resort/featurepic/Page - 04 Improved-04 1.png" ></img><p className="text-xs xs:text-sm text-center  whitespace-nowrap 2xl:text-lg   lg:text-base lg:pt-2">Smart <br /> Secutity </p></div>
-                            <div className="  flex justify-center 2xl:w-auto  xl:h-48 2xl:h-72 desk:h-60 flex-col text-gray-700    mb-16 sm:mb-5 "> <img className=" shadow-xl resize-none  rounded-2xl border-2xl   h-full w-full     object-cover   " src="../images/resort/featurepic/Page - 04 Improved-06-min.png" ></img><p className="text-xs xs:text-sm text-center 2xl:text-lg   lg:text-base lg:pt-2 whitespace-nowrap">External Quality <br/>Assurance</p></div>
-                            <div className="  flex justify-center 2xl:w-auto  xl:h-48 2xl:h-72 desk:h-60 flex-col text-gray-700    mb-16 sm:mb-5  "> <img className=" shadow-xl resize-none  rounded-2xl border-2xl   h-full w-full     object-cover   " src="../images/resort/featurepic/Page - 04 Improved-05-min.jpg" ></img><p className="text-xs xs:text-sm text-center 2xl:text-lg whitespace-nowrap  lg:text-base lg:pt-2">Biophilic Design <br /> Approach</p></div>
+                            <div className="  flex justify-center 2xl:w-auto  xl:h-48 2xl:h-72 desk:h-60 flex-col text-gray-700   lg:mb-0 mb-5 "> <img className=" shadow-xl resize-none  rounded-2xl border-2xl   h-full w-full     object-cover   " src="../images/resort/featurepic/Page - 04 Improved-06-min.png" ></img><p className="text-xs xs:text-sm text-center 2xl:text-lg   lg:text-base lg:pt-2 whitespace-nowrap">External Quality <br/>Assurance</p></div>
+                            <div className="  flex justify-center 2xl:w-auto  xl:h-48 2xl:h-72 desk:h-60 flex-col text-gray-700   lg:mb-0 mb-5  "> <img className=" shadow-xl resize-none  rounded-2xl border-2xl   h-full w-full     object-cover   " src="../images/resort/featurepic/Page - 04 Improved-05-min.jpg" ></img><p className="text-xs xs:text-sm text-center 2xl:text-lg whitespace-nowrap  lg:text-base lg:pt-2">Biophilic Design <br /> Approach</p></div>
 
                     </div>
                                    

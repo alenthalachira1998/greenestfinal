@@ -35,7 +35,7 @@ const image8 = () => {
           </Link> */}
         </div>
       </div>
-        <div className="w-screen  lg:flex-row-reverse flex-col flex justify-center   items-center h-screen">
+        <div className="w-screen  lg:flex-row-reverse flex-col flex justify-center  xl:mt-10  items-center h-full absolute inset-0">
      <img className="h-auto lg:h-75 w-screen  lg:w-auto"
     
       src="/images/resort/gallery/Page - 03-04.jpg"

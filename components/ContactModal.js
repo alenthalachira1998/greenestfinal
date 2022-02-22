@@ -50,10 +50,10 @@ export default function ContactModal(props) {
       <Transition appear show={isOpen} transition={Fragment}>
         <Dialog
           as="div"
-          className="fixed inset-0 z-30 overflow-scroll " style={Zindex}
+          className="absolute inset-0 z-30  overflow-hidden " style={Zindex}
           onClose={closeModal}
         >
-          <div className="max-h-screen z-50 px-4 text-center" >
+          <div className="max-h-full z-50 px-4 text-center" >
             <Transition.Child
               as={Fragment}
               enter="ease-out duration-300"
@@ -68,7 +68,7 @@ export default function ContactModal(props) {
 
             {/* This element is to trick the browser into centering the modal contents. */}
             <span
-              className="inline-block h-screen align-middle"
+              className="inline-block h-full align-middle"
               aria-hidden="true"
             >
               &#8203;
@@ -82,7 +82,7 @@ export default function ContactModal(props) {
               leaveFrom="opacity-100 scale-100"
               leaveTo="opacity-0 scale-95"
             >
-              <div className="inline-block md:h-auto md:w-auto w-full h-full z-50  bg-gray-800 px-4 pt-2 pb-3 lg:px-4  overflow-hidden text-left align-middle transition-all transform  shadow-xl " >
+              <div className="inline-block  lg:mt-36  mt-20 mt  align-middle  md:h-auto md:w-auto w-full h-full z-50   bg-gray-800 px-4 pt-2 pb-3 lg:px-4  overflow-hidden text-left  transition-all transform  shadow-xl " >
                 {/* <Dialog.Title
                   as="h3"
                   className="text-lg font-medium leading-6 text-gray-900"
@@ -102,7 +102,7 @@ export default function ContactModal(props) {
                */}
                 {/* </Dialog.Title> */}
 
-                <div className="mt-2">
+                <div className=" align-middle mt-2">
 
 
                  <div className="">

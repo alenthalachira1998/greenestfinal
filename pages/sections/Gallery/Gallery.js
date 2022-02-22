@@ -18,13 +18,13 @@ const Gallery = () => {
   return (
 
 
-    <section id="gallery" className ="h-screen overflow-hidden">
+    <section id="gallery" className ="overfloe-hidden">
     
         {next ? (
 
-          <div className="flex flex-col  h-screen w-screen">
+          <div className="flex  absolute flex-col inset-0  h-full w-screen">
 
-            <div className="flex h-screen w-screen   ">
+            <div className="flex h-full w-screen   ">
 
 
 
@@ -44,7 +44,7 @@ const Gallery = () => {
 
 
               <div className="  flex-grow    flex   lg:items-center items-center ">
-                <div className="grid mx-6 lg:mx-28  relative  md:mt-0 sm:gap-2 landscape1:grid-cols-3 sm:grid-cols-2 md:grid-cols-2 xl:grid-cols-3 xs:grid-cols-2 grid-cols-2  h-screen xs:h-full w-11/12 sm:h-full xs:w-11/12  lg:h-3/4  sm:w-11/12 2xl:w-11/12 md:w-11/12  xl:h-11/12 2xl:h-full  p-4 gap-2   lg:content-center content-center  lg:gap-4  ">
+                <div className="grid mx-6 lg:mx-28  relative  md:mt-0 sm:gap-2 landscape1:grid-cols-3 sm:grid-cols-2 md:grid-cols-2 xl:grid-cols-3 xs:grid-cols-2 grid-cols-2  h-full xs:h-full w-11/12 sm:h-full xs:w-11/12  lg:h-3/4  sm:w-11/12 2xl:w-11/12 md:w-11/12  xl:h-11/12 2xl:h-full  p-4 gap-2   lg:content-center content-center  lg:gap-4  ">
                   {/* <div className=" mt-36 2xl:mt-28 lg:mt-16 absolute w-full desk:mt-44  iphonex:mt-52 xs:mt-22 xxs:mt-44 "><h1 className=" font-medium text-center xl:text-left md:text-3xl text-xl xs:text-xl  " style={{ color: '#59a23e' }}>Gallery</h1></div> */}
                   <div className="grid col-span-2 lg:col-span-3  mb-4 self-center  font-medium text-center xl:text-left md:text-3xl text-xl xs:text-xl " style={{ color: '#59a23e' }}>Gallery </div>
                   <div className=" flex justify-center flex-col text-gray-700  "> <Link href="sections/Gallery/image5"><a><img className=" shadow-xl resize-none rounded-2xl border-2xl h-full w-full object-cover " src="../images/resort/gallery/Page - 03-06.jpg" ></img></a></Link></div>
@@ -74,12 +74,12 @@ const Gallery = () => {
 
 
         ) : (
-          <div className="flex mt-5 flex-col h-screen w-screen">
-            <div className="flex h-screen w-screen ">
+          <div className="flex absolute inset-0 mt-5 flex-col h-full w-screen">
+            <div className="flex h-full w-screen ">
 
 
               <div className=" flex-grow flex lg:items-center items-center ">
-                <div className="grid lg:mx-28  h-screen relative md:mt-0 sm:gap-2 mx-6 md:mx-0 landscape1:grid-cols-3 sm:grid-cols-2 md:grid-cols-2 xl:grid-cols-3 xs:grid-cols-2 grid-cols-2   w-11/12 sm:h-full xs:w-11/12 lg:h-3/4 sm:w-11/12 2xl:w-11/12 md:w-11/12 xl:h-11/12 2xl:h-full p-4 gap-2 lg:content-center content-center lg:gap-4 ">
+                <div className="grid lg:mx-28  h-full relative md:mt-0 sm:gap-2 mx-6 md:mx-0 landscape1:grid-cols-3 sm:grid-cols-2 md:grid-cols-2 xl:grid-cols-3 xs:grid-cols-2 grid-cols-2   w-11/12 sm:h-full xs:w-11/12 lg:h-3/4 sm:w-11/12 2xl:w-11/12 md:w-11/12 xl:h-11/12 2xl:h-full p-4 gap-2 lg:content-center content-center lg:gap-4 ">
                   {/* <div className=" mt-36 md:mt-36 absolute w-full 2xl:mt-28 lg:mt-16  xs:mt-22  iphonex:mt-52 xxs:mt-44 desk:mt-44  "><h1 className=" >Gallery</h1></div> */}
                   <div className="grid col-span-2 lg:col-span-3  mb-4 self-center  font-medium text-center xl:text-left md:text-3xl text-xl xs:text-xl " style={{ color: '#59a23e' }}>Gallery </div>
                   <div className=" flex justify-center flex-col text-gray-700   "> <Link href="sections/Gallery/image1"><a><img className=" shadow-xl resize-none rounded-2xl border-2xl h-full w-full object-cover " src="../images/resort/Page - 06 Green policy-06-min.jpg" ></img></a></Link></div>

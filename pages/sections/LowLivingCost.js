@@ -108,10 +108,10 @@ import { IoIosArrowRoundForward } from 'react-icons/io';
 const LowLivingCost = () => {
     return (
         <>
-            <section className="elegant-resort-living ">
+            <section className="absolute inset-0" id="elegant-resort-living ">
               
-           <div className="flex flex-col h-screen w-screen">
-                <div className="flex h-screen w-screen   ">
+           <div className="flex flex-col h-full w-screen">
+                <div className="flex h-full w-screen   ">
                 <div className=" hidden justify-center transform rotate-180 items-center vtext lg:flex lg:m-4 xl:ml-0 2xl:ml-2  w-10 md:w-36">
                         <h1 className="text-gray-300 xl:font-bold 2xl:text-8xl xl:text-6xl  desk:text-7xl sm:text-5xl md:text-6xl font-medium  text-center   ">
                             
@@ -144,8 +144,8 @@ const LowLivingCost = () => {
                             <div className="flex justify-center 2xl:w-auto xl:h-48 2xl:h-72 desk:h-60   flex-col text-gray-700 2xl-mb-8 lg:mb-4 xl:mt-24 mt-20 md:mt-36 "> <img className=" shadow-xl resize-none  rounded-2xl border-2xl   h-full w-full     object-cover   " src="../images/resort//featurepic/Page - 05 Low living-02-min.png" ></img><p className="text-xs xs:text-sm text-center  whitespace-nowrap 2xl:text-lg lg:text-base lg:pt-2">Low monthly <br />Maintenance <br/>Charges<br/> </p></div>
                             <div className="flex justify-center 2xl:w-auto xl:h-48 2xl:h-72 desk:h-60   flex-col text-gray-700 2xl-mb-8 lg:mb-4 xl:mt-24  "> <img className=" shadow-xl resize-none  rounded-2xl border-2xl   h-full w-full     object-cover   " src="../images/resort//featurepic/Page - 05 Low living-03-min..png" ></img><p className="text-xs xs:text-sm text-center  whitespace-nowrap 2xl:text-lg lg:text-base lg:pt-2">Up to 50%<br />Water Usage<br/> Reduction <br/></p></div>
                             <div className="flex justify-center 2xl:w-auto xl:h-48 2xl:h-72 desk:h-60   flex-col text-gray-700    "> <img className="shadow-xl resize-none  rounded-2xl border-2xl   h-full w-full     object-cover    " src="../images/resort/featurepic/Page - 05 Low living-04-min.png" ></img><p className="text-xs xs:text-sm text-center  whitespace-nowrap 2xl:text-lg lg:text-base lg:pt-2">EV<br /> Fast charging <br />Station<br/>  </p></div>
-                            <div className="flex justify-center 2xl:w-auto xl:h-48 2xl:h-72 desk:h-60   flex-col text-gray-700    mb-16 sm:mb-5  "> <img className=" shadow-xl resize-none  rounded-2xl border-2xl   h-full w-full     object-cover   " src="../images/resort/featurepic/Page - 05 Low living-05-min.png" ></img><p className="text-xs xs:text-sm text-center  whitespace-nowrap 2xl:text-lg lg:text-base lg:pt-2">Energy Management <br/>System<br/><br/></p></div>
-                            <div className="flex justify-center 2xl:w-auto xl:h-48 2xl:h-72 desk:h-60   flex-col text-gray-700    mb-16 sm:mb-5   "> <img className=" shadow-xl resize-none  rounded-2xl border-2xl   h-full w-full     object-cover   " src="../images/resort/featurepic/Page - 05 Low living-06-min.png" ></img><p className="text-xs xs:text-sm text-center  whitespace-nowrap 2xl:text-lg lg:text-base lg:pt-2">Up to 30% Energy<br /> Usage Reduction<br/><br/></p></div>
+                            <div className="flex justify-center 2xl:w-auto xl:h-48 2xl:h-72 desk:h-60   flex-col text-gray-700    mb-5 lg:mb-0 "> <img className=" shadow-xl resize-none  rounded-2xl border-2xl   h-full w-full     object-cover   " src="../images/resort/featurepic/Page - 05 Low living-05-min.png" ></img><p className="text-xs xs:text-sm text-center  whitespace-nowrap 2xl:text-lg lg:text-base lg:pt-2">Energy Management <br/>System<br/><br/></p></div>
+                            <div className="flex justify-center 2xl:w-auto xl:h-48 2xl:h-72 desk:h-60   flex-col text-gray-700    mb-5 lg:mb-0   "> <img className=" shadow-xl resize-none  rounded-2xl border-2xl   h-full w-full     object-cover   " src="../images/resort/featurepic/Page - 05 Low living-06-min.png" ></img><p className="text-xs xs:text-sm text-center  whitespace-nowrap 2xl:text-lg lg:text-base lg:pt-2">Up to 30% Energy<br /> Usage Reduction<br/><br/></p></div>
 
                     </div>
                                    

@@ -7,10 +7,10 @@ const GreenPolicy = () => {
 
     return (
 
-        <section className="green-policy">
+        <section className="absolute inset-0" id="green-policy">
           
-                <div className="flex flex-col w-screen h-screen">
-                    <div className="flex  w-screen h-screen">
+                <div className="flex flex-col w-screen h-full ">
+                    <div className="flex  w-screen h-full ">
                         <div className=" lg:ml-4 hidden justify-center transform rotate-180 items-center vtext lg:flex  w-10 md:w-36">
 
 
@@ -40,8 +40,8 @@ const GreenPolicy = () => {
                                 <div className=" xl:h-48 2xl:h-72 desk:h-60 flex justify-center 2xl:w-auto    flex-col text-gray-700 2xl-mb-8 lg:mb-4 xl:mt-24 mt-20 md:mt-36 "> <img className=" shadow-xl resize-none  rounded-2xl border-2xl    w-full h-full    object-cover   " src="../images/resort/featurepic/Page - 06 Green policy-02-min.png" style={{ height: '100%', height: '-webkit-fill-available;' }} ></img><p className="text-xs xs:text-sm text-center  whitespace-nowrap 2xl:text-lg lg:text-base lg:pt-2">Up to 70% Waste <br /> Water Recycling <br /><br /> </p></div>
                                 <div className=" xl:h-48 2xl:h-72 desk:h-60 flex justify-center 2xl:w-auto    flex-col text-gray-700 2xl-mb-8 lg:mb-4 xl:mt-24  "> <img className=" shadow-xl resize-none  rounded-2xl border-2xl    w-full  h-full   object-cover   " src="../images/resort/featurepic/Page - 06 Green policy-03-min.jpg" style={{ height: '100%', height: '-webkit-fill-available;' }} ></img><p className="text-xs xs:text-sm text-center  whitespace-nowrap 2xl:text-lg lg:text-base lg:pt-2">Organic Waste<br />Treatment Facilities<br />  <br /></p></div>
                                 <div className=" xl:h-48 2xl:h-72 desk:h-60 flex justify-center 2xl:w-auto    flex-col text-gray-700   "> <img className="shadow-xl resize-none  rounded-2xl border-2xl    w-full h-full    object-cover    " src="../images/resort/featurepic/Page - 06 Green policy-04-min.png" style={{ height: '100%', height: '-webkit-fill-available;' }} ></img><p className="text-xs xs:text-sm text-center  whitespace-nowrap 2xl:text-lg lg:text-base lg:pt-2">Produces more<br /> Energy than it <br />Consumes<br />  </p></div>
-                                <div className=" xl:h-48 2xl:h-72 desk:h-60 flex justify-center 2xl:w-auto    flex-col text-gray-700    mb-16 sm:mb-5  "> <img className=" shadow-xl resize-none  rounded-2xl border-2xl    w-full  h-full    object-cover   " src="../images/resort/featurepic/Page - 06 Green policy-05-min.jpg" style={{ height: '100%', height: '-webkit-fill-available;' }} ></img><p className="text-xs xs:text-sm text-center  whitespace-nowrap 2xl:text-lg lg:text-base lg:pt-2">Only 33% <br />Building Footprint<br /><br /></p></div>
-                                <div className=" xl:h-48 2xl:h-72 desk:h-60 flex justify-center 2xl:w-auto    flex-col text-gray-700    mb-16 sm:mb-5"> <img className=" shadow-xl resize-none  rounded-2xl border-2xl    w-full  h-full   object-cover   " src="../images/resort/featurepic/Page - 06 Green policy-06-min.jpg" style={{ height: '100%', height: '-webkit-fill-available;' }} ></img><p className="text-xs xs:text-sm text-center  whitespace-nowrap 2xl:text-lg lg:text-base lg:pt-2">20+ Mature  <br /> Transplanted Trees <br /><br /></p></div>
+                                <div className=" xl:h-48 2xl:h-72 desk:h-60 flex justify-center 2xl:w-auto    flex-col text-gray-700    lg:mb-0 mb-5 "> <img className=" shadow-xl resize-none  rounded-2xl border-2xl    w-full  h-full    object-cover   " src="../images/resort/featurepic/Page - 06 Green policy-05-min.jpg" style={{ height: '100%', height: '-webkit-fill-available;' }} ></img><p className="text-xs xs:text-sm text-center  whitespace-nowrap 2xl:text-lg lg:text-base lg:pt-2">Only 33% <br />Building Footprint<br /><br /></p></div>
+                                <div className=" xl:h-48 2xl:h-72 desk:h-60 flex justify-center 2xl:w-auto    flex-col text-gray-700    lg:mb-0 mb-5"> <img className=" shadow-xl resize-none  rounded-2xl border-2xl    w-full  h-full   object-cover   " src="../images/resort/featurepic/Page - 06 Green policy-06-min.jpg" style={{ height: '100%', height: '-webkit-fill-available;' }} ></img><p className="text-xs xs:text-sm text-center  whitespace-nowrap 2xl:text-lg lg:text-base lg:pt-2">20+ Mature  <br /> Transplanted Trees <br /><br /></p></div>
 
                             </div>
 

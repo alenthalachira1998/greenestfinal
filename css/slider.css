@@ -5,6 +5,8 @@
     padding: 20px;
     margin: auto;
     width: 100%;
+ 
+   
     
 
   }
@@ -18,9 +20,9 @@
     z-index: 9999;
   
   } */
-  
-  .slick-vertical .slick-slide {
-    height: 100px;
+  .slick-list,
+  .slick-track {
+      height: 100%;
   }
   .slick-arrow {
     background-color: grey;
@@ -83,4 +85,5 @@
   
   }
 
-
+ 
+  
