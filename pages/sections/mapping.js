@@ -56,12 +56,12 @@ const Mapping = () => {
         </Link>
           </div>
           <div className="flex absolute   flex-col" style={{ 'left': '26%', 'top': '66%' }}>
-          <Link href="/blogs/blog-14">
+          <Link href="/blogs/blog-13">
           <a><FcHome className="text-2xl mb-1 focus:scale-150  hover:scale-150 transform" /></a>
         </Link>
           </div>
           <div className="flex absolute   flex-col" style={{ 'left': '49%', 'top': '8%' }}>
-          <Link href="/blogs/blog-13">
+          <Link href="/blogs/blog-16">
           <a><FcHome className="text-2xl mb-1 focus:scale-150  hover:scale-150 transform" /></a>
         </Link>
           </div>
@@ -72,7 +72,7 @@ const Mapping = () => {
           </div>
 
           <div className="flex absolute   flex-col" style={{ 'left': '30%', 'top': '68%' }}>
-          <Link href="/blogs/blog-15">
+          <Link href="/blogs/blog-14">
           <a><FcHome className="text-2xl mb-1 focus:scale-150  hover:scale-150 transform" /></a></Link>
           </div>
 
@@ -128,12 +128,13 @@ const Mapping = () => {
 
 
           <div className="flex absolute   flex-col" style={{ 'left': '75%', 'top': '42%' }}>
-          <Link href="/blogs/blog-16">
+          <Link href="/blogs/blog-2">
           <a><FcHome className="text-2xl mb-1 focus:scale-150  hover:scale-150 transform" /></a></Link>
          </div>
 
           <div className="flex absolute   flex-col" style={{ 'left': '35%', 'top': '54%' }}>
-
+          <Link href="/blogs/blog-15">
+          <a><FcHome className="text-2xl mb-1 focus:scale-150  hover:scale-150 transform" /></a></Link>
           </div>
 
           </div>
