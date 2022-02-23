@@ -9,6 +9,7 @@ const Mapping = () => {
 
 
   return (
+       // <div className="px-2 py-1 bg-white rounded-full animate-pulse border-2  focus:animate-none hover:animate-none  hover:bg-blue-200 focus:bg-blue-200 border-black "><p></p>B3</div> */}
     // < div className="  overflow-hidden">
       
      
@@ -20,126 +21,119 @@ const Mapping = () => {
         <div className="h-75  relative">
           <img className=" h-full  object-contain  " src="/images/map.png" />
           <div className="flex absolute top-1/2    flex-col" style={{ 'left': '48%' }}>
-
-            <FcHome className="text-2xl mb-1 focus:scale-125  hover:scale-125 transform" />
-            {/* <div className="px-2 py-1   hover:block bg-white rounded-full animate-pulse border-2  focus:animate-none hover:animate-none  hover:bg-blue-200 focus:bg-blue-200 border-black "><p></p>B1 </div> */}
+          <Link href="/blogs/blog-10">
+          <a><FcHome className="text-2xl mb-1 focus:scale-150  hover:scale-150 transform" /></a>
+        </Link>
+           
+          
           </div>
           <div className="flex absolute top-1/2    flex-col" style={{ 'left': '55%' }}>
 
-            <FcHome className="text-2xl mb-1 focus:scale-125  hover:scale-125 transform" />
-            {/* <div className="px-2 py-1 bg-white rounded-full animate-pulse border-2  focus:animate-none hover:animate-none  hover:bg-blue-200 focus:bg-blue-200 border-black "><p></p>B2</div> */}
+          <Link href="/blogs/blog-9">
+          <a><FcHome className="text-2xl mb-1 focus:scale-150  hover:scale-150 transform" /></a>
+        </Link>
+         
           </div>
           <div className="flex absolute   flex-col" style={{ 'left': '80%', 'top': '54%' }}>
 
-            <FcHome className="text-2xl mb-1 focus:scale-125  hover:scale-125 transform" />
-            {/* <div className="px-2 py-1 bg-white rounded-full animate-pulse border-2  focus:animate-none hover:animate-none  hover:bg-blue-200 focus:bg-blue-200 border-black "><p></p>B3</div> */}
+          <Link href="/blogs/blog-1">
+          <a><FcHome className="text-2xl mb-1 focus:scale-150  hover:scale-150 transform" /></a>
+        </Link>
+         
           </div>
           <div className="flex absolute   flex-col" style={{ 'left': '75%', 'top': '69%' }}>
-
-            <FcRating className="text-2xl mb-1 focus:scale-125  hover:scale-125 transform" />
-            {/* <div className="px-2 py-1 bg-white rounded-full animate-pulse border-2  focus:animate-none hover:animate-none  hover:bg-blue-200 focus:bg-blue-200 border-black "><p></p>B4</div> */}
+         <Link href="/blogs/blog-17">
+         <a><FcRating className="text-2xl mb-1 focus:scale-150  hover:scale-150 transform" /></a></Link>
           </div>
           <div className="flex absolute   flex-col" style={{ 'left': '60%', 'top': '20%' }}>
-
-             <FcRating className="text-2xl mb-1"/>
-   {/* <div className="px-2 py-1 bg-white rounded-full animate-pulse border-2  focus:animate-none hover:animate-none  hover:bg-blue-200 focus:bg-blue-200 border-black "><p></p>B5</div>  */}
+          <Link href="/blogs/blog-19">
+         <a><FcRating className="text-2xl mb-1 focus:scale-150  hover:scale-150 transform" /></a></Link>
+          
           </div>
           <div className="flex absolute   flex-col" style={{ 'left': '48%', 'top': '76%' }}>
-
-            <FcHome className="text-2xl mb-1 focus:scale-125  hover:scale-125 transform" />
-            {/* <div className="px-2 py-1 bg-white rounded-full animate-pulse border-2  focus:animate-none hover:animate-none  hover:bg-blue-200 focus:bg-blue-200 border-black "><p></p>B6</div> */}
+          <Link href="/blogs/blog-7">
+          <a><FcHome className="text-2xl mb-1 focus:scale-150  hover:scale-150 transform" /></a>
+        </Link>
           </div>
           <div className="flex absolute   flex-col" style={{ 'left': '26%', 'top': '66%' }}>
-
-            <FcHome className="text-2xl mb-1 focus:scale-125  hover:scale-125 transform" />
-            {/* <div className="px-2 py-1 bg-white rounded-full animate-pulse border-2  focus:animate-none hover:animate-none  hover:bg-blue-200 focus:bg-blue-200 border-black "><p></p>B7</div> */}
+          <Link href="/blogs/blog-14">
+          <a><FcHome className="text-2xl mb-1 focus:scale-150  hover:scale-150 transform" /></a>
+        </Link>
           </div>
           <div className="flex absolute   flex-col" style={{ 'left': '49%', 'top': '8%' }}>
-
-            <FcHome className="text-2xl mb-1 focus:scale-125  hover:scale-125 transform" />
-            {/* <div className="px-2 py-1 bg-white rounded-full animate-pulse border-2  focus:animate-none hover:animate-none  hover:bg-blue-200 focus:bg-blue-200 border-black "><p></p>B8</div> */}
+          <Link href="/blogs/blog-13">
+          <a><FcHome className="text-2xl mb-1 focus:scale-150  hover:scale-150 transform" /></a>
+        </Link>
           </div>
 
-          <div className="flex absolute   flex-col" style={{ 'left': '70%', 'top': '34%' }}>
-
-            <FcRating className="text-2xl mb-1 focus:scale-125  hover:scale-125 transform" />
-            {/* <div className="px-2 py-1 bg-white rounded-full animate-pulse border-2  focus:animate-none hover:animate-none  hover:bg-blue-200 focus:bg-blue-200 border-black "><p></p>B9</div> */}
+          <div className="flex absolute   flex-col" style={{ 'left': '70%', 'top': '34%' }}>gg
+          <Link href="/blogs/blog-18">
+          <a><FcRating className="text-2xl mb-1 focus:scale-150  hover:scale-150 transform" /></a></Link>
           </div>
 
           <div className="flex absolute   flex-col" style={{ 'left': '30%', 'top': '68%' }}>
-
-            <FcHome className="text-2xl mb-1 focus:scale-125  hover:scale-125 transform" />
-            {/* <div className="px-2 py-1 bg-white rounded-full animate-pulse border-2  focus:animate-none hover:animate-none  hover:bg-blue-200 focus:bg-blue-200 border-black "><p></p>g0ffddajfo</div> */}
+          <Link href="/blogs/blog-15">
+          <a><FcHome className="text-2xl mb-1 focus:scale-150  hover:scale-150 transform" /></a></Link>
           </div>
 
           <div className="flex absolute   flex-col" style={{ 'left': '16%', 'top': '66%' }}>
 
-            <FcRating className="text-2xl mb-1 focus:scale-125  hover:scale-125 transform" />
-            {/* <div className="px-2 py-1 bg-white rounded-full animate-pulse border-2  focus:animate-none hover:animate-none  hover:bg-blue-200 focus:bg-blue-200 border-black "><p></p>B10</div> */}
-          </div>
+          <Link href="/blogs/blog-20">
+         <a><FcRating className="text-2xl mb-1 focus:scale-150  hover:scale-150 transform" /></a></Link>          </div>
 
           <div className="flex absolute   flex-col" style={{ 'left': '60%', 'top': '74%' }}>
+          <Link href="/blogs/blog-3">
+          <a><FcHome className="text-2xl mb-1 focus:scale-150  hover:scale-150 transform" /></a></Link>
 
-            <FcHome className="text-2xl mb-1 focus:scale-125  hover:scale-125 transform" />
-            {/* <div className="px-2 py-1 bg-white rounded-full animate-pulse border-2  focus:animate-none hover:animate-none  hover:bg-blue-200 focus:bg-blue-200 border-black "><p></p>g99990o</div> */}
           </div>
 
           <div className="flex absolute   flex-col" style={{ 'left': '42%', 'top': '74%' }}>
-
-            <FcHome className="text-2xl mb-1 focus:scale-125  hover:scale-125 transform" />
-            {/* <div className="px-2 py-1 bg-white rounded-full animate-pulse border-2  focus:animate-none hover:animate-none  hover:bg-blue-200 focus:bg-blue-200 border-black "><p></p>gooon</div> */}
+          <Link href="/blogs/blog-8">
+          <a><FcHome className="text-2xl mb-1 focus:scale-150  hover:scale-150 transform" /></a></Link>
           </div>
 
           <div className="flex absolute   flex-col" style={{ 'left': '50%', 'top': '24%' }}>
-
-            <FcHome className="text-2xl mb-1 focus:scale-125  hover:scale-125 transform" />
-            {/* <div className="px-2 py-1 bg-white rounded-full animate-pulse border-2  focus:animate-none hover:animate-none  hover:bg-blue-200 focus:bg-blue-200 border-black "><p></p>go00000o</div> */}
+          <Link href="/blogs/blog-12">
+          <a><FcHome className="text-2xl mb-1 focus:scale-150  hover:scale-150 transform" /></a></Link>
           </div>
 
 
 
-          <div className="flex absolute   flex-col" style={{ 'left': '58%', 'top': '29%' }}>
-
-            <FcHome className="text-2xl mb-1 focus:scale-125  hover:scale-125 transform" />
-            {/* <div className="px-2 py-1 bg-white rounded-full animate-pulse border-2  focus:animate-none hover:animate-none  hover:bg-blue-200 focus:bg-blue-200 border-black "><p></p>g999o</div> */}
+          <div className="flex absolute   flex-col" style={{ 'left': '58%', 'top': '29%' }}>gg
+          <Link href="/blogs/blog-11">
+          <a><FcHome className="text-2xl mb-1 focus:scale-150  hover:scale-150 transform" /></a></Link>
           </div>
 
 
 
           <div className="flex absolute   flex-col" style={{ 'left': '64%', 'top': '45%' }}>
-
-            <FcHome className="text-2xl mb-1 focus:scale-125  hover:scale-125 transform" />
-            {/* <div className="px-2 py-1 bg-white rounded-full animate-pulse border-2  focus:animate-none hover:animate-none  hover:bg-blue-200 focus:bg-blue-200 border-black "><p></p>godd</div> */}
+          <Link href="/blogs/blog-6">
+          <a><FcHome className="text-2xl mb-1 focus:scale-150  hover:scale-150 transform" /></a></Link>
           </div>
 
 
           <div className="flex absolute   flex-col" style={{ 'left': '63%', 'top': '54%' }}>
-
-            <FcHome className="text-2xl mb-1 focus:scale-125  hover:scale-125 transform" />
-            {/* <div className="px-2 py-1 bg-white rounded-full animate-pulse border-2  focus:animate-none hover:animate-none  hover:bg-blue-200 focus:bg-blue-200 border-black "><p></p>gonow1</div> */}
+          <Link href="/blogs/blog-5">
+          <a><FcHome className="text-2xl mb-1 focus:scale-150  hover:scale-150 transform" /></a></Link>
           </div>
 
 
 
           <div className="flex absolute   flex-col" style={{ 'left': '62%', 'top': '65%' }}>
+          <Link href="/blogs/blog-4">
+          <a><FcHome className="text-2xl mb-1 focus:scale-150  hover:scale-150 transform" /></a></Link>
 
-            <FcHome className="text-2xl mb-1 focus:scale-125  hover:scale-125 transform" />
-
-            {/* <div className="px-2 py-1 bg-white rounded-full animate-pulse border-2  focus:animate-none hover:animate-none  hover:bg-blue-200 focus:bg-blue-200 border-black "><p></p>bnow</div> */}
           </div>
 
 
 
           <div className="flex absolute   flex-col" style={{ 'left': '75%', 'top': '42%' }}>
-
-            <FcHome className="text-2xl mb-1 focus:scale-125  hover:scale-125 transform" />
-            {/* <div className="px-2 py-1 bg-white rounded-full animate-pulse border-2  focus:animate-none hover:animate-none  hover:bg-blue-200 focus:bg-blue-200 border-black "><p></p>go</div> */}
-          </div>
+          <Link href="/blogs/blog-16">
+          <a><FcHome className="text-2xl mb-1 focus:scale-150  hover:scale-150 transform" /></a></Link>
+         </div>
 
           <div className="flex absolute   flex-col" style={{ 'left': '35%', 'top': '54%' }}>
 
-            <FcHome className="text-2xl mb-1 focus:scale-125  hover:scale-125 transform" />
-            {/* <div className="px-2 py-1 bg-white rounded-full animate-pulse border-2  focus:animate-none hover:animate-none  hover:bg-blue-200 focus:bg-blue-200 border-black "><p></p>go</div> */}
           </div>
 
           </div>

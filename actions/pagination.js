@@ -9,7 +9,7 @@ export const useGetBlogsPages = ({blogs}) => {
       ({offset, withSWR}) => {
         let initialData = !offset && blogs;
         const { data: paginatedBlogs } =  withSWR(useGetBlogs({offset}, initialData));
-        if (!paginatedBlogs) { return 'Loading...'}
+        if (!paginatedBlogs) { return 'Loading...'} 
         return paginatedBlogs
       .map(blog =>
 
@@ -23,7 +23,7 @@ export const useGetBlogsPages = ({blogs}) => {
         },
         (SWR, index) => {
             if (SWR.data && SWR.data.length === 0) { return null; }
-            return (index + 1) * 3;
+            return (index + 1) * 40;
           },
       
         )

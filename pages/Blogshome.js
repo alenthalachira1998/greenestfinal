@@ -17,7 +17,7 @@ export default function BlogsHome({blogs}) {
   return (
     <>
     <Pagelayout>
-    <div className="absolute bg-white top-4 w-screen  lg:right-10 text-center flex justify-center  z-10">
+    <div className="absolute bg-white w-screen pt-4 pb-4  lg:right-10 text-center flex justify-center  z-10">
         <img
           src="/logo.png"
           alt="Picture of the author"
@@ -118,14 +118,14 @@ export default function BlogsHome({blogs}) {
           </span>
         </a>
       </footer> */}
-      <div className=" mt-12 relative lg:px-28 lg:py-20 py-14 mb-2   text-white grid grid-cols-1  md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-4 gap-5">
+      <div className=" mt-12 relative  lg:px-28 lg:py-20 py-14   text-white grid grid-cols-1  md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-4 gap-5">
       {pages}
       <div className=" absolute text-center text-white  left-1/2 transform  -translate-x-1/2 bottom-0  bg-green-500  px-4 py-2  ">
     <button
       onClick={loadMore}
       disabled={isReachingEnd || isLoadingMore}
      >
-      {isLoadingMore ? '...' : isReachingEnd ? 'No more blogs' : 'More Blogs'}
+      {isLoadingMore ? '...' : isReachingEnd ? 'No more blogs' : 'No More Blogs'}
     </button>
   </div>
       </div>
@@ -143,7 +143,8 @@ export async function getStaticProps() {
   return {
     props: {
       blogs
-    }
+    },
+    revalidate:1
   }
 }
 
