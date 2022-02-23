@@ -1,168 +1,189 @@
 import Menuu from 'components/Menuu'
 import React from 'react'
- import {ImLocation2} from 'react-icons/im'
- import Link from 'next/link'
+import { FcRating } from 'react-icons/fc'
+import Link from 'next/link'
+import { FcHome } from 'react-icons/fc'
+
+const map = ({}) => {
+  const modal = () => {
+    return (
+      <div className="z-20">mapping</div>
+    )
+  }
 
 
-const map = () => {
-  
+
   return (
-    < div className=" overflow-hidden">
-    <div className="absolute  top-4 w-screen  lg:right-10 text-center flex justify-center  z-10">
-    <img
-      src="/logo.png"
-      alt="Picture of the author"
-      className="md:w-44  w-32"
-    />
+    < div className="  overflow-hidden">
+      <div className="absolute  top-4 w-screen  lg:right-10 text-center flex justify-center  z-10">
+        <img
+          src="/logo.png"
+          alt="Picture of the author"
+          className="md:w-44  w-32"
+        />
+
+      </div>
+      <div className="absolute pl-2 pr-2 pb-2 pt-4 lg:px-2 lg:1b-4 lg:pt-4 flex w-screen justify-between ">
+        <Link href='/'><a className="z-50"><img src="/logoo.png" className="md:ml-4 ml-2 md:w-8 w-8 h-auto  md:h-auto  drop-shadow-2xl brightness-150 saturate-200 " /></a></Link>
+        <div className="z-40"></div>
+        <div className="flex text-3xl mr-3  lg:text-5xl text-gray-200 ">
+
+          <Menuu />
+
+        </div>
+      </div>
      
-  </div>
-  <div className="absolute pl-2 pr-2 pb-2 pt-4 lg:px-2 lg:1b-4 lg:pt-4 flex w-screen justify-between ">
-<Link href='/'><a className="z-50"><img src="/logoo.png" className="md:ml-4 ml-2 md:w-8 w-8 h-auto  md:h-auto  drop-shadow-2xl brightness-150 saturate-200 "/></a></Link>
- <div className="z-40"></div> 
-    <div className="flex text-3xl mr-3  lg:text-5xl text-gray-200 ">
- 
-   <Menuu/>
-   
-    </div>
-  </div>
-    <div className="h-screen   flex justify-center items-center  w-screen ">
-    <div className="h-90  relative">
-    <img className=" h-full  object-contain  " src="/images/map.png"/>
-  <div className="flex absolute top-1/2    flex-col" style={{ 'left':'40%'}}>
-   
-   <ImLocation2 className="text-xl mb-1"/>
-   <div className="px-2 py-1 bg-white rounded-full animate-pulse border-2  focus:animate-none hover:animate-none  hover:bg-blue-200 focus:bg-blue-200 border-black "><p></p>go</div>
-  </div>
-  <div className="flex absolute top-1/2    flex-col" style={{ 'left':'48%'}}>
-   
-   <ImLocation2 className="text-xl mb-1"/>
-   <div className="px-2 py-1 bg-white rounded-full animate-pulse border-2  focus:animate-none hover:animate-none  hover:bg-blue-200 focus:bg-blue-200 border-black "><p></p>go</div>
-  </div>
-  <div className="flex absolute   flex-col" style={{ 'left':'72%','top':'54%'}}>
-   
-   <ImLocation2 className="text-xl mb-1"/>
-   <div className="px-2 py-1 bg-white rounded-full animate-pulse border-2  focus:animate-none hover:animate-none  hover:bg-blue-200 focus:bg-blue-200 border-black "><p></p>go</div>
-  </div>
-  <div className="flex absolute   flex-col" style={{ 'left':'55%','top':'69%'}}>
-   
-   <ImLocation2 className="text-xl mb-1"/>
-   <div className="px-2 py-1 bg-white rounded-full animate-pulse border-2  focus:animate-none hover:animate-none  hover:bg-blue-200 focus:bg-blue-200 border-black "><p></p>go</div>
-  </div>
-  <div className="flex absolute   flex-col" style={{ 'left':'55%','top':'69%'}}>
-   
-   <ImLocation2 className="text-xl mb-1"/>
-   <div className="px-2 py-1 bg-white rounded-full animate-pulse border-2  focus:animate-none hover:animate-none  hover:bg-blue-200 focus:bg-blue-200 border-black "><p></p>go</div>
-  </div>
-  <div className="flex absolute   flex-col" style={{ 'left':'53%','top':'76%'}}>
-   
-   <ImLocation2 className="text-xl mb-1"/>
-   <div className="px-2 py-1 bg-white rounded-full animate-pulse border-2  focus:animate-none hover:animate-none  hover:bg-blue-200 focus:bg-blue-200 border-black "><p></p>go</div>
-  </div>
-  <div className="flex absolute   flex-col" style={{ 'left':'26%','top':'68%'}}>
-   
-   <ImLocation2 className="text-xl mb-1"/>
-   <div className="px-2 py-1 bg-white rounded-full animate-pulse border-2  focus:animate-none hover:animate-none  hover:bg-blue-200 focus:bg-blue-200 border-black "><p></p>go</div>
-  </div>
-  <div className="flex absolute   flex-col" style={{ 'left':'45%','top':'10%'}}>
-   
-   <ImLocation2 className="text-xl mb-1"/>
-   <div className="px-2 py-1 bg-white rounded-full animate-pulse border-2  focus:animate-none hover:animate-none  hover:bg-blue-200 focus:bg-blue-200 border-black "><p></p>go</div>
-  </div>
-
-  <div className="flex absolute   flex-col" style={{ 'left':'26%','top':'68%'}}>
-   
-   <ImLocation2 className="text-xl mb-1"/>
-   <div className="px-2 py-1 bg-white rounded-full animate-pulse border-2  focus:animate-none hover:animate-none  hover:bg-blue-200 focus:bg-blue-200 border-black "><p></p>go</div>
-  </div>
-
-  <div className="flex absolute   flex-col" style={{ 'left':'22%','top':'66%'}}>
-   
-   <ImLocation2 className="text-xl mb-1"/>
-   <div className="px-2 py-1 bg-white rounded-full animate-pulse border-2  focus:animate-none hover:animate-none  hover:bg-blue-200 focus:bg-blue-200 border-black "><p></p>go</div>
-  </div>
-
-  <div className="flex absolute   flex-col" style={{ 'left':'16%','top':'66%'}}>
-   
-   <ImLocation2 className="text-xl mb-1"/>
-   <div className="px-2 py-1 bg-white rounded-full animate-pulse border-2  focus:animate-none hover:animate-none  hover:bg-blue-200 focus:bg-blue-200 border-black "><p></p>go</div>
-  </div>
-
-  <div className="flex absolute   flex-col" style={{ 'left':'39%','top':'72%'}}>
-   
-   <ImLocation2 className="text-xl mb-1"/>
-   <div className="px-2 py-1 bg-white rounded-full animate-pulse border-2  focus:animate-none hover:animate-none  hover:bg-blue-200 focus:bg-blue-200 border-black "><p></p>go</div>
-  </div>
-
-  <div className="flex absolute   flex-col" style={{ 'left':'44%','top':'74%'}}>
-   
-   <ImLocation2 className="text-xl mb-1"/>
-   <div className="px-2 py-1 bg-white rounded-full animate-pulse border-2  focus:animate-none hover:animate-none  hover:bg-blue-200 focus:bg-blue-200 border-black "><p></p>go</div>
-  </div>
-
-  <div className="flex absolute   flex-col" style={{ 'left':'44%','top':'30%'}}>
-   
-   <ImLocation2 className="text-xl mb-1"/>
-   <div className="px-2 py-1 bg-white rounded-full animate-pulse border-2  focus:animate-none hover:animate-none  hover:bg-blue-200 focus:bg-blue-200 border-black "><p></p>go</div>
-  </div>
-
-
-
-  <div className="flex absolute   flex-col" style={{ 'left':'50%','top':'30%'}}>
-   
-   <ImLocation2 className="text-xl mb-1"/>
-   <div className="px-2 py-1 bg-white rounded-full animate-pulse border-2  focus:animate-none hover:animate-none  hover:bg-blue-200 focus:bg-blue-200 border-black "><p></p>go</div>
-  </div>
-
-
-
-  <div className="flex absolute   flex-col" style={{ 'left':'59%','top':'45%'}}>
-   
-   <ImLocation2 className="text-xl mb-1"/>
-   <div className="px-2 py-1 bg-white rounded-full animate-pulse border-2  focus:animate-none hover:animate-none  hover:bg-blue-200 focus:bg-blue-200 border-black "><p></p>go</div>
-  </div>
-
-
-  <div className="flex absolute   flex-col" style={{ 'left':'59%','top':'54%'}}>
-   
-   <ImLocation2 className="text-xl mb-1"/>
-   <div className="px-2 py-1 bg-white rounded-full animate-pulse border-2  focus:animate-none hover:animate-none  hover:bg-blue-200 focus:bg-blue-200 border-black "><p></p>go</div>
-  </div>
-
-
-
-  <div className="flex absolute   flex-col" style={{ 'left':'64%','top':'62%'}}>
-   
-   <ImLocation2 className="text-xl mb-1"/>
-
-   <div className="px-2 py-1 bg-white rounded-full animate-pulse border-2  focus:animate-none hover:animate-none  hover:bg-blue-200 focus:bg-blue-200 border-black "><p></p>go</div>
-  </div>
-
-
-
-  <div className="flex absolute   flex-col" style={{ 'left':'65%','top':'46%'}}>
-   
-   <ImLocation2 className="text-xl mb-1"/>
-   <div className="px-2 py-1 bg-white rounded-full animate-pulse border-2  focus:animate-none hover:animate-none  hover:bg-blue-200 focus:bg-blue-200 border-black "><p></p>go</div>
-  </div>
-
-  <div className="flex absolute   flex-col" style={{ 'left':'31%','top':'54%'}}>
-   
-   <ImLocation2 className="text-xl mb-1"/>
-   <div className="px-2 py-1 bg-white rounded-full animate-pulse border-2  focus:animate-none hover:animate-none  hover:bg-blue-200 focus:bg-blue-200 border-black "><p></p>go</div>
-  </div>
-
-
-
-
-
-
-
-
-
+      <div className="absolute mt-10  flex justify-center  overflow-hidden inset-0">
+     <div className="flex  justify-center items-center  flex-col"> 
   
+      <div className="h-full   flex justify-center items-center  w-full ">
+    
+        <div className="h-75  relative">
+          <img className=" h-full  object-contain  " src="/images/map.png" />
+          <div className="flex absolute top-1/2    flex-col" style={{ 'left': '48%' }}>
+
+            <FcHome className="text-2xl mb-1 focus:scale-125  hover:scale-125 transform" />
+            {/* <div className="px-2 py-1   hover:block bg-white rounded-full animate-pulse border-2  focus:animate-none hover:animate-none  hover:bg-blue-200 focus:bg-blue-200 border-black "><p></p>B1 </div> */}
+          </div>
+          <div className="flex absolute top-1/2    flex-col" style={{ 'left': '55%' }}>
+
+            <FcHome className="text-2xl mb-1 focus:scale-125  hover:scale-125 transform" />
+            {/* <div className="px-2 py-1 bg-white rounded-full animate-pulse border-2  focus:animate-none hover:animate-none  hover:bg-blue-200 focus:bg-blue-200 border-black "><p></p>B2</div> */}
+          </div>
+          <div className="flex absolute   flex-col" style={{ 'left': '80%', 'top': '54%' }}>
+
+            <FcHome className="text-2xl mb-1 focus:scale-125  hover:scale-125 transform" />
+            {/* <div className="px-2 py-1 bg-white rounded-full animate-pulse border-2  focus:animate-none hover:animate-none  hover:bg-blue-200 focus:bg-blue-200 border-black "><p></p>B3</div> */}
+          </div>
+          <div className="flex absolute   flex-col" style={{ 'left': '75%', 'top': '69%' }}>
+
+            <FcRating className="text-2xl mb-1 focus:scale-125  hover:scale-125 transform" />
+            {/* <div className="px-2 py-1 bg-white rounded-full animate-pulse border-2  focus:animate-none hover:animate-none  hover:bg-blue-200 focus:bg-blue-200 border-black "><p></p>B4</div> */}
+          </div>
+          <div className="flex absolute   flex-col" style={{ 'left': '60%', 'top': '20%' }}>
+
+             <FcRating className="text-2xl mb-1"/>
+   {/* <div className="px-2 py-1 bg-white rounded-full animate-pulse border-2  focus:animate-none hover:animate-none  hover:bg-blue-200 focus:bg-blue-200 border-black "><p></p>B5</div>  */}
+          </div>
+          <div className="flex absolute   flex-col" style={{ 'left': '48%', 'top': '76%' }}>
+
+            <FcHome className="text-2xl mb-1 focus:scale-125  hover:scale-125 transform" />
+            {/* <div className="px-2 py-1 bg-white rounded-full animate-pulse border-2  focus:animate-none hover:animate-none  hover:bg-blue-200 focus:bg-blue-200 border-black "><p></p>B6</div> */}
+          </div>
+          <div className="flex absolute   flex-col" style={{ 'left': '26%', 'top': '66%' }}>
+
+            <FcHome className="text-2xl mb-1 focus:scale-125  hover:scale-125 transform" />
+            {/* <div className="px-2 py-1 bg-white rounded-full animate-pulse border-2  focus:animate-none hover:animate-none  hover:bg-blue-200 focus:bg-blue-200 border-black "><p></p>B7</div> */}
+          </div>
+          <div className="flex absolute   flex-col" style={{ 'left': '49%', 'top': '8%' }}>
+
+            <FcHome className="text-2xl mb-1 focus:scale-125  hover:scale-125 transform" />
+            {/* <div className="px-2 py-1 bg-white rounded-full animate-pulse border-2  focus:animate-none hover:animate-none  hover:bg-blue-200 focus:bg-blue-200 border-black "><p></p>B8</div> */}
+          </div>
+
+          <div className="flex absolute   flex-col" style={{ 'left': '70%', 'top': '34%' }}>
+
+            <FcRating className="text-2xl mb-1 focus:scale-125  hover:scale-125 transform" />
+            {/* <div className="px-2 py-1 bg-white rounded-full animate-pulse border-2  focus:animate-none hover:animate-none  hover:bg-blue-200 focus:bg-blue-200 border-black "><p></p>B9</div> */}
+          </div>
+
+          <div className="flex absolute   flex-col" style={{ 'left': '30%', 'top': '68%' }}>
+
+            <FcHome className="text-2xl mb-1 focus:scale-125  hover:scale-125 transform" />
+            {/* <div className="px-2 py-1 bg-white rounded-full animate-pulse border-2  focus:animate-none hover:animate-none  hover:bg-blue-200 focus:bg-blue-200 border-black "><p></p>g0ffddajfo</div> */}
+          </div>
+
+          <div className="flex absolute   flex-col" style={{ 'left': '16%', 'top': '66%' }}>
+
+            <FcRating className="text-2xl mb-1 focus:scale-125  hover:scale-125 transform" />
+            {/* <div className="px-2 py-1 bg-white rounded-full animate-pulse border-2  focus:animate-none hover:animate-none  hover:bg-blue-200 focus:bg-blue-200 border-black "><p></p>B10</div> */}
+          </div>
+
+          <div className="flex absolute   flex-col" style={{ 'left': '60%', 'top': '74%' }}>
+
+            <FcHome className="text-2xl mb-1 focus:scale-125  hover:scale-125 transform" />
+            {/* <div className="px-2 py-1 bg-white rounded-full animate-pulse border-2  focus:animate-none hover:animate-none  hover:bg-blue-200 focus:bg-blue-200 border-black "><p></p>g99990o</div> */}
+          </div>
+
+          <div className="flex absolute   flex-col" style={{ 'left': '42%', 'top': '74%' }}>
+
+            <FcHome className="text-2xl mb-1 focus:scale-125  hover:scale-125 transform" />
+            {/* <div className="px-2 py-1 bg-white rounded-full animate-pulse border-2  focus:animate-none hover:animate-none  hover:bg-blue-200 focus:bg-blue-200 border-black "><p></p>gooon</div> */}
+          </div>
+
+          <div className="flex absolute   flex-col" style={{ 'left': '50%', 'top': '24%' }}>
+
+            <FcHome className="text-2xl mb-1 focus:scale-125  hover:scale-125 transform" />
+            {/* <div className="px-2 py-1 bg-white rounded-full animate-pulse border-2  focus:animate-none hover:animate-none  hover:bg-blue-200 focus:bg-blue-200 border-black "><p></p>go00000o</div> */}
+          </div>
+
+
+
+          <div className="flex absolute   flex-col" style={{ 'left': '58%', 'top': '29%' }}>
+
+            <FcHome className="text-2xl mb-1 focus:scale-125  hover:scale-125 transform" />
+            {/* <div className="px-2 py-1 bg-white rounded-full animate-pulse border-2  focus:animate-none hover:animate-none  hover:bg-blue-200 focus:bg-blue-200 border-black "><p></p>g999o</div> */}
+          </div>
+
+
+
+          <div className="flex absolute   flex-col" style={{ 'left': '64%', 'top': '45%' }}>
+
+            <FcHome className="text-2xl mb-1 focus:scale-125  hover:scale-125 transform" />
+            {/* <div className="px-2 py-1 bg-white rounded-full animate-pulse border-2  focus:animate-none hover:animate-none  hover:bg-blue-200 focus:bg-blue-200 border-black "><p></p>godd</div> */}
+          </div>
+
+
+          <div className="flex absolute   flex-col" style={{ 'left': '63%', 'top': '54%' }}>
+
+            <FcHome className="text-2xl mb-1 focus:scale-125  hover:scale-125 transform" />
+            {/* <div className="px-2 py-1 bg-white rounded-full animate-pulse border-2  focus:animate-none hover:animate-none  hover:bg-blue-200 focus:bg-blue-200 border-black "><p></p>gonow1</div> */}
+          </div>
+
+
+
+          <div className="flex absolute   flex-col" style={{ 'left': '62%', 'top': '65%' }}>
+
+            <FcHome className="text-2xl mb-1 focus:scale-125  hover:scale-125 transform" />
+
+            {/* <div className="px-2 py-1 bg-white rounded-full animate-pulse border-2  focus:animate-none hover:animate-none  hover:bg-blue-200 focus:bg-blue-200 border-black "><p></p>bnow</div> */}
+          </div>
+
+
+
+          <div className="flex absolute   flex-col" style={{ 'left': '75%', 'top': '42%' }}>
+
+            <FcHome className="text-2xl mb-1 focus:scale-125  hover:scale-125 transform" />
+            {/* <div className="px-2 py-1 bg-white rounded-full animate-pulse border-2  focus:animate-none hover:animate-none  hover:bg-blue-200 focus:bg-blue-200 border-black "><p></p>go</div> */}
+          </div>
+
+          <div className="flex absolute   flex-col" style={{ 'left': '35%', 'top': '54%' }}>
+
+            <FcHome className="text-2xl mb-1 focus:scale-125  hover:scale-125 transform" />
+            {/* <div className="px-2 py-1 bg-white rounded-full animate-pulse border-2  focus:animate-none hover:animate-none  hover:bg-blue-200 focus:bg-blue-200 border-black "><p></p>go</div> */}
+          </div>
+
+          </div>
+          <div className="grid grid-cols-2 gap-4  justify-center  content-center font-sans  h-full self-start ">
+          <div className="col-span-2 lg:font-semibold xl:font-medium desk:text-6xl lg:text-4xl xl:text-2xl 2xl:text-3xl   " style={{color:'#59a23e'}}><h1>PLOAT &#x26; </h1> LAYOUT FLOOR PLANS</div>
+<div style={{'background':'#61BE6D'}} className="flex-col h-36 w-36  bg-blue-800 justify-center  rounded-lg   items-center text-white   flex"><div className="">LAND AREA</div><div className=" font-Open mt-2 mb-3 text-3xl">2.2</div> <div>ACRES</div></div>
+<div style={{'background':'#7EB341'}} className="flex-col h-36 w-36 bg-blue-800 justify-center rounded-lg items-center text-white flex"><div className="">VILLAS</div><div className=" font-Open mt-2 mb-3 text-3xl">29</div> <div>NOS</div></div>
+<div style={{'background':'#E4BF30'}} className="flex-col h-36 w-36 bg-blue-800 justify-center rounded-lg items-center text-white flex"><div className="">3BHK</div><div className=" font-Open mt-2 mb-3 text-3xl">18</div> <div>NOS</div></div>
+<div style={{'background':'#F58323'}} className="flex-col h-36 w-36 bg-blue-800 justify-center rounded-lg items-center text-white  flex"><div className="">4BHK</div><div className=" font-Open mt-2 mb-3 text-3xl">11</div><div>NOS</div></div>
+<div  className="flex-col h-36 w-36 bg-blue-400 justify-center rounded-lg items-center text-white flex"><div className="">BLOCKS VILLA</div><div className=" font-Open mt-2 mb-3 text-3xl"><FcHome/></div> </div>
+<div  className="flex-col h-36 w-36 bg-purple-600 justify-center rounded-lg items-center text-white  flex"><div className="">BLOCKS OTHER</div><div className=" font-Open mt-2 mb-3  animate-spin text-3xl"><FcRating/></div> </div>
+</div>
+          </div>
+
+
+
+        
+
+        </div>
+       
+      </div>
     </div>
-    </div>
-    </div>
+  
   )
 }
 
