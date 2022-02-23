@@ -4,36 +4,15 @@ import { FcRating } from 'react-icons/fc'
 import Link from 'next/link'
 import { FcHome } from 'react-icons/fc'
 
-const map = ({}) => {
-  const modal = () => {
-    return (
-      <div className="z-20">mapping</div>
-    )
-  }
-
+const Mapping = () => {
+  
 
 
   return (
-    < div className="  overflow-hidden">
-      <div className="absolute  top-4 w-screen  lg:right-10 text-center flex justify-center  z-10">
-        <img
-          src="/logo.png"
-          alt="Picture of the author"
-          className="md:w-44  w-32"
-        />
-
-      </div>
-      <div className="absolute pl-2 pr-2 pb-2 pt-4 lg:px-2 lg:1b-4 lg:pt-4 flex w-screen justify-between ">
-        <Link href='/'><a className="z-50"><img src="/logoo.png" className="md:ml-4 ml-2 md:w-8 w-8 h-auto  md:h-auto  drop-shadow-2xl brightness-150 saturate-200 " /></a></Link>
-        <div className="z-40"></div>
-        <div className="flex text-3xl mr-3  lg:text-5xl text-gray-200 ">
-
-          <Menuu />
-
-        </div>
-      </div>
+    // < div className="  overflow-hidden">
+      
      
-      <div className="absolute mt-10  flex justify-center  overflow-hidden inset-0">
+      <div className="absolute mt-10  flex justify-center   inset-0">
      <div className="flex  justify-center items-center  flex-col"> 
   
       <div className="h-full   flex justify-center items-center  w-full ">
@@ -166,12 +145,12 @@ const map = ({}) => {
           </div>
           <div className="grid grid-cols-2 gap-4  justify-center  content-center font-sans  h-full self-start ">
           <div className="col-span-2 lg:font-semibold xl:font-medium desk:text-6xl lg:text-4xl xl:text-2xl 2xl:text-3xl   " style={{color:'#59a23e'}}><h1>PLOAT &#x26; </h1> LAYOUT FLOOR PLANS</div>
-<div style={{'background':'#61BE6D'}} className="flex-col h-36 w-36  bg-blue-800 justify-center  rounded-lg   items-center text-white   flex"><div className="">LAND AREA</div><div className=" font-Open mt-2 mb-3 text-3xl">2.2</div> <div>ACRES</div></div>
-<div style={{'background':'#7EB341'}} className="flex-col h-36 w-36 bg-blue-800 justify-center rounded-lg items-center text-white flex"><div className="">VILLAS</div><div className=" font-Open mt-2 mb-3 text-3xl">29</div> <div>NOS</div></div>
-<div style={{'background':'#E4BF30'}} className="flex-col h-36 w-36 bg-blue-800 justify-center rounded-lg items-center text-white flex"><div className="">3BHK</div><div className=" font-Open mt-2 mb-3 text-3xl">18</div> <div>NOS</div></div>
-<div style={{'background':'#F58323'}} className="flex-col h-36 w-36 bg-blue-800 justify-center rounded-lg items-center text-white  flex"><div className="">4BHK</div><div className=" font-Open mt-2 mb-3 text-3xl">11</div><div>NOS</div></div>
-<div  className="flex-col h-36 w-36 bg-blue-400 justify-center rounded-lg items-center text-white flex"><div className="">BLOCKS VILLA</div><div className=" font-Open mt-2 mb-3 text-3xl"><FcHome/></div> </div>
-<div  className="flex-col h-36 w-36 bg-purple-600 justify-center rounded-lg items-center text-white  flex"><div className="">BLOCKS OTHER</div><div className=" font-Open mt-2 mb-3  animate-spin text-3xl"><FcRating/></div> </div>
+<div style={{'background':'#61BE6D'}} className="flex-col h-28 w-40  bg-blue-800 justify-center  rounded-lg   items-center text-white   flex"><div className="">LAND AREA</div><div className=" font-Open mt-2 mb-3 text-3xl">2.2</div> <div>ACRES</div></div>
+<div style={{'background':'#7EB341'}} className="flex-col h-28 w-40 bg-blue-800 justify-center rounded-lg items-center text-white flex"><div className="">VILLAS</div><div className=" font-Open mt-2 mb-3 text-3xl">29</div> <div>NOS</div></div>
+<div style={{'background':'#E4BF30'}} className="flex-col h-28 w-40 bg-blue-800 justify-center rounded-lg items-center text-white flex"><div className="">3BHK</div><div className=" font-Open mt-2 mb-3 text-3xl">18</div> <div>NOS</div></div>
+<div style={{'background':'#F58323'}} className="flex-col h-28 w-40 bg-blue-800 justify-center rounded-lg items-center text-white  flex"><div className="">4BHK</div><div className=" font-Open mt-2 mb-3 text-3xl">11</div><div>NOS</div></div>
+<div  className="flex-col h-28 w-40 bg-blue-400 justify-center rounded-lg items-center text-white flex"><div className="">BLOCKS VILLA</div><div className=" font-Open mt-2 mb-3 text-3xl"><FcHome/></div> </div>
+<div  className="flex-col h-28 w-40 bg-purple-600 justify-center rounded-lg items-center text-white  flex"><div className="">BLOCKS OTHER</div><div className=" font-Open mt-2 mb-3  animate-spin text-3xl"><FcRating/></div> </div>
 </div>
           </div>
 
@@ -182,9 +161,9 @@ const map = ({}) => {
         </div>
        
       </div>
-    </div>
+    // </div>
   
   )
 }
 
-export default map
+export default Mapping

@@ -23,6 +23,8 @@ import MaterialSpecifications from "./sections/MaterialSpecifications";
 import GreenPolicy from "./sections/GreenPolicy";
 import Gallery from "./sections/Gallery/Gallery";
 import Player from "components/sound";
+import mapping from "./sections/mapping";
+import Mapping from "./sections/mapping";
 
 
 
@@ -120,18 +122,20 @@ export default function Home() {
               <GreenPolicy/>
               </div>
              
-           
+              <div data-anchor="slide7" id="section7" className="section">
+            <Mapping/>
+              </div>
             
           
-              <div  data-anchor="slide7" id="section7" className="section">
+              <div  data-anchor="slide8" id="section8" className="section">
         <MaterialSpecifications/>
               </div>
 
-              <div  data-anchor="slide8" id="section8" className=" overflow-hidden section">
+              <div  data-anchor="slide9" id="section9" className=" overflow-hidden section">
         <Gallery/>
               </div>
               
-              <div  data-anchor="slide9" id="section9" className="section">
+              <div  data-anchor="slide10" id="section10" className="section">
          <FooterPage/>
               </div>
           
