@@ -20,9 +20,9 @@ const FooterPage = () => {
         
     return (
         <>
-        <div className="lg:hidden flex-col  font-Open   flex lg:h-screen h-full w-screen ">
-            <div className="  lg:mt-36  mt-10 md:mt-28 lg:flex-row flex-col flex  justify-center h-3/5  ">
-                <div className="flex mx-4 lg:mx-0 flex-col mr-20">
+        <div className="lg:hidden flex-col    font-Open  justify-center  flex lg:h-screen h-full w-screen ">
+            <div className="  lg:mt-36  mt-14 md:mt-28 lg:flex-row flex-col flex  justify-center h-3/5  ">
+                <div className="flex mx-4 lg:mx-0  flex-col mr-20">
                     <h1 className="font-medium   text-base sm:text-2xl  lg:text-4xl  mt-8 md:mt-2  lg:mt-0" style={{ color: '#59a23e' }}>Distance from ONE</h1>
 
                     <div className="  text-xs xxxs:text-sm lg:mt-10   text-gray-800 sm:text-base lg:text-xl" >
@@ -31,20 +31,21 @@ const FooterPage = () => {
 
                         <p className="lg:py-2">Sreekaryam
                              - 5.3 km</p>
-                        <p className="lg:py-2">Pothencode
-                            - 5.8 km</p>
+                             <p className="lg:py-2">Technopark
+                            - 7.5 Km</p>
+                      
                         <p className="lg:py-2">Sabarigiri International School
                             - 1.4 km</p>
-                        <p className="lg:py-2">College of Engineering
+                        <p className="lg:py-2">College of Engineering TVM
                             - 6.8 km</p>
-                        <p className="lg:py-2">Technopark
-                            - 7.5 Km</p>
+                            <p className="lg:py-2">Pothencode
+                            - 5.8 km</p>
                         <p className="lg:py-2">Medical College
                             - 8.8 km</p>
 
                         <p className="lg:py-2">LULU Mall
                             - 12.4 km</p>
-                        <p className="lg:py-2">International Airport
+                        <p className="lg:py-2">International Airport TVM
                             - 13.8 km</p>
                     </div>
                 </div>
@@ -99,7 +100,7 @@ const FooterPage = () => {
 
                         <p className="lg:py-2 xl:py-1 2xl:py-2 desk:py-1">LULU Mall&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#8202;&#8202;&#8202;&#8202;&#8202;
                             -&#160;12.4 km</p>
-                        <p className="lg:py-2 xl:py-1 2xl:py-2 desk:py-1">International Airport
+                        <p className="lg:py-2 xl:py-1 2xl:py-2 desk:py-1">International Airport TVM
                         &#160;&#160;&#160;&#160; -&#160;13.8 km</p></div>
                </div>
           <div className= "lg:flex hidden   w-screen justify-between px-10 items-center pb-10 lg:pb-10 h-52">
