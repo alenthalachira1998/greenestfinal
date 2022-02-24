@@ -25,7 +25,7 @@ export default function ContactModal(props) {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('service_22e9z5l', 'template_qidqgvk', form.current, 'user_t1ShJvY8TWpfiyl60gI2i')
+    emailjs.sendForm('service_mquabyy', 'template_v9rdekm', form.current, 'user_jbCEWuOBdZHiYZ28FmYvf')
       .then((result) => {
           console.log(result.text);
       }, (error) => {
@@ -116,14 +116,14 @@ export default function ContactModal(props) {
                     close
                   </button>
                   </div>
-                 <form ref={form} onSubmit={sendEmail} className="flex flex-col">
+                 <form ref={form} onSubmit={sendEmail} className="flex flex-col font-Open">
       <label className="text-white pt-2 ">Name</label>
       <input type="text" name="name" className="w-100 mt-2 py-3 px-3  bg-transparent dark:bg-gray-800 border border-gray-400 dark:border-gray-700 text-white font-semibold focus:border-indigo-500 focus:outline-none" />
       <label className="text-white pt-2">Email</label>
 
-      <input type="text" name="email"  className="w-100 mt-2 py-3 px-3  bg-transparent dark:bg-gray-800 border border-gray-400 dark:border-gray-700 text-white font-semibold focus:border-indigo-500 focus:outline-none"/>
+      <input type="email" name="email"  className="w-100 mt-2 py-3 px-3  bg-transparent dark:bg-gray-800 border border-gray-400 dark:border-gray-700 text-white font-semibold focus:border-indigo-500 focus:outline-none"/>
       <label className="text-white pt-2">Phone</label>
-      <input type="text" name="phoneno"  className="w-100 mt-2 py-3 px-3  bg-transparent dark:bg-gray-800 border border-gray-400 dark:border-gray-700 text-white font-semibold focus:border-indigo-500 focus:outline-none"/>
+      <input type="text"  name="phoneno"  className="w-100 mt-2 py-3 px-3  bg-transparent dark:bg-gray-800 border border-gray-400 dark:border-gray-700 text-white font-semibold focus:border-indigo-500 focus:outline-none"/>
       <label className="text-white pt-2">Message</label>
       <textarea name="message" className="w-100 mt-2 py-3 px-3  bg-transparent dark:bg-gray-800 border border-gray-400 dark:border-gray-700 text-white font-semibold focus:border-indigo-500 focus:outline-none" />
       <input type="submit" value="Send"  className="inline-flex justify-center  text-white
