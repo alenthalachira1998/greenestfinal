@@ -39,7 +39,7 @@ const image4 = () => {
     
       src="/images/resort/Page - 03-05.jpg"
        />
-      <Link className="z-30  " href='/#slide8'><a><VscArrowLeft className=" lg:mt-0 lg:text-6xl lg:mx-4 mt-7 text-4xl"/></a></Link>
+      <Link className="z-30  " href='/#slide9'><a><VscArrowLeft className=" lg:mt-0 lg:text-6xl lg:mx-4 mt-7 text-4xl"/></a></Link>
     </div>
  
   </div>

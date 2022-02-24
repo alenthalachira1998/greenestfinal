@@ -38,7 +38,7 @@ const image9 = () => {
     
       src="/images/resort/gallery/Page - 04 Improved-02.jpg"
        />
-      <Link className="z-30  " href='/#slide8'><a><VscArrowLeft className=" lg:mt-0 lg:text-6xl lg:mx-4 mt-7 text-4xl"/></a></Link>
+      <Link className="z-30  " href='/#slide9'><a><VscArrowLeft className=" lg:mt-0 lg:text-6xl lg:mx-4 mt-7 text-4xl"/></a></Link>
     </div>
  
   </div>
