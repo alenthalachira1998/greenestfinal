@@ -56,8 +56,8 @@ const FooterPage = () => {
             </div>
             <div className="flex lg:flex-row  sm:bg-white flex-col w-screen  h-full justify-start  lg:px-20  ">
                 <div className="text-sm  ml-4 lg:ml-0 mt-6 xs:mt-4  md:mt-4 text-gray-800  sm:text-base lg:text-xl"> <h1 className="font-medium xs:text-base sm:text-xl lg:text-2xl" >Contact us</h1><div>
-                    <p >Greenest Buildings and Business Pvt Ltd,</p><p>
-                        Nandavanam</p><p> Thiruvananthapuram - 695033</p>  <p className="flex"> <FaPhoneAlt className="mr-2" />0471-2991231, 8078079111</p><p className="flex"><AiOutlineMail className="mr-4" />mail@greenest.co.in</p></div></div>
+                    <p >Greenest Buildings &#38; Business Pvt.Ltd,</p><p>
+                    TC 14/733,  Nandavanam,</p><p> Thiruvananthapuram - 695033</p>  <p className="flex"> <FaPhoneAlt className="mr-2" />0471-2991231, 8078079111</p><p className="flex"><AiOutlineMail className="mr-4" />mail@greenest.co.in</p></div></div>
 
                 <div className="flex flex-col pb-4  ml-4 lg:ml-0  md:max-w-48 justify-center text-sm sm:text-base lg:text-xl"> <div className=" lg:text-2xl sm:text-base text-sm font-medium flex mt-2 items-center">
                     <div className="mr-2 md:text-xl lg:mr-8"> <Link className="z-3 " href='sections/mapping'><a>About</a></Link></div><div className="md:text-xl"><Link className="" href='/Blogshome'><a>Blog</a></Link></div><div className="flex  md:space-x-2  lg:hidden md:text-5xl mx-2"><Link href="https://youtu.be/TjOALPVpDNo">
@@ -105,8 +105,8 @@ const FooterPage = () => {
                </div>
           <div className= "lg:flex hidden   w-screen justify-between px-10 items-center pb-10 lg:pb-10 h-52">
           <div className="text-sm  ml-4 lg:ml-0 mt-8  md:mt-4 text-gray-800 sm:text-base lg:text-xl"> <h1 className="font-medium text-sm sm:text-xl lg:text-2xl" >Contact us</h1><div>
-                    <p >Greenest Buildings and Business Pvt Ltd,</p><p>
-                        Nandavanam</p><p> Thiruvananthapuram - 695033</p>  <p className="flex"> <FaPhoneAlt className="mr-2" />0471-2991231, 8078079111</p><p className="flex"><AiOutlineMail className="mr-4" />mail@greenest.co.in</p></div></div>
+                    <p >Greenest Buildings &#38; Business Pvt.Ltd,</p><p>
+                       TC 14/733, Nandavanam,</p><p> Thiruvananthapuram - 695033</p>  <p className="flex"> <FaPhoneAlt className="mr-2" />0471-2991231, 8078079111</p><p className="flex"><AiOutlineMail className="mr-4" />mail@greenest.co.in</p></div></div>
 
      
                         <div className="flex flex-col pb-4  ml-4 lg:ml-0  md:max-w-48 justify-center text-sm sm:text-base lg:text-xl items-center"> <div className=" text-center lg:text-2xl sm:text-base text-sm mb-4 font-medium flex 4  mt-2 items-center">
