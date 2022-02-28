@@ -2,8 +2,8 @@ import React, { useState, useEffect } from "react";
 import { BiVolumeFull } from 'react-icons/bi';
 import { BiVolumeMute } from 'react-icons/bi';
 const useAudio = url => {
-  const [audio] = useState(new Audio('https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3'));
-  const [playing, setPlaying] = useState(false);
+  const [audio] = useState(new Audio('/greenest-BGM.mp3'));
+  const [playing, setPlaying] = useState(true);
 
   const toggle = () => setPlaying(!playing);
   window.addEventListener('scrollY',()=> setPlaying(false));

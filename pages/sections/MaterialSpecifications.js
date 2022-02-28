@@ -174,12 +174,12 @@ const MaterialSpecifications = () => {
           <div className=" lg:justify-center  lg:mt-6 xl:mt-2 2xl:mt-0  flex flex-col lg:flex-row">
          
             <div className="   flex flex-col mr-10  ">
-              <div className="flex">
+              <div className="flex items-center mb-2">
               <button
             className=" text-2xl  sm:text-4xl"
             onClick={() => setNext(false)}
-          > <VscArrowLeft className="  z-20  text-gray-500 hover:text-green-500 animate-pulse  text-2xl mr-4    lg:hidden font-thin" />
-          </button><h1 className="lg:text-2xl 2xl:text-3xl lg:flex desk:text-2xl sm:text-2xl text-base  lg:mb-4 " style={{color:'#59a23e'}}>Specification </h1></div>
+          > <VscArrowLeft className="  z-20  text-gray-500 hover:text-green-500 animate-pulse  text-3xl mr-2    lg:hidden font-thin" />
+          </button><h1 className="lg:text-2xl 2xl:text-3xl  lg:flex desk:text-2xl sm:text-2xl text-xl  lg:mb-4 " style={{color:'#59a23e'}}>Specification </h1></div>
               <h1 className="text-center  font-medium text-sm lg:text-base 2xl:text-xl uppercase" style={{color:'#59a23e'}}>Electrical</h1>{" "}
               <div className="bg-green-200   p-2 2xl:h-44 flex flex-col justify-center xl:h-36  lg:h-44  lg:px-8  rounded-2xl text-gray-700 border-4 border-gray-200  desk:text-lg  text-xs sm:text-sm    lg:text-base 2xl:text-xl">
                 <p> Conduct pipes&#8202;&#8202;&#8202;&#8202;: Balcon .</p>
@@ -281,13 +281,13 @@ const MaterialSpecifications = () => {
           <div className=" lg:justify-center  mx-4 sm:mx-0 flex flex-col lg:flex-row">
        
             <div className=" flex  flex-col mr-10  ">
-              <div className="flex lg">
-            <h1 className="lg:text-2xl 2xl:text-3xl lg:flex desk:text-2xl sm:text-2xl text-base  lg:mb-4" style={{color:'#59a23e'}}>Specification </h1>
+              <div className="flex mb-2 items-center">
+            <h1 className="lg:text-2xl 2xl:text-3xl lg:flex desk:text-2xl sm:text-2xl text-xl  lg:mb-4" style={{color:'#59a23e'}}>Specification </h1>
            <button
             className="text-2xl  sm:text-4xl"
             onClick={() => setNext(true)}
           >
-            <VscArrowRight className="  z-20  text-gray-500 hover:text-green-500 animate-pulse   ml-2   lg:hidden font-thin" />
+            <VscArrowRight className="  z-20  text-gray-500 hover:text-green-500 animate-pulse   ml-2 text-3xl   lg:hidden font-thin" />
           </button> </div>
               <h1 className="text-center  font-medium text-sm lg:text-base 2xl:text-xl" style={{color:'#59a23e'}}>STRUCTURE</h1>{" "}
               {/* <div className="2xl:p-12 items-center  bg-green-200  p-2  desk:text-lg  desk:pb-10 text-xs sm:text-sm   rounded-2xl text-gray-700 border-4 border-gray-200 lg:text-base 2xl:text-xl"> */}

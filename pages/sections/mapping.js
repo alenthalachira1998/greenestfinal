@@ -1,15 +1,15 @@
 import Menuu from 'components/Menuu'
 import React from 'react'
-import { FcRating } from 'react-icons/fc'
+// import { FcRating } from 'react-icons/fc'
 import Link from 'next/link'
-import { FcHome } from 'react-icons/fc'
+/import { FcHome } from 'react-icons/fc'
 import { FcSearch } from 'react-icons/fc'
 const Mapping = () => {
   
 
 
   return (
-       // <div className="px-2 py-1 bg-white rounded-full animate-pulse border-2  focus:animate-none hover:animate-none  hover:bg-blue-200 focus:bg-blue-200 border-black "><p></p>B3</div> */}
+       // <div className="w-16 h-10 bg-white rounded-full animate-pulse border-2  focus:animate-none hover:animate-none  hover:bg-blue-200 focus:bg-blue-200 border-black "><p></p>B3</div> */}
     // < div className="  overflow-hidden">
       
      
@@ -20,7 +20,7 @@ const Mapping = () => {
     
         <div className="h-75  relative">
           <img className=" h-full  object-contain  " src="/images/map.png" />
-          <div className="flex absolute top-1/2    flex-col" style={{ 'left': '48%' }}>
+          {/* <div className="flex absolute top-1/2    flex-col" style={{ 'left': '48%' }}>
           <Link href="/blogs/blog-10">
           <a><FcHome className="text-2xl mb-1 focus:scale-150  hover:scale-150 transform" /></a>
         </Link>
@@ -135,18 +135,109 @@ const Mapping = () => {
           <div className="flex absolute   flex-col" style={{ 'left': '35%', 'top': '54%' }}>
           <Link href="/blogs/blog-15">
           <a><FcHome className="text-2xl mb-1 focus:scale-150  hover:scale-150 transform" /></a></Link>
-          </div>
+          </div> */}
 
           </div>
           <div className="grid grid-cols-2 gap-4  justify-center  content-center font-sans  h-full self-start ">
-          <div className="col-span-2 lg:font-semibold xl:font-medium desk:text-6xl lg:text-4xl xl:text-2xl 2xl:text-3xl   " style={{color:'#59a23e'}}><h1>PLOAT &#x26; </h1> LAYOUT FLOOR PLANS</div>
-<div style={{'background':'#61BE6D'}} className="flex-col h-28 w-40  bg-blue-800 justify-center  rounded-lg   items-center text-white   flex"><div className="">LAND AREA</div><div className=" font-Open mt-2 mb-3 text-3xl">2.2</div> <div>ACRES</div></div>
-<div style={{'background':'#7EB341'}} className="flex-col h-28 w-40 bg-blue-800 justify-center rounded-lg items-center text-white flex"><div className="">VILLAS</div><div className=" font-Open mt-2 mb-3 text-3xl">29</div> <div>NOS</div></div>
-<div style={{'background':'#E4BF30'}} className="flex-col h-28 w-40 bg-blue-800 justify-center rounded-lg items-center text-white flex"><div className="">3BHK</div><div className=" font-Open mt-2 mb-3 text-3xl">18</div> <div>NOS</div></div>
-<div style={{'background':'#F58323'}} className="flex-col h-28 w-40 bg-blue-800 justify-center rounded-lg items-center text-white  flex"><div className="">4BHK</div><div className=" font-Open mt-2 mb-3 text-3xl">11</div><div>NOS</div></div>
-<div  className="flex-col h-28 w-40 bg-blue-400 justify-center rounded-lg items-center text-white flex"><div className="">BLOCKS VILLA</div><div className=" font-Open mt-2 mb-3 text-3xl"><FcHome/></div> </div>
-<div  className="flex-col h-28 w-40 bg-purple-600 justify-center rounded-lg items-center text-white  flex"><div className="">BLOCKS OTHER</div><div className=" font-Open mt-2 mb-3  animate-spin text-3xl"><FcRating/></div> </div>
+          <div className="col-span-2 lg:font-semibold xl:font-medium desk:text-6xl lg:text-4xl xl:text-xl 2xl:text-xl   " style={{color:'#59a23e'}}><h1>PLOAT &#x26; </h1> LAYOUT FLOOR PLANS</div>
+<div style={{'background':'#61BE6D'}} className="flex-col  w-40  bg-blue-800 justify-center  rounded-lg   items-center text-white   flex"><div className="">LAND AREA</div><div className=" font-Open mb-1 text-3xl">2.2</div> <div>ACRES</div></div>
+<div style={{'background':'#7EB341'}} className="flex-col  w-40 bg-blue-800 justify-center rounded-lg items-center text-white flex"><div className="">VILLAS</div><div className=" font-Open mb-1 text-3xl">29</div> <div>NOS</div></div>
+<div style={{'background':'#E4BF30'}} className="flex-col  w-40 bg-blue-800 justify-center rounded-lg items-center text-white flex"><div className="">3BHK</div><div className=" font-Open mb-1 text-3xl">18</div> <div>NOS</div></div>
+<div style={{'background':'#F58323'}} className="flex-col  w-40 bg-blue-800 justify-center rounded-lg items-center text-white  flex"><div className="">4BHK</div><div className=" font-Open mb-1 text-3xl">11</div><div>NOS</div></div>
+{/* <div  className="flex-col h-28 w-40 bg-blue-400 justify-center rounded-lg items-center text-white flex"><div className="">BLOCKS VILLA</div><div className=" font-Open mt-2 mb-3 text-3xl"><FcHome/></div> </div>
+<div  className="flex-col h-28 w-40 bg-purple-600 justify-center rounded-lg items-center text-white  flex"><div className="">BLOCKS OTHER</div><div className=" font-Open mt-2 mb-3  animate-spin text-3xl"><FcRating/></div> </div> */}
+
+<div className="flex-col flex col-span-2  justify-center py-2 items-center rounded-lg"style={{'background':'#61BE6D'}} >
+<div className=" font-semi-bold text-xl text-white mb-4">
+Explore Villas and Others
 </div>
+<div className="text-sm flex  w-full h-full justify-around">
+<div className="flex  w-14 h-6 hover:bg-gray-200  focus:bg-gray-200 bg-white rounded-lg justify-center items-center">
+<Link href="/blogs/blog-15">
+          <a className="">V1-V4</a></Link>
+</div>
+<div className="flex w-14 h-6 hover:bg-gray-200  focus:bg-gray-200 bg-white rounded-lg justify-center items-center">
+<Link href="/blogs/blog-15">
+          <a>V5</a></Link>
+</div>
+<div className="flex w-14 h-6 hover:bg-gray-200  focus:bg-gray-200 bg-white rounded-lg justify-center items-center">
+<Link href="/blogs/blog-15">
+          <a>V6</a></Link>
+</div>
+<div className="flex  w-14 h-6 hover:bg-gray-200  focus:bg-gray-200 bg-white rounded-lg justify-center items-center">
+<Link href="/blogs/blog-15">
+          <a>V7</a></Link>
+</div>
+<div className="flex w-14 h-6 hover:bg-gray-200  focus:bg-gray-200 bg-white rounded-lg justify-center items-center">
+<Link href="/blogs/blog-15">
+          <a>V8-V13</a></Link>
+</div>
+</div>
+<div className="flex  text-sm mt-4 w-full h-full justify-around">
+
+<div className="flex  w-14 h-6 hover:bg-gray-200  focus:bg-gray-200 bg-white rounded-lg justify-center items-center">
+<Link href="/blogs/blog-15">
+          <a>V14</a></Link>
+</div>
+<div className="flex w-14 h-6 hover:bg-gray-200  focus:bg-gray-200 bg-white rounded-lg justify-center items-center">
+<Link href="/blogs/blog-15">
+          <a>V15</a></Link>
+</div>
+<div className="flex w-14 h-6 hover:bg-gray-200  focus:bg-gray-200 bg-white rounded-lg justify-center items-center">
+<Link href="/blogs/blog-15">
+          <a>V16</a></Link>
+</div>
+<div className="flex  w-14 h-6 hover:bg-gray-200  focus:bg-gray-200 bg-white rounded-lg justify-center items-center">
+<Link href="/blogs/blog-15">
+          <a>V17</a></Link>
+</div>
+<div className="flex w-14 h-6 hover:bg-gray-200  focus:bg-gray-200 bg-white rounded-lg justify-center items-center">
+<Link href="/blogs/blog-15">
+          <a>V18</a></Link>
+</div>
+</div>
+<div className="flex  text-sm mt-4 w-full h-full justify-around">
+
+
+<div className="flex  w-14 h-6 hover:bg-gray-200  focus:bg-gray-200 bg-white rounded-lg justify-center items-center">
+<Link href="/blogs/blog-15">
+          <a>V19-V24</a></Link>
+</div>
+<div className="flex w-14 h-6 hover:bg-gray-200  focus:bg-gray-200 bg-white rounded-lg justify-center items-center">
+<Link href="/blogs/blog-15">
+          <a>V25</a></Link>
+</div>
+<div className="flex w-14 h-6 hover:bg-gray-200  focus:bg-gray-200 bg-white rounded-lg justify-center items-center">
+<Link href="/blogs/blog-15">
+          <a>V26</a></Link>
+</div>
+<div className="flex w-14 h-6 hover:bg-gray-200  focus:bg-gray-200 bg-white rounded-lg justify-center items-center">
+<Link href="/blogs/blog-15">
+          <a>V27</a></Link>
+</div>
+<div className="flex  w-14 h-6 hover:bg-gray-200  focus:bg-gray-200 bg-white rounded-lg justify-center items-center">
+<Link href="/blogs/blog-15">
+          <a>V28</a></Link>
+</div>
+
+</div>
+<div className="flex  text-sm mt-4 w-full h-full justify-around">
+
+<div className="flex text-sm px-2 py-1  hover:bg-gray-200  focus:bg-gray-200 bg-white rounded-lg">
+<Link href="/blogs/blog-15">
+          <a>Club house</a></Link>
+</div>
+
+
+</div>
+
+
+
+
+
+</div>
+</div>
+
           </div>
 
 
