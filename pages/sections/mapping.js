@@ -2,7 +2,7 @@ import Menuu from 'components/Menuu'
 import React from 'react'
 // import { FcRating } from 'react-icons/fc'
 import Link from 'next/link'
-/import { FcHome } from 'react-icons/fc'
+//import { FcHome } from 'react-icons/fc'
 import { FcSearch } from 'react-icons/fc'
 const Mapping = () => {
   
@@ -140,10 +140,10 @@ const Mapping = () => {
           </div>
           <div className="grid grid-cols-2 gap-4  justify-center  content-center font-sans  h-full self-start ">
           <div className="col-span-2 lg:font-semibold xl:font-medium desk:text-6xl lg:text-4xl xl:text-xl 2xl:text-xl   " style={{color:'#59a23e'}}><h1>PLOAT &#x26; </h1> LAYOUT FLOOR PLANS</div>
-<div style={{'background':'#61BE6D'}} className="flex-col  w-40  bg-blue-800 justify-center  rounded-lg   items-center text-white   flex"><div className="">LAND AREA</div><div className=" font-Open mb-1 text-3xl">2.2</div> <div>ACRES</div></div>
-<div style={{'background':'#7EB341'}} className="flex-col  w-40 bg-blue-800 justify-center rounded-lg items-center text-white flex"><div className="">VILLAS</div><div className=" font-Open mb-1 text-3xl">29</div> <div>NOS</div></div>
-<div style={{'background':'#E4BF30'}} className="flex-col  w-40 bg-blue-800 justify-center rounded-lg items-center text-white flex"><div className="">3BHK</div><div className=" font-Open mb-1 text-3xl">18</div> <div>NOS</div></div>
-<div style={{'background':'#F58323'}} className="flex-col  w-40 bg-blue-800 justify-center rounded-lg items-center text-white  flex"><div className="">4BHK</div><div className=" font-Open mb-1 text-3xl">11</div><div>NOS</div></div>
+<div style={{'background':'#61BE6D'}} className="flex-col py-2 w-40  bg-blue-800 justify-center  rounded-lg   items-center text-white   flex"><div className="">LAND AREA</div><div className=" font-Open mb-1 text-3xl">2.2</div> <div>ACRES</div></div>
+<div style={{'background':'#7EB341'}} className="flex-col py-2 w-40 bg-blue-800 justify-center rounded-lg items-center text-white flex"><div className="">VILLAS</div><div className=" font-Open mb-1 text-3xl">29</div> <div>NOS</div></div>
+<div style={{'background':'#E4BF30'}} className="flex-col py-2 w-40 bg-blue-800 justify-center rounded-lg items-center text-white flex"><div className="">3BHK</div><div className=" font-Open mb-1 text-3xl">18</div> <div>NOS</div></div>
+<div style={{'background':'#F58323'}} className="flex-col py-2 w-40 bg-blue-800 justify-center rounded-lg items-center text-white  flex"><div className="">4BHK</div><div className=" font-Open mb-1 text-3xl">11</div><div>NOS</div></div>
 {/* <div  className="flex-col h-28 w-40 bg-blue-400 justify-center rounded-lg items-center text-white flex"><div className="">BLOCKS VILLA</div><div className=" font-Open mt-2 mb-3 text-3xl"><FcHome/></div> </div>
 <div  className="flex-col h-28 w-40 bg-purple-600 justify-center rounded-lg items-center text-white  flex"><div className="">BLOCKS OTHER</div><div className=" font-Open mt-2 mb-3  animate-spin text-3xl"><FcRating/></div> </div> */}
 
