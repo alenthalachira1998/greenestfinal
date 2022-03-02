@@ -59,7 +59,7 @@ const BlogDetail = ({blog}) => {
         </div>
       </div>
 
-     <div className="text-sm lg:text-base   max-w-5xl  mb-10 lg:mt-10 flex px-4 pt-20 lg:mx-80    xl:mx-auto flex-col  justify-center   ">
+     <div className="text-sm lg:text-base Font-Open  max-w-5xl  mb-10 lg:mt-10 flex px-4 pt-20 lg:mx-80    xl:mx-auto flex-col  justify-center   ">
         <BlogHeader
             title={blog.title}
             subtitle={blog.subtitle}

@@ -3,7 +3,7 @@ import { BiVolumeFull } from 'react-icons/bi';
 import { BiVolumeMute } from 'react-icons/bi';
 const useAudio = url => {
   const [audio] = useState(new Audio('/greenest-BGM.mp3'));
-  const [playing, setPlaying] = useState(true);
+  const [playing, setPlaying] = useState(false);
 
   const toggle = () => setPlaying(!playing);
   window.addEventListener('scrollY',()=> setPlaying(false));

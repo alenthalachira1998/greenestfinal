@@ -22,7 +22,7 @@ const serializers = {
 
 
 const BlogContent = ({content}) =>
-<div className="xl:text-lg mt-5   text-xs md:text-sm">
+<div className="xl:text-lg mt-5 font-Open   text-xs md:text-sm">
   <BlockContent
     serializers={serializers}
     blocks={content}
