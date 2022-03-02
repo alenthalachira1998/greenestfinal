@@ -153,46 +153,46 @@ Explore Villas and Others
 </div>
 <div className="text-sm flex  w-full h-full justify-around">
 <div className="flex  w-14 h-6 hover:bg-gray-200  focus:bg-gray-200 bg-white rounded-lg justify-center items-center">
-<Link href="/blogs/blog-15">
+<Link href="/blogs/villa1-4">
           <a className="">V1-V4</a></Link>
 </div>
 <div className="flex w-14 h-6 hover:bg-gray-200  focus:bg-gray-200 bg-white rounded-lg justify-center items-center">
-<Link href="/blogs/blog-15">
+<Link href="/blogs/villa5">
           <a>V5</a></Link>
 </div>
 <div className="flex w-14 h-6 hover:bg-gray-200  focus:bg-gray-200 bg-white rounded-lg justify-center items-center">
-<Link href="/blogs/blog-15">
+<Link href="/blogs/villa6">
           <a>V6</a></Link>
 </div>
 <div className="flex  w-14 h-6 hover:bg-gray-200  focus:bg-gray-200 bg-white rounded-lg justify-center items-center">
-<Link href="/blogs/blog-15">
+<Link href="/blogs/villa7">
           <a>V7</a></Link>
 </div>
 <div className="flex w-14 h-6 hover:bg-gray-200  focus:bg-gray-200 bg-white rounded-lg justify-center items-center">
-<Link href="/blogs/blog-15">
+<Link href="/blogs/villa8-13">
           <a>V8-V13</a></Link>
 </div>
 </div>
 <div className="flex  text-sm mt-4 w-full h-full justify-around">
 
 <div className="flex  w-14 h-6 hover:bg-gray-200  focus:bg-gray-200 bg-white rounded-lg justify-center items-center">
-<Link href="/blogs/blog-15">
+<Link href="/blogs/villa14">
           <a>V14</a></Link>
 </div>
 <div className="flex w-14 h-6 hover:bg-gray-200  focus:bg-gray-200 bg-white rounded-lg justify-center items-center">
-<Link href="/blogs/blog-15">
+<Link href="/blogs/villa15">
           <a>V15</a></Link>
 </div>
 <div className="flex w-14 h-6 hover:bg-gray-200  focus:bg-gray-200 bg-white rounded-lg justify-center items-center">
-<Link href="/blogs/blog-15">
+<Link href="/blogs/villa16">
           <a>V16</a></Link>
 </div>
 <div className="flex  w-14 h-6 hover:bg-gray-200  focus:bg-gray-200 bg-white rounded-lg justify-center items-center">
-<Link href="/blogs/blog-15">
+<Link href="/blogs/villa17">
           <a>V17</a></Link>
 </div>
 <div className="flex w-14 h-6 hover:bg-gray-200  focus:bg-gray-200 bg-white rounded-lg justify-center items-center">
-<Link href="/blogs/blog-15">
+<Link href="/blogs/villa18">
           <a>V18</a></Link>
 </div>
 </div>
@@ -200,31 +200,34 @@ Explore Villas and Others
 
 
 <div className="flex  w-14 h-6 hover:bg-gray-200  focus:bg-gray-200 bg-white rounded-lg justify-center items-center">
-<Link href="/blogs/blog-15">
+<Link href="/blogs/villa19-24">
           <a>V19-V24</a></Link>
 </div>
 <div className="flex w-14 h-6 hover:bg-gray-200  focus:bg-gray-200 bg-white rounded-lg justify-center items-center">
-<Link href="/blogs/blog-15">
+<Link href="/blogs/villa25">
           <a>V25</a></Link>
 </div>
 <div className="flex w-14 h-6 hover:bg-gray-200  focus:bg-gray-200 bg-white rounded-lg justify-center items-center">
-<Link href="/blogs/blog-15">
+<Link href="/blogs/villa26">
           <a>V26</a></Link>
 </div>
 <div className="flex w-14 h-6 hover:bg-gray-200  focus:bg-gray-200 bg-white rounded-lg justify-center items-center">
-<Link href="/blogs/blog-15">
+<Link href="/blogs/villa27">
           <a>V27</a></Link>
 </div>
 <div className="flex  w-14 h-6 hover:bg-gray-200  focus:bg-gray-200 bg-white rounded-lg justify-center items-center">
-<Link href="/blogs/blog-15">
+<Link href="/blogs/villa28">
           <a>V28</a></Link>
 </div>
 
 </div>
-<div className="flex  text-sm mt-4 w-full h-full justify-around">
-
+<div className="flex  text-sm mt-4 w-full h-full items-center  justify-center">
+<div className="flex  w-14 h-6 hover:bg-gray-200  mr-4 focus:bg-gray-200 bg-white rounded-lg justify-center items-center">
+<Link href="/blogs/villa29">
+          <a>V29</a></Link>
+</div>
 <div className="flex text-sm px-2 py-1  hover:bg-gray-200  focus:bg-gray-200 bg-white rounded-lg">
-<Link href="/blogs/blog-15">
+<Link href="/blogs/clubhouse">
           <a>Club house</a></Link>
 </div>
 

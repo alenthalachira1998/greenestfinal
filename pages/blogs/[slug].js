@@ -15,7 +15,7 @@ const BlogDetail = ({blog}) => {
       {/* <h1>Hello Detail Page - {blog?.slug}</h1> */}
 
   return (
-   <>
+   <div className="w-screen ">
 
    {/* <div className="fixed bg-black pb-4   overflow-x-hidden  lg:top-0  w-full flex justify-center z-10">
         <img
@@ -59,7 +59,7 @@ const BlogDetail = ({blog}) => {
         </div>
       </div>
 
-     <div className="absolute text-sm lg:text-base mb-10 lg:mt-10 flex px-4 pt-20 lg:mx-80   xl:mx-96 flex-col  justify-center   ">
+     <div className="text-sm lg:text-base   max-w-5xl  mb-10 lg:mt-10 flex px-4 pt-20 lg:mx-80    xl:mx-auto flex-col  justify-center   ">
         <BlogHeader
             title={blog.title}
             subtitle={blog.subtitle}
@@ -70,12 +70,12 @@ const BlogDetail = ({blog}) => {
           />
 
           <BlogContent content={blog.content}/>
-          <footer className="text-center   text-gray-600 py-5">
+          <footer className="text-center    text-gray-600 py-5">
           &#169; Greenestone Buildings
           </footer>
      </div>
 
-   </>
+   </div>
   )
 }
 export async function getStaticProps({params}) {
