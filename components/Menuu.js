@@ -85,7 +85,7 @@
 // // export default Menuu;
 
 
-import React, { useState } from 'react';
+import React, { useState,useEffect,useRef } from 'react';
 import * as FaIcons from 'react-icons/fa';
 import * as MdIcons from 'react-icons/md';
 import * as VscIcons from 'react-icons/vsc';
@@ -99,7 +99,17 @@ function Menuu() {
 
   const showSidebar = () => setSidebar(true);
   const Close = () => setSidebar(false);
+ let menuRef=useRef();
+ useEffect(()=>{
+   document.addEventListener("mousedown",(event)=>{
+  if(!menuRef.current.contains(event.target)){
+    setSidebar(false);
+  }
 
+ });
+});
+
+//  });
   return (
     <>
 
@@ -108,11 +118,12 @@ function Menuu() {
         <div className="nav-bar  relative">
           <div className='text-4xl text-gray-500  cursor-pointer'>
             <Link href='#' >
-              <VscIcons.VscMenu  onClick={showSidebar} onMouseOver={showSidebar}/>
+              <VscIcons.VscMenu
+              onClick={showSidebar} onMouseOver={showSidebar}/>
             </Link>
           </div>
         </div>
-        <nav className={sidebar ? 'nav-menu active ' : '  nav-menu'} onMouseLeave={Close}>
+        <nav className={sidebar ? 'nav-menu active ' : '  nav-menu'}  ref={menuRef}    onMouseLeave={Close}>
           <ul className='nav-menu-items  cursor-pointer'  onClick={Close}>
 
             <li className='navbar-toggle ml-full text-gray-400 text-4xl'>
