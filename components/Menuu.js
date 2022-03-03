@@ -104,6 +104,7 @@ function Menuu() {
 //    document.addEventListener("mousedown",(event)=>{
 //   if(!menuRef.current.contains(event.target)){
 //     setSidebar(false);
+//ref={menuRef} 
 //   }
 
 //  });
@@ -123,7 +124,7 @@ function Menuu() {
             </Link>
           </div>
         </div>
-        <nav className={sidebar ? 'nav-menu active ' : '  nav-menu'}  ref={menuRef}    onMouseLeave={Close}>
+        <nav className={sidebar ? 'nav-menu active ' : '  nav-menu'}     onMouseLeave={Close}>
           <ul className='nav-menu-items  cursor-pointer'  onClick={Close}>
 
             <li className='navbar-toggle ml-full text-gray-400 text-4xl'>
