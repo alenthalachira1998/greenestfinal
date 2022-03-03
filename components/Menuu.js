@@ -99,15 +99,15 @@ function Menuu() {
 
   const showSidebar = () => setSidebar(true);
   const Close = () => setSidebar(false);
- let menuRef=useRef();
- useEffect(()=>{
-   document.addEventListener("mousedown",(event)=>{
-  if(!menuRef.current.contains(event.target)){
-    setSidebar(false);
-  }
+//  let menuRef=useRef();
+//  useEffect(()=>{
+//    document.addEventListener("mousedown",(event)=>{
+//   if(!menuRef.current.contains(event.target)){
+//     setSidebar(false);
+//   }
 
- });
-});
+//  });
+//});
 
 //  });
   return (
