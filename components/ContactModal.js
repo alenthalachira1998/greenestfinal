@@ -25,7 +25,7 @@ export default function ContactModal(props) {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('service_mquabyy', 'template_v9rdekm', form.current, 'user_jbCEWuOBdZHiYZ28FmYvf')
+    emailjs.sendForm('service_s7v7d5s', 'template_4xp2ujk', form.current, 'WNGlEcEmWYtlwZX00')
       .then((result) => {
           console.log(result.text);
       }, (error) => {
