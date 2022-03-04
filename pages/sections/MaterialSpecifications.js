@@ -179,7 +179,7 @@ const MaterialSpecifications = () => {
             className=" text-2xl  sm:text-4xl"
             onClick={() => setNext(false)}
           > <VscArrowLeft className="  z-20  text-gray-500 hover:text-green-500 animate-pulse  text-3xl mr-2    lg:hidden font-thin" />
-          </button><h1 className="lg:text-2xl 2xl:text-3xl  lg:flex desk:text-2xl sm:text-2xl text-xl  lg:mb-4 " style={{color:'#59a23e'}}>Specification </h1></div>
+          </button><h1 className="lg:text-2xl 2xl:text-3xl  lg:flex desk:text-3xl sm:text-2xl text-xl  lg:mb-4 " style={{color:'#59a23e'}}>Specification </h1></div>
               <h1 className="text-center  font-medium text-sm lg:text-base 2xl:text-xl uppercase" style={{color:'#59a23e'}}>Electrical</h1>{" "}
               <div className="bg-green-200   p-2 2xl:h-44 flex flex-col justify-center xl:h-36  lg:h-44  lg:px-8  rounded-2xl text-gray-700 border-4 border-gray-200  desk:text-lg  text-xs sm:text-sm    lg:text-base 2xl:text-xl">
                 <p> Conduct pipes&#8202;&#8202;&#8202;&#8202;: Balcon .</p>
@@ -282,14 +282,14 @@ const MaterialSpecifications = () => {
        
             <div className=" flex  flex-col mr-10  ">
               <div className="flex mb-2 items-center">
-            <h1 className="lg:text-2xl 2xl:text-3xl lg:flex desk:text-2xl sm:text-2xl text-xl  lg:mb-4" style={{color:'#59a23e'}}>Specification </h1>
+            <h1 className="lg:text-2xl 2xl:text-3xl lg:flex desk:text-3xl sm:text-2xl text-xl desk:mt-3 2xl:mt-0  2xl:mb-4 lg:mb-4" style={{color:'#59a23e'}}>Specification </h1>
            <button
             className="text-2xl  sm:text-4xl"
             onClick={() => setNext(true)}
           >
             <VscArrowRight className="  z-20  text-gray-500 hover:text-green-500 animate-pulse   ml-2 text-3xl   lg:hidden font-thin" />
           </button> </div>
-              <h1 className="text-center  font-medium text-sm lg:text-base 2xl:text-xl" style={{color:'#59a23e'}}>STRUCTURE</h1>{" "}
+              <h1 className="text-center  font-medium text-sm lg:text-base  desk:mt-2 desk:mb-0 2xl:mt-0 2xl:text-xl" style={{color:'#59a23e'}}>STRUCTURE</h1>{" "}
               {/* <div className="2xl:p-12 items-center  bg-green-200  p-2  desk:text-lg  desk:pb-10 text-xs sm:text-sm   rounded-2xl text-gray-700 border-4 border-gray-200 lg:text-base 2xl:text-xl"> */}
                <div className="   bg-green-200  2xl:h-64 flex flex-col justify-center  p-2 xl:h-48  lg:h-80  lg:px-8 desk:text-lg  text-xs sm:text-sm   rounded-2xl text-gray-700 border-4 border-gray-200 lg:text-base 2xl:text-xl">
                <p> Cement&#160;&#160;&#160;&#160;&#160;&#8202;&#8202;&#8202;: Dalmia green/ultra tech .</p>
@@ -300,7 +300,7 @@ const MaterialSpecifications = () => {
                 <p> Plastering&#160;&#160;&#160;: External walls - Cement plastering ,</p>
                 <p> Internal walls - Gypsum plastering .</p>
               </div>
-              <h1 className="text-center uppercase lg:mt-10  desk:mt-5 2xl:mt-10 font-medium text-sm lg:text-base 2xl:text-xl" style={{color:'#59a23e'}}>Doors and Windows</h1>{" "}
+              <h1 className="text-center uppercase lg:mt-10  desk:mt-6 2xl:mt-9 font-medium text-sm lg:text-base 2xl:text-xl" style={{color:'#59a23e'}}>Doors and Windows</h1>{" "}
               <div className="  bg-green-200   p-2 2xl:h-64 flex flex-col justify-center xl:h-48  lg:h-72  lg:px-8  rounded-2xl text-gray-700 border-4 border-gray-200  desk:text-lg  text-xs sm:text-sm    lg:text-base 2xl:text-xl">
                 <p> Main Door&#160;&#160;: Teak Wood .</p>
                 <p> Door lock&#160;&#160;&#160;&#8202;: Biometric digital door lock Yale/Godrej .</p>
@@ -313,7 +313,7 @@ const MaterialSpecifications = () => {
             </div>
             <div className=" flex flex-col  ">
               {" "}
-              <h1 className="text-center   font-medium text-sm lg:text-base 2xl:mt-12 xl:mt-12 lg:mt-12 2xl:text-xl" style={{color:'#59a23e'}}>FLOORING</h1>{" "}
+              <h1 className="text-center   font-medium text-sm lg:text-base 2xl:mt-16 xl:mt-12 desk:mt-20  lg:mt-12 2xl:text-xl" style={{color:'#59a23e'}}>FLOORING</h1>{" "}
               <div className="bg-green-200 rounded-2xl 2xl:h-64 flex flex-col justify-center  p-2  xl:h-48  lg:h-80  lg:px-8   text-xs sm:text-sm 2xl:pl-4  desk:text-lg  text-gray-700 border-4 border-gray-200 lg:text-base 2xl:text-xl">
                 <p> Common areas&#160;&#160;&#8202;: Semi glossy charged vitrified tiles     120 x 80 (Somany/ Kajaria)</p>{" "}
              
@@ -326,7 +326,7 @@ const MaterialSpecifications = () => {
                 <p> Kitchen Counter&#160;&#8202;: Nano white crystallized glass (AGL)</p>
                 <p> Staires&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;: Lappato finish granite 20 mm thick .</p>
               </div>
-              <h1 className="text-center lg:mt-10  font-medium text-sm lg:text-base 2xl:text-xl  desk:mt-5" style={{color:'#59a23e'}}>PAINTING</h1>{" "}
+              <h1 className="text-center lg:mt-10  font-medium text-sm lg:text-base 2xl:text-xl  2xl:mt-8 desk:mt-5" style={{color:'#59a23e'}}>PAINTING</h1>{" "}
               <div className="bg-green-200 2xl:h-64 flex flex-col justify-center   p-2    xl:h-48  lg:h-72  lg:px-8 desk:text-lg  rounded-2xl text-xs sm:text-sm   text-gray-700 border-4 border-gray-200 lg:text-base 2xl:text-xl">
                 <p> Putty &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;: Jotun .</p>
                 <p> InternalWalls&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#8202;&#8202;&#8202; : Jotun phenomastic emulsion .</p>
