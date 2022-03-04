@@ -332,7 +332,7 @@ const MaterialSpecifications = () => {
                 <p> InternalWalls&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#8202;&#8202;&#8202; : Jotun phenomastic emulsion .</p>
                 <p> External walls&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#8202;&#8202;: Jotun jotashield extreme .</p>
                 <p> Iron members&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#8202;&#8202;&#8202; : Jotun enamel . </p>
-                <p> Woodden members : MRF wood coat exterio polish . </p>
+                <p> Woodden members : MRF wood coat exterior polish . </p>
               </div>
             </div>
           </div>
