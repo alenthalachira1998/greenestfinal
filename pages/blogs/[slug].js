@@ -71,7 +71,7 @@ const BlogDetail = ({blog}) => {
 
           <BlogContent content={blog.content}/>
           <footer className="text-center    text-gray-600 py-5">
-          &#169; Greenestone Buildings
+          &#169; Greenest Buildings
           </footer>
      </div>
 
