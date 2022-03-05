@@ -140,7 +140,7 @@ function Menuu() {
                     </Link>
                     <Link href="https://youtu.be/TjOALPVpDNo">
                                 <a className="hover:text-pink-600 mr-5 hover:animate-ping"><AiIcons.AiFillYoutube /></a></Link>
-                                <Link href="https://www.facebook.com/GreenestBuildings/">
+                                <Link href="https://instagram.com/greenest_homes?utm_medium=copy_link">
                                 <a className="hover:text-pink-600 mr-5 hover:animate-ping"><AiIcons.AiOutlineInstagram /></a></Link>
                                 </div>
 
