@@ -139,7 +139,7 @@ const Mapping = () => {
 
           </div>
           <div className="grid grid-cols-2 gap-4  justify-center  desk:mr-8  content-center font-sans  h-full self-start ">
-          <div className="col-span-2 lg:font-semibold xl:font-medium  lg:text-4xl xl:text-xl 2xl:text-xl   " style={{color:'#59a23e'}}><h1>PLOAT &#x26; </h1> LAYOUT FLOOR PLANS</div>
+          <div className="col-span-2 lg:font-semibold xl:font-medium  lg:text-4xl xl:text-xl 2xl:text-xl   " style={{color:'#59a23e'}}><h1>PLOAT  LAYOUT &#x26; </h1>  FLOOR PLANS</div>
 <div style={{'background':'#61BE6D'}} className="flex-col py-2 w-40  bg-blue-800 justify-center  rounded-lg   items-center text-white   flex"><div className="">LAND AREA</div><div className=" font-Open mb-1 text-3xl">2.2</div> <div>ACRES</div></div>
 <div style={{'background':'#7EB341'}} className="flex-col py-2 w-40 bg-blue-800 justify-center rounded-lg items-center text-white flex"><div className="">VILLAS</div><div className=" font-Open mb-1 text-3xl">29</div> <div>NOS</div></div>
 <div style={{'background':'#E4BF30'}} className="flex-col py-2 w-40 bg-blue-800 justify-center rounded-lg items-center text-white flex"><div className="">3BHK</div><div className=" font-Open mb-1 text-3xl">18</div> <div>NOS</div></div>
@@ -250,7 +250,7 @@ Explore Villas and Others
         </div>
         <div className="flex px-8  justify-around items-center flex-col xl:hidden">
         <div className="grid grid-cols-4 gap-2 justify-center  content-center font-sans  h-full self-start ">
-          <div className="col-span-4 lg:font-semibold font-bold text-base sm:text-xl xl:font-medium desk:text-2xl lg:text-4xl xl:text-2xl 2xl:text-3xl mb-4  " style={{color:'#59a23e'}}><h1>PLOAT &#x26; </h1> LAYOUT FLOOR PLANS</div>
+          <div className="col-span-4 lg:font-semibold font-bold text-base sm:text-xl xl:font-medium desk:text-2xl lg:text-4xl xl:text-2xl 2xl:text-3xl mb-4  " style={{color:'#59a23e'}}><h1>PLOAT LAYOUT  &#x26;  </h1>  FLOOR PLANS</div>
 <div style={{'background':'#61BE6D'}} className="flex-col sm:text-xl text-center text-xs p-2 px-4  bg-blue-800 justify-center  rounded-lg   items-center text-white   flex"><div className="">LAND AREA</div><div className=" font-Open mt-1 mb-1 text-xl">2.2</div> <div>ACRES</div></div>
 <div style={{'background':'#7EB341'}} className="flex-col sm:text-xl text-center text-xs p-2 px-4 bg-blue-800 justify-center rounded-lg items-center text-white flex"><div className="">VILLAS</div><div className=" font-Open mt-1 mb-1 text-xl">29</div> <div>NOS</div></div>
 <div style={{'background':'#E4BF30'}} className="flex-col sm:text-xl text-center text-xs p-2 px-4 bg-blue-800 justify-center rounded-lg items-center text-white flex"><div className="">3BHK</div><div className=" font-Open mt-1 mb-1 text-xl">18</div> <div>NOS</div></div>
