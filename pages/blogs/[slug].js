@@ -64,14 +64,14 @@ const BlogDetail = ({blog}) => {
             title={blog.title}
             subtitle={blog.subtitle}
             // coverImage={blog.coverImage}
-            coverImage={urlFor(blog.coverImage).height(600).url()}
+            coverImage={urlFor(blog.coverImage).height(1200).url()}
             //author={blog.author}
             date={blog.date}
           />
 
           <BlogContent content={blog.content}/>
           <footer className="text-center    text-gray-600 py-5">
-          &#169; Greenest Buildings
+          &#169; Greenest 
           </footer>
      </div>
 

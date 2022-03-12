@@ -20,7 +20,7 @@ export default function BlogHeader({title, subtitle, coverImage, date}) {
           <img
             className="w-full"
             src={coverImage} alt="TODO: provide alt"/>
-           <div className="text-xs text-gray-400"> {date}</div>
+           {/* <div className="text-xs text-gray-400"> {date}</div> */}
       </div>
    
     </>

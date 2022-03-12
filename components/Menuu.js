@@ -153,7 +153,7 @@ function Menuu() {
                 </span>
               </Link> <Link href="/sections/mapping2">
                 <span className="nav-text  cursor-pointer">
-                  <a>About</a>
+                  <a>About Us</a>
                 </span>
               </Link>
               {/* <Link href="/Blogshome">

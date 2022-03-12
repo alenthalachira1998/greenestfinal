@@ -10,7 +10,7 @@ const serializers = {
       return (
        
         <div className={`blog-image flex flex-col  blog-image-${position}`}>
-          <img src={urlFor(asset).height(600).fit('max').url()} />
+          <img src={urlFor(asset).height(1200).fit('max').url()} />
           
           <div className="image-alt italic text-center text-gray-500">{alt}</div>
         </div>

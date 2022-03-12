@@ -165,8 +165,8 @@ export default class SimpleSlider extends Component {
   <div className="mx-10 sm:mx-0 flex flex-col items-center">
 
   <h1 className="sm:mb-5 text-2xl sm:text-5xl font-medium mt-48 text-white lg:text-6xl">High performance</h1>
-  <h2 className="mt-2 hidden sm:block font-medium text-xs sm:text-2xl text-white lg:text-4xl"> Energy <span className="font-bold ">.</span> Water <span className="font-bold">.</span> Build Quality <span className="font-bold">.</span> Health and Welbeing <span className="font-bold">.</span> Safety</h2>
-  <h2 className="mt-2 sm:hidden font-medium text-base sm:text-3xl text-white lg:text-4xl">Energy <span className="font-bold ">.</span> Water <span className="font-bold">.</span> Build Quality  <br/> <span className="font-bold">.</span> Health and Welbeing <span className="font-bold">.</span> Safety</h2>
+  <h2 className="mt-2 hidden sm:block font-medium text-xs sm:text-2xl text-white lg:text-4xl"> Energy <span className="font-bold ">.</span> Water <span className="font-bold">.</span> Build Quality <span className="font-bold">.</span> Health and Well-being <span className="font-bold">.</span> Safety</h2>
+  <h2 className="mt-2 sm:hidden font-medium text-base sm:text-3xl text-white lg:text-4xl">Energy <span className="font-bold ">.</span> Water <span className="font-bold">.</span> Build Quality  <br/> <span className="font-bold"></span> Health and Well-being <span className="font-bold">.</span> Safety</h2>
   </div>
  
            </div>

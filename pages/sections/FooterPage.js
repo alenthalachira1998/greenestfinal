@@ -60,7 +60,7 @@ const FooterPage = () => {
                             TC 14/733,  Nandavanam,</p><p> Thiruvananthapuram - 695033</p>  <p className="flex"> <FaPhoneAlt className="mr-2" />0471-2991231, 8078079111</p><p className="flex"><AiOutlineMail className="mr-4" />mail@greenest.co.in</p></div></div>
 
                     <div className="flex flex-col pb-4  ml-4 lg:ml-0  md:max-w-48 justify-center text-sm sm:text-base lg:text-xl"> <div className=" lg:text-2xl sm:text-base text-sm font-medium flex mt-2 items-center">
-                        <div className="mr-2 md:text-xl lg:mr-8"> <Link className="z-3 " href='sections/mapping2'><a>About</a></Link></div><div className="md:text-xl"></div><div className="flex  md:space-x-2  lg:hidden md:text-5xl mx-2"><Link href="https://youtu.be/TjOALPVpDNo">
+                        <div className="mr-2 md:text-xl lg:mr-8"> <Link className="z-3 " href='sections/mapping2'><a>About Us</a></Link></div><div className="md:text-xl"></div><div className="flex  md:space-x-2  lg:hidden md:text-5xl mx-2"><Link href="https://youtu.be/TjOALPVpDNo">
                             <a className="hover:text-pink-600 md:ml-2 md:text-4xl text-2xl hover:animate-ping"><AiFillYoutube /></a></Link></div><div className="text-xl  flex lg:hidden mx-2 md:mx-0"><Link href="https://www.facebook.com/GreenestBuildings/">
                                 <a className="hover:text-blue-400   text-2xl md:text-4xl hover:animate-ping"><FaFacebookF /></a>
                             </Link></div><div className="   text-2xl md:text-4xl flex lg:hidden mx-2 md:mx-2"> <Link href="https://instagram.com/greenest_homes?utm_medium=copy_link">
@@ -82,26 +82,26 @@ const FooterPage = () => {
                 <div className='hidden lg:h-screen lg:flex' style={bg}><div className="flex-col pl-6 mt-3 text-white 2xl:text-2xl xl:text-lg desk:text-lg   ml-10 justify-center flex">
                     <h1 className="font-medium   text-base sm:text-3xl 2xl:text-3xl xl:text-3xl xl:mb-4  mb-6 lg:mt-10" style={{ color: '#59a23e' }}>Distance from ONE</h1>
                     <p className="lg:py-2 xl:py-1 2xl:py-2 desk:py-1 "> Mannanthala
-                        &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#8202;&#8202;&#8202;&#8202;-&#160;4.7 km</p>
+                        &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#8202;&#8202;- 4.7 km</p>
 
                     <p className="lg:py-2 xl:py-1 2xl:py-2 desk:py-1">Sreekaryam
-                        &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#8202;&#8202;-&#160;5.3 km</p>
-                    <p className="lg:py-2 xl:py-1 2xl:py-2 desk:py-1">Technopark&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#8202;&#8202;
+                        &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;- 5.3 km</p>
+                    <p className="lg:py-2 xl:py-1 2xl:py-2 desk:py-1">Technopark&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
                         -&#160;7.5 km</p>
-                    <p className="lg:py-2 xl:py-1 2xl:py-2 desk:py-1">Sabarigiri INT School
-                        &#160;&#160;&#8202;-&#160;1.4 km</p>
-                    <p className="lg:py-2 xl:py-1 2xl:py-2 desk:py-1">College of ENGG TVM
+                    <p className="lg:py-2 xl:py-1 2xl:py-2 desk:py-1">Sabarigiri  Int.School
+                        &#160;&#160;&#8202;-&#160;&#160;1.4 km</p>
+                    <p className="lg:py-2 xl:py-1 2xl:py-2 desk:py-1">College of Engg.TVM
                         -&#160;6.8 km</p>
 
                     <p className="lg:py-2 xl:py-1 2xl:py-2 desk:py-1">Pothencode
-                        &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#8202;&#8202;&#8202;&#8202;-&#160;5.8 km</p>
+                        &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;- 5.8 km</p>
                     <p className="lg:py-2 xl:py-1 2xl:py-2 desk:py-1">Medical College
-                        &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; &#8202;&#8202;-&#160;8.8 km</p>
+                        &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#8202;&#8202;-&#160;8.8 km</p>
 
-                    <p className="lg:py-2 xl:py-1 2xl:py-2 desk:py-1">LULU Mall&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#8202;&#8202;&#8202;&#8202;&#8202;
+                    <p className="lg:py-2 xl:py-1 2xl:py-2 desk:py-1">LULU Mall&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
                         -&#160;12.4 km</p>
-                    <p className="lg:py-2 xl:py-1 2xl:py-2 desk:py-1">INT Airport TVM
-                        &#160;&#160;&#160;&#160; &#160;&#160;&#160;&#160;&#160;-&#160;13.8 km</p></div>
+                    <p className="lg:py-2 xl:py-1 2xl:py-2 desk:py-1">Int.Airport TVM
+                        &#160;&#160;&#160;&#160; &#160;&#160;&#160;&#160;- 13.8 km</p></div>
                 </div>
                 <div className="lg:flex hidden   w-screen justify-between px-10 items-center pb-10 lg:pb-10 h-52">
                     <div className="text-sm  ml-4 lg:ml-0 mt-8  md:mt-4 text-gray-800 sm:text-base lg:text-xl"> <h1 className="font-medium text-sm sm:text-xl lg:text-2xl" >Contact us</h1><div>
@@ -110,7 +110,7 @@ const FooterPage = () => {
 
 
                     <div className="flex flex-col pb-4  ml-4 lg:ml-0  md:max-w-48 justify-center text-sm sm:text-base lg:text-xl items-center"> <div className=" text-center lg:text-2xl sm:text-base text-sm mb-4 font-medium flex 4  mt-2 items-center">
-                        <div className="mr-2  lg:mr-10"><Link className=" " href='/sections/mapping2'><a>About</a></Link></div><div className="flex lg:hidden lg:mx-0 md:ml-2 mx-2"><Link href="https://youtu.be/TjOALPVpDNo">
+                        <div className="mr-2  lg:mr-10"><Link className=" " href='/sections/mapping2'><a>About Us</a></Link></div><div className="flex lg:hidden lg:mx-0 md:ml-2 mx-2"><Link href="https://youtu.be/TjOALPVpDNo">
                             <a className="hover:text-pink-600  text-2xl hover:animate-ping mx-2"><AiFillYoutube /></a></Link></div><div className="text-xl flex lg:hidden mx-2 md:mx-0"><Link href="https://www.facebook.com/GreenestBuildings/">
                                 <a className="hover:text-blue-400   text-2xl hover:animate-ping"><FaFacebookF /></a>
                             </Link></div><div className="   text-2xl flex lg:hidden mx-2 "> <Link href="https://www.facebook.com/GreenestBuildings/">

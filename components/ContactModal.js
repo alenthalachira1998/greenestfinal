@@ -41,7 +41,7 @@ export default function ContactModal(props) {
         onClick={openModal}
         className="w-screen text-left text-white bg-green-500 py-3 pl-3  rounded-sm "
       >
-       Contact
+      Message Us
       </button>
 
 
