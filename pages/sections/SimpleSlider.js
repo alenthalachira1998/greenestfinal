@@ -10,7 +10,7 @@ import { BiMouse } from 'react-icons/bi';
 export default class SimpleSlider extends Component {
   render() {
     const bg = {
-      backgroundImage: 'url("/images/resort/Pageslide1.jpg")',
+      backgroundImage: 'url("/images/resort/Page - 01 - Slide 1.jpg")',
       backgroundSize: 'cover',
       backgroundPosition: 'center',
       backgroundRepeat: 'no-repeat',
@@ -76,7 +76,7 @@ export default class SimpleSlider extends Component {
     <div className="absolute  overflow-hidden h-full w-full  inset-0">
     
         <div>
-  <span className=" text-white animate-bounce  z-20 absolute  text-center bottom-6 sm:bottom-4  w-screen  lg:text-8xl text-6xl  font-thin"><IoIosArrowRoundDown className="w-screen fade-in-text" /></span>
+  {/* <span className=" text-white animate-bounce  z-20 absolute  text-center bottom-6 sm:bottom-4  w-screen  lg:text-8xl text-6xl  font-thin"><IoIosArrowRoundDown className="w-screen fade-in-text" /></span> */}
         <Slider  style={{'position': 'relative'}}  {...settings}>
           <div className="w-screen h-full">
         <div className="  z-50  relative" style={bg}>
