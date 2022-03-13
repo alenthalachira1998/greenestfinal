@@ -184,51 +184,51 @@ const MaterialSpecifications = () => {
               <h1 className="text-center  font-medium text-sm lg:text-base 2xl:text-xl uppercase" style={{color:'#59a23e'}}>Electrical</h1>{" "}
               <div className="bg-green-200 lg:flex hidden  p-2 2xl:h-44  flex-col justify-center xl:h-36  lg:h-44  lg:px-8  rounded-2xl text-gray-700 border-4 border-gray-200  desk:text-lg  text-xs sm:text-sm    lg:text-base 2xl:text-xl">
               <p> Solar Panel&#8202;&#8202;&#8202;&#8202;&#8202;&#8202;&#160;&#160;&#160;&#160;: On-grid system.</p>
-                <p> Conduit pipes&#8202;&#8202;&#8202;&#8202;&#8202;&#8202;&#8202;&#8202;: Balcon .</p>
-                <p> Wiring&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#8202;&#8202;&#8202;&#8202;&#8202;&#8202;&#8202;&#8202;&#8202;&#8202;: 3 phase concealed conduit wiring  RR green/Havells .</p>
-                <p> Switches&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; : Legrand Myrius / Lyncus .</p>
-                <p> DB &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#8202;&#8202;: Legrand 3 phase . </p>
+                <p> Conduit pipes&#8202;&#8202;&#8202;&#8202;&#8202;&#8202;&#8202;&#8202;: Balcon.</p>
+                <p> Wiring&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#8202;&#8202;&#8202;&#8202;&#8202;&#8202;&#8202;&#8202;&#8202;&#8202;: 3 phase concealed conduit wiring  RR green/Havells.</p>
+                <p> Switches&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; : Legrand Myrius / Lyncus.</p>
+                <p> DB &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#8202;&#8202;: Legrand 3 phase. </p>
                
               </div>
               <div className="bg-green-200 lg:hidden  p-2 2xl:h-44 flex flex-col justify-center xl:h-36  lg:h-44  lg:px-8  rounded-2xl text-gray-700 border-4 border-gray-200  desk:text-lg  text-xs sm:text-sm    lg:text-base 2xl:text-xl">
               <p> Solar Panel : On-grid system.</p>
-                <p> Conduit pipes : Balcon .</p>
-                <p> Wiring : 3 phase concealed conduit wiring  RR green/Havells .</p>
-                <p> Switches : Legrand Myrius / Lyncus .</p>
-                <p> DB : Legrand 3 phase . </p>
+                <p> Conduit pipes : Balcon.</p>
+                <p> Wiring : 3 phase concealed conduit wiring  RR green/Havells.</p>
+                <p> Switches : Legrand Myrius / Lyncus.</p>
+                <p> DB : Legrand 3 phase. </p>
                
               </div>
               <h1 className="text-center uppercase lg:mt-12  font-medium text-sm lg:text-base 2xl:text-xl" style={{color:'#59a23e'}}>SANITARY</h1>{" "}
               <div className="bg-green-200  hidden p-2 xl:p-4 2xl:h-72 lg:flex flex-col justify-center xl:h-56  lg:h-56  lg:px-8  rounded-2xl text-gray-700 border-4 border-gray-200  desk:text-lg  text-xs sm:text-sm    lg:text-base 2xl:text-xl">
-                <p> Water source&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;: Bore well + rain water</p>
-                <p> PVC pipes&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#8202;&#160;&#160;&#160;&#160;&#160;&#160;:  Supreme/finolex</p>
+                <p> Water source&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;: Bore well + rain water.</p>
+                <p> PVC pipes&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#8202;&#160;&#160;&#160;&#160;&#160;&#160;:  Supreme/finolex.</p>
                 <p> CPVC pipes&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;: Supreme/finolex</p>
-                <p> CP Fittings&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; :  Grohe/ Jaquar - Low flow rate</p>
-                <p> Sanitary fittings&#160;&#160;&#160;&#160;&#160;&#160; : Grohe/ Jaquar - Low flow rate</p>
-                <p>Shower&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#8202; &#160;&#160;&#160;&#160;&#160;&#160;: Divertor</p>
-                <p>Dining wash&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; : Counter top wash basin </p>
-                <p>Kitchen Sink&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#8202;&#8202;: Matt finish with drain board </p>
+                <p> CP Fittings&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; :  Grohe/ Jaquar - Low flow rate.</p>
+                <p> Sanitary fittings&#160;&#160;&#160;&#160;&#160;&#160; : Grohe/ Jaquar - Low flow rate.</p>
+                <p>Shower&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#8202; &#160;&#160;&#160;&#160;&#160;&#160;: Divertor.</p>
+                <p>Dining wash&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; : Counter top wash basin. </p>
+                <p>Kitchen Sink&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#8202;&#8202;: Matt finish with drain board. </p>
                 <p>Solar Water Heater : Hawells / V-Guard </p>
               </div>
               <div className="bg-green-200  flex  p-2 xl:p-4 2xl:h-72 lg:hidden flex-col justify-center xl:h-56  lg:h-56  lg:px-8  rounded-2xl text-gray-700 border-4 border-gray-200  desk:text-lg  text-xs sm:text-sm    lg:text-base 2xl:text-xl">
-                <p> Water source : Bore well + rain water .</p>
-                <p> PVC pipes :  Supreme/finolex .</p>
-                <p> CPVC pipes : Supreme/finolex .</p>
-                <p> CP Fittings :  Grohe/ Jaquar - Low flow rate .</p>
-                <p> Sanitary fittings  : Grohe/ Jaquar - Low flow rate .</p>
-                <p>Shower : Divertor .</p>
-                <p>Dining wash : Counter top wash basin .</p>
-                <p>Kitchen Sink : Matt finish with drain board . </p>
-                <p>Solar Water Heater : Hawells / V-Guard . </p>
+                <p> Water source : Bore well + rain water.</p>
+                <p> PVC pipes :  Supreme/finolex.</p>
+                <p> CPVC pipes : Supreme/finolex.</p>
+                <p> CP Fittings :  Grohe/ Jaquar - Low flow rate.</p>
+                <p> Sanitary fittings  : Grohe/ Jaquar - Low flow rate.</p>
+                <p>Shower : Divertor.</p>
+                <p>Dining wash : Counter top wash basin.</p>
+                <p>Kitchen Sink : Matt finish with drain board. </p>
+                <p>Solar Water Heater : Hawells / V-Guard. </p>
               </div>
             </div>
             <div className=" flex flex-col  ">
               {" "}
               <h1 className="text-center   font-medium text-sm lg:text-base 2xl:text-xl lg:mt-14 xl:12 " style={{color:'#59a23e'}}>SMART SAFETY AND SECURITY </h1>{" "}
               <div className="bg-green-200   p-2 2xl:h-44 flex flex-col justify-center xl:h-36  lg:h-44  lg:px-8  rounded-2xl text-gray-700 border-4 border-gray-200  desk:text-lg  text-xs sm:text-sm    lg:text-base 2xl:text-xl">
-                <p> Security : CCTV Surveillance Motion and Intrusive Alarms .</p>{" "}
+                <p> Security : CCTV Surveillance Motion and Intrusive Alarms.</p>{" "}
              
-                <p>Safety&#160;&#160;&#160;&#160;: Gas leak Sensor in Kitchen CO2 sensor in each Villa .</p>
+                <p>Safety&#160;&#160;&#160;&#160;: Gas leak Sensor in Kitchen CO2 sensor in each Villa.</p>
 
               </div>
       
@@ -314,41 +314,41 @@ const MaterialSpecifications = () => {
               <h1 className="text-center  font-medium text-sm lg:text-base  desk:mt-2 desk:mb-0 2xl:mt-0 2xl:text-xl" style={{color:'#59a23e'}}>STRUCTURE</h1>{" "}
               {/* <div className="2xl:p-12 items-center  bg-green-200  p-2  desk:text-lg  desk:pb-10 text-xs sm:text-sm   rounded-2xl text-gray-700 border-4 border-gray-200 lg:text-base 2xl:text-xl"> */}
                <div className="   hidden bg-green-200  2xl:h-64 lg:flex flex-col justify-center  p-2 xl:h-48  lg:h-80  lg:px-8 desk:text-lg  text-xs sm:text-sm   rounded-2xl text-gray-700 border-4 border-gray-200 lg:text-base 2xl:text-xl">
-               <p> Cement&#160;&#160;&#160;&#160;&#160;&#8202;&#8202;&#8202;: Dalmia green/ultra tech .</p>
-                <p> TMT bars&#160;&#160;&#160;&#8202;: Tata Steel .</p>
-                <p> Foundation&#8202;&#8202;: Rcc framed structure / Rubble masonry .</p>
-                <p> Walls&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;:      8 Cement stabilized Mudblock .</p>
+               <p> Cement&#160;&#160;&#160;&#160;&#160;&#8202;&#8202;&#8202;: Dalmia green/ultra tech.</p>
+                <p> TMT bars&#160;&#160;&#160;&#8202;: Tata Steel.</p>
+                <p> Foundation&#8202;&#8202;: Rcc framed structure / Rubble masonry.</p>
+                <p> Walls&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;:      8 Cement stabilized Mudblock.</p>
                 <p> Floor slab &#160;&#160;: Rcc slab 110mm thick.</p>
                 <p> Plastering&#160;&#160;&#160;: External walls - Cement plastering ,</p>
-                <p> Internal walls - Gypsum plastering .</p>
+                <p> Internal walls - Gypsum plastering.</p>
               </div>
               <div className="  flex lg:hidden bg-green-200  2xl:h-64  flex-col justify-center  p-2 xl:h-48  lg:h-80  lg:px-8 desk:text-lg  text-xs sm:text-sm   rounded-2xl text-gray-700 border-4 border-gray-200 lg:text-base 2xl:text-xl">
-               <p> Cement: Dalmia green/ultra tech .</p>
-                <p> TMT bars :  Tata Steel .</p>
+               <p> Cement: Dalmia green/ultra tech.</p>
+                <p> TMT bars :  Tata Steel.</p>
                 <p> Foundation : Rcc framed structure / Rubble masonry.</p>
-                <p> Walls :      8 Cement stabilized Mudblock .</p>
+                <p> Walls :      8 Cement stabilized Mudblock.</p>
                 <p> Floor slab : Rcc slab 110mm thick.</p>
                 <p> Plastering : External walls - Cement plastering ,</p>
-                <p> Internal walls - Gypsum plastering .</p>
+                <p> Internal walls - Gypsum plastering.</p>
               </div>
               <h1 className="text-center uppercase lg:mt-10  desk:mt-6 2xl:mt-9 font-medium text-sm lg:text-base 2xl:text-xl" style={{color:'#59a23e'}}>Doors and Windows</h1>{" "}
               <div className="  bg-green-200 hidden  p-2 2xl:h-64 lg:flex flex-col justify-center xl:h-48  lg:h-72  lg:px-8  rounded-2xl text-gray-700 border-4 border-gray-200  desk:text-lg  text-xs sm:text-sm    lg:text-base 2xl:text-xl">
-                <p> Main Door&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;: Teak Wood .</p>
-                <p> Door lock&#160;&#160;&#160;&#8202;&#160;&#160;&#160;&#160;&#160;&#160;: Biometric digital door lock Yale/Godrej .</p>
-                <p> Other Door&#8202;&#8202;&#8202;&#160;&#160;&#160;&#160;&#160;&#160;: Anjili / Jack Tree .</p>
+                <p> Main Door&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;: Teak Wood.</p>
+                <p> Door lock&#160;&#160;&#160;&#8202;&#160;&#160;&#160;&#160;&#160;&#160;: Biometric digital door lock Yale/Godrej.</p>
+                <p> Other Door&#8202;&#8202;&#8202;&#160;&#160;&#160;&#160;&#160;&#160;: Anjili / Jack Tree.</p>
                 <p> Door lock&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#8202;&#8202;: Stainless Steel mortise lock  
                 Yale/Godrej. </p>
-                <p> Windows&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#8202;&#8202;&#8202;&#8202;: Premium aluminum windows  Tostem/Fenesta .</p>
-                <p> Window glass&#160;&#160;&#8202;: Saint Gobain / AIS .</p>
+                <p> Windows&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#8202;&#8202;&#8202;&#8202;: Premium aluminum windows  Tostem/Fenesta.</p>
+                <p> Window glass&#160;&#160;&#8202;: Saint Gobain / AIS.</p>
               </div>
               <div className="  bg-green-200 flex lg:hidden  p-2 2xl:h-64  flex-col justify-center xl:h-48  lg:h-72  lg:px-8  rounded-2xl text-gray-700 border-4 border-gray-200  desk:text-lg  text-xs sm:text-sm    lg:text-base 2xl:text-xl">
-                <p> Main Door: Teak Wood .</p>
-                <p> Door lock : Biometric digital door lock Yale/Godrej .</p>
-                <p> Other Door: Anjili / Jack Tree .</p>
+                <p> Main Door: Teak Wood.</p>
+                <p> Door lock : Biometric digital door lock Yale/Godrej.</p>
+                <p> Other Door: Anjili / Jack Tree.</p>
                 <p> Door lock : Stainless Steel mortise lock  
                 Yale/Godrej. </p>
-                <p> Windows : Premium aluminum windows  Tostem/Fenesta .</p>
-                <p> Window glass : Saint Gobain / AIS .</p>
+                <p> Windows : Premium aluminum windows  Tostem/Fenesta.</p>
+                <p> Window glass : Saint Gobain / AIS.</p>
               </div>
             </div>
             <div className=" flex flex-col  ">
@@ -357,41 +357,41 @@ const MaterialSpecifications = () => {
               <div className="bg-green-200  hidden lg:flex rounded-2xl 2xl:h-64  flex-col justify-center  p-2  xl:h-48  lg:h-80  lg:px-8   text-xs sm:text-sm 2xl:pl-4  desk:text-lg  text-gray-700 border-4 border-gray-200 lg:text-base 2xl:text-xl">
                 <p> Common areas&#160;&#160;&#8202;: Semi glossy  vitrified tiles     120 x 80 (Somany/ Kajaria)</p>{" "}
              
-                <p>Bedrooms&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#8202;&#8202;: Laminated wooden flooring      Green/ Action TESA . </p>
+                <p>Bedrooms&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#8202;&#8202;: Laminated wooden flooring      Green/ Action TESA. </p>
           
-                <p> Kitchen&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;: Matt finish vitrified tiles   60 x 60 (Somany/ Kajaria) .</p>
+                <p> Kitchen&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;: Matt finish vitrified tiles   60 x 60 (Somany/ Kajaria).</p>
              
-                <p>Toilets&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;: Matt finish vitrified tiles 60 x 60  (Somany/ Kajaria) .</p>
+                <p>Toilets&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;: Matt finish vitrified tiles 60 x 60  (Somany/ Kajaria).</p>
             
-                <p> Kitchen Counter&#160;&#8202;: Nano white crystallized glass (AGL)</p>
-                <p> Stairs&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#8202;&#8202;&#8202;&#8202;&#8202;&#8202;: Lappato finish granite 20 mm thick .</p>
+                <p> Kitchen Counter&#160;&#8202;: Nano white crystallized glass (AGL).</p>
+                <p> Stairs&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#8202;&#8202;&#8202;&#8202;&#8202;&#8202;: Lappato finish granite 20 mm thick.</p>
               </div>
               <div className="bg-green-200 flex rounded-2xl 2xl:h-64 lg:hidden flex-col justify-center  p-2  xl:h-48  lg:h-80  lg:px-8   text-xs sm:text-sm 2xl:pl-4  desk:text-lg  text-gray-700 border-4 border-gray-200 lg:text-base 2xl:text-xl">
-                <p> Common areas: Semi glossy  vitrified tiles     120 x 80 (Somany/ Kajaria)</p>{" "}
+                <p> Common areas: Semi glossy  vitrified tiles     120 x 80 (Somany/ Kajaria).</p>{" "}
              
-                <p>Bedrooms : Laminated wooden flooring      Green/ Action TESA . </p>
+                <p>Bedrooms : Laminated wooden flooring      Green/ Action TESA. </p>
           
-                <p> Kitchen: Matt finish vitrified tiles   60 x 60 (Somany/ Kajaria) .</p>
+                <p> Kitchen: Matt finish vitrified tiles   60 x 60 (Somany/ Kajaria).</p>
              
-                <p>Toilets: Matt finish vitrified tiles 60 x 60  (Somany/ Kajaria) .</p>
+                <p>Toilets: Matt finish vitrified tiles 60 x 60  (Somany/ Kajaria).</p>
             
-                <p> Kitchen Counter: Nano white crystallized glass (AGL)</p>
-                <p> Stairs: Lappato finish granite 20 mm thick .</p>
+                <p> Kitchen Counter: Nano white crystallized glass (AGL).</p>
+                <p> Stairs: Lappato finish granite 20 mm thick.</p>
               </div>
               <h1 className="text-center lg:mt-10  font-medium text-sm lg:text-base 2xl:text-xl  2xl:mt-8 desk:mt-5" style={{color:'#59a23e'}}>PAINTING</h1>{" "}
               <div className="bg-green-200 hidden lg:flex 2xl:h-64  flex-col justify-center   p-2    xl:h-48  lg:h-72  lg:px-8 desk:text-lg  rounded-2xl text-xs sm:text-sm   text-gray-700 border-4 border-gray-200 lg:text-base 2xl:text-xl">
-                <p> Putty &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#8202;&#8202;: Jotun .</p>
-                <p> Internal Walls&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#8202; : Jotun phenomastic emulsion .</p>
-                <p> External walls&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;: Jotun jotashield extreme .</p>
-                <p> Iron members&#160;&#160;&#160;&#160;&#160;&#160;&#160; : Jotun enamel . </p>
-                <p> Wooden members : MRF wood coat exterior polish . </p>
+                <p> Putty &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#8202;&#8202;: Jotun.</p>
+                <p> Internal Walls&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#8202; : Jotun phenomastic emulsion.</p>
+                <p> External walls&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;: Jotun jotashield extreme.</p>
+                <p> Iron members&#160;&#160;&#160;&#160;&#160;&#160;&#160; : Jotun enamel. </p>
+                <p> Wooden members : MRF wood coat exterior polish. </p>
               </div>
               <div className="bg-green-200 flex lg:hidden 2xl:h-64  flex-col justify-center   p-2    xl:h-48  lg:h-72  lg:px-8 desk:text-lg  rounded-2xl text-xs sm:text-sm   text-gray-700 border-4 border-gray-200 lg:text-base 2xl:text-xl">
-                <p> Putty : Jotun .</p>
-                <p> Internal Walls : Jotun phenomastic emulsion .</p>
-                <p> External walls : Jotun jotashield extreme .</p>
-                <p> Iron members : Jotun enamel . </p>
-                <p> Wooden members : MRF wood coat exterior polish . </p>
+                <p> Putty : Jotun.</p>
+                <p> Internal Walls : Jotun phenomastic emulsion.</p>
+                <p> External walls : Jotun jotashield extreme.</p>
+                <p> Iron members : Jotun enamel. </p>
+                <p> Wooden members : MRF wood coat exterior polish. </p>
               </div>
             </div>
           </div>
