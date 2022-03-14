@@ -52,9 +52,9 @@ import { urlFor } from 'lib/api';
           <div>
             {/* <!--Author name--> */}
             <p className="text-gray-900 font-semibold">{author?.name||'greenest'}</p>
-            <p className="text-gray-500 font-semibold text-sm">
+            {/* <p className="text-gray-500 font-semibold text-sm">
             {date}
-            </p>
+            </p> */}
           </div>
         </div>
       </div>

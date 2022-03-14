@@ -320,7 +320,7 @@ const MaterialSpecifications = () => {
                 <p> Walls&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;:      8 Cement stabilized Mudblock.</p>
                 <p> Floor slab &#160;&#160;: Rcc slab 110mm thick.</p>
                 <p> Plastering&#160;&#160;&#160;: External walls - Cement plastering ,</p>
-                <p> Internal walls - Gypsum plastering.</p>
+                <p> &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Internal walls - Gypsum plastering.</p>
               </div>
               <div className="  flex lg:hidden bg-green-200  2xl:h-64  flex-col justify-center  p-2 xl:h-48  lg:h-80  lg:px-8 desk:text-lg  text-xs sm:text-sm   rounded-2xl text-gray-700 border-4 border-gray-200 lg:text-base 2xl:text-xl">
                <p> Cement: Dalmia green/ultra tech.</p>
@@ -329,7 +329,7 @@ const MaterialSpecifications = () => {
                 <p> Walls :      8 Cement stabilized Mudblock.</p>
                 <p> Floor slab : Rcc slab 110mm thick.</p>
                 <p> Plastering : External walls - Cement plastering ,</p>
-                <p> Internal walls - Gypsum plastering.</p>
+                <p> &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Internal walls - Gypsum plastering.</p>
               </div>
               <h1 className="text-center uppercase lg:mt-10  desk:mt-6 2xl:mt-9 font-medium text-sm lg:text-base 2xl:text-xl" style={{color:'#59a23e'}}>Doors and Windows</h1>{" "}
               <div className="  bg-green-200 hidden  p-2 2xl:h-64 lg:flex flex-col justify-center xl:h-48  lg:h-72  lg:px-8  rounded-2xl text-gray-700 border-4 border-gray-200  desk:text-lg  text-xs sm:text-sm    lg:text-base 2xl:text-xl">
