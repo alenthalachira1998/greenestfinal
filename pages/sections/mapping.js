@@ -4,6 +4,7 @@ import React from 'react'
 import Link from 'next/link'
 //import { FcHome } from 'react-icons/fc'
 import { FcSearch } from 'react-icons/fc'
+import Whatsapp from 'components/whatsapp';
 const Mapping = () => {
   
 
@@ -246,7 +247,7 @@ Explore Villas
 
 
         
-
+          <div className="absolute  hidden lg:block left-6  z-30   bottom-4"><Whatsapp/></div>
         </div>
         <div className="flex px-8  justify-around items-center flex-col xl:hidden">
         <div className="grid grid-cols-4 gap-2 justify-center  content-center font-sans  h-full self-start ">
@@ -262,6 +263,7 @@ Explore Villas
 </div>
 </div>
       </div>
+      <div className="absolute  lg:hidden  lg:left-6 left-3   z-30   bottom-2"><Whatsapp/></div>
     </div>
   
   )

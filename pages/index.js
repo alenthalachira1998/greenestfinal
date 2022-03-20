@@ -25,6 +25,7 @@ import Gallery from "./sections/Gallery/Gallery";
 import Player from "components/sound";
 import mapping from "./sections/mapping";
 import Mapping from "./sections/mapping";
+import Whatsapp from "components/whatsapp";
 
 
 
@@ -38,6 +39,7 @@ export default function Home() {
         <meta name="viewport" content="initial-scale=1.0 width=device-width" />
        
       </Head>
+     
       <div className="absolute    z-10  pb-2 pt-4 w-full flex justify-center ">
         <img
           src="/logo.png"
@@ -71,7 +73,8 @@ export default function Home() {
     <Contact/>  */}
 
       {/* </div>  */}
-
+ 
+    
       <ReactFullpage
         licenseKey="6E5201D5-E37447CD-AE1913F6-91AFE3AA"
         scrollSpeed={700}
@@ -102,6 +105,7 @@ export default function Home() {
               <div className="section">
               <DesignFeatures/>
               </div> */}
+            
               <div data-anchor="slide1" id="section1"className="section overflow-hidden">
            <SimpleSlider/>
               </div>

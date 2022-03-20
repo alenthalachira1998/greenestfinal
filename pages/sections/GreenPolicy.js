@@ -1,6 +1,6 @@
 import React from 'react'
 import { IoIosArrowRoundForward } from 'react-icons/io';
-
+import Whatsapp from 'components/whatsapp';
 
 const GreenPolicy = () => {
 
@@ -44,7 +44,7 @@ const GreenPolicy = () => {
                                 <div className=" xl:h-48 2xl:h-72 desk:h-60 flex justify-center 2xl:w-auto    flex-col text-gray-700    lg:mb-0 mb-5"> <img className=" shadow-xl resize-none  rounded-2xl border-2xl    w-full  h-full   object-cover   " src="../images/resort/featurepic/Page - 06 Green policy-06-min.jpg" style={{ height: '100%', height: '-webkit-fill-available;' }} ></img><p className="text-xs xs:text-sm text-center  whitespace-nowrap 2xl:text-lg lg:text-base lg:pt-2">20+ Mature  <br /> Transplanted Trees <br /><br /></p></div>
 
                             </div>
-
+                     
 
 
                         </div>
@@ -52,7 +52,7 @@ const GreenPolicy = () => {
                     </div>
 
 
-
+                    <div className="absolute  hidden lg:block left-6  z-30   bottom-4"><Whatsapp/></div>
 
 
                     {/* <div className="2xl:flex absolute text-gray-400 justify-center 2xl:bottom-8  lg:bottom-36   hidden  w-screen z-30 text-4xl sm:text-6xl md:text-6xl 2xl:text-7xl"><div> <IoIosArrowRoundDown /></div></div> */}

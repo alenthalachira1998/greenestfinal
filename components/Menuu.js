@@ -151,7 +151,7 @@ function Menuu() {
                 <span className="nav-text cursor-pointer">
                   <a >Home</a>
                 </span>
-              </Link> <Link href="/sections/mapping2">
+              </Link> <Link href="/sections/About">
                 <span className="nav-text  cursor-pointer">
                   <a>About Us</a>
                 </span>

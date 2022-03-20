@@ -5,6 +5,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { IoIosArrowRoundDown } from 'react-icons/io';
 import { BiMouse } from 'react-icons/bi';
+import Whatsapp from "components/whatsapp";
 
 
 export default class SimpleSlider extends Component {
@@ -74,10 +75,13 @@ export default class SimpleSlider extends Component {
   
     return (
     <div className="absolute  overflow-hidden h-full w-full  inset-0">
-    
+   
+   <div className="absolute lg:left-6 left-3   z-30  bottom-2"><Whatsapp/></div>
         <div>
+        
   {/* <span className=" text-white animate-bounce  z-20 absolute  text-center bottom-6 sm:bottom-4  w-screen  lg:text-8xl text-6xl  font-thin"><IoIosArrowRoundDown className="w-screen fade-in-text" /></span> */}
         <Slider  style={{'position': 'relative'}}  {...settings}>
+          
           <div className="w-screen h-full">
         <div className="  z-50  relative" style={bg}>
 <div className="absolute bg-black h-full w-full opacity-5 flex flex-col items-center justify-center"></div>
@@ -89,7 +93,7 @@ export default class SimpleSlider extends Component {
   <h1 className="font-Tourney  sm:-mt-5 mt-2 mb-2 desk:text-7xl xl:text-6xl sm:mb-10 text-4xl sm:text-7xl 2xl:text-8xl ">&quot;COME HOME&quot;</h1>
   <h1 className="font-Caveat sm:-mt-5 text-xl sm:text-3xl">Introducing</h1>
   <img  className="  2xl:w-56 lg:w-48 xl:w-44  desk:w-40 z-30 w-36 drop-shadow-xl "src="/images/OneLogo.png"/>
-
+ 
  {/* <span className="  z-20 flex flex-col w-screen h-screen sm:text-4xl text-3xl  md:text-5xl lg:text-6xl  text-gray-400  font-thin animate-pulse "><span className="absolute bottom-2/4"><BiMouse className="" /><p className="lg:text-sm md:text-base text-xs font-bold ">ScrollPrev</p></span></span>  */}
            </div>
            

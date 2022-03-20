@@ -151,6 +151,8 @@
 
 // export default MaterialSpecifications;
 import React, { useEffect, useState } from "react";
+// import Whatsapp from 'components/whatsapp';
+
 import {
   VscArrowRight,
   VscArrowLeft,
@@ -162,6 +164,7 @@ const MaterialSpecifications = () => {
   }, [next]);
   return (
     <>
+       {/* <div className="absolute  hidden lg:block left-6  z-30   bottom-4"><Whatsapp/></div> */}
     <div className=" font-Open">
       {next ? (
         <div className="desk:ml-28 desk:mr-14  mt-20 xxs:mt-20 mx-4 sm:mx-10 lg:mx-20 2xl:mx-4 2xl:mt-20 desk:mt-10 lg:mt-24 xl:mt-16  flex   flex-col ">
@@ -353,7 +356,7 @@ const MaterialSpecifications = () => {
             </div>
             <div className=" flex flex-col  ">
               {" "}
-              <h1 className="text-center   font-medium text-sm lg:text-base 2xl:mt-16 xl:mt-12 desk:mt-20  lg:mt-12 2xl:text-xl" style={{color:'#59a23e'}}>FLOORING</h1>{" "}
+              <h1 className="text-center   font-medium text-sm lg:text-base 2xl:mt-16 xl:mt-14 desk:mt-20  lg:mt-12 2xl:text-xl" style={{color:'#59a23e'}}>FLOORING</h1>{" "}
               <div className="bg-green-200  hidden lg:flex rounded-2xl 2xl:h-64  flex-col justify-center  p-2  xl:h-48  lg:h-80  lg:px-8   text-xs sm:text-sm 2xl:pl-4  desk:text-lg  text-gray-700 border-4 border-gray-200 lg:text-base 2xl:text-xl">
                 <p> Common areas&#160;&#160;&#8202;: Semi glossy  vitrified tiles     120 x 80 (Somany/ Kajaria)</p>{" "}
              
