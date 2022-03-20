@@ -91,7 +91,7 @@ export default function Whatsapp(props) {
                 {/* </Dialog.Title> */}
 
                 <div className=" flex flex-col  justify-center items-center  text-white ">
-                    Contact Us:
+                    Contact Us
                     <div className="font-Open">
                   Phone : 0471-2991231, 8078079111</div>
               
