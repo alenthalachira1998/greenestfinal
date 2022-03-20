@@ -38,7 +38,7 @@ return (
 </div>
 
 <span className="text-white  z-20 absolute   text-center bottom-0 sm:bottom-4  w-screen  2xl:text-8xl text-6xl  font-thin"><IoIosArrowRoundDown className="w-screen animate-bounce" /></span>
-<div className="bottom-2 absolute lg:left-6 left-3  lg:z-30 "><Whatsapp/></div>
+<div className="bottom-2 absolute lg:left-6 left-3  z-30 "><Whatsapp/></div>
 </section>
 )
 }

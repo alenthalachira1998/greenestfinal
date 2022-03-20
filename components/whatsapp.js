@@ -27,7 +27,7 @@ export default function Whatsapp(props) {
       <button
         type="button"
         onClick={openModal}
-        className="text-center text-green-600 text-5xl lg:text-6xl"
+        className="text-center text-green-700 text-5xl lg:text-6xl"
       >
     <RiWhatsappLine/>
       </button>
@@ -91,7 +91,7 @@ export default function Whatsapp(props) {
                 {/* </Dialog.Title> */}
 
                 <div className=" flex flex-col  justify-center items-center  text-white ">
-                    Contact us:
+                    Contact Us:
                     <div className="font-Open">
                   Phone : 0471-2991231, 8078079111</div>
               
