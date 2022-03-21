@@ -30,7 +30,7 @@ export default function Whatsapp(props) {
         className="text-center text-green-700 text-5xl lg:text-6xl"
       >
     {/* <RiWhatsappLine/> */}
-    <img src="/phone.png" className="h-16"></img>
+    <img src="/phone.png" className="h-12"></img>
       </button>
 
 
