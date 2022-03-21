@@ -1,7 +1,7 @@
 
 import { Dialog, Transition } from '@headlessui/react'
 import { Fragment, useState } from 'react'
-import { RiWhatsappLine} from 'react-icons/ri';
+// import { RiWhatsappLine} from 'react-icons/ri';
 const bg = {
   color: "#f5f6fa"
 }
@@ -29,7 +29,8 @@ export default function Whatsapp(props) {
         onClick={openModal}
         className="text-center text-green-700 text-5xl lg:text-6xl"
       >
-    <RiWhatsappLine/>
+    {/* <RiWhatsappLine/> */}
+    <img src="/phone.png" className="h-16"></img>
       </button>
 
 
