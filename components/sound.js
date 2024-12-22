@@ -1,22 +1,39 @@
-import React, { useState, useEffect } from "react";
-import { BiVolumeFull } from 'react-icons/bi';
-import { BiVolumeMute } from 'react-icons/bi';
-const useAudio = url => {
-  const [audio] = useState(new Audio('/greenest-BGM.mp3'));
+import React, { useState, useEffect, useRef } from "react";
+import { BiVolumeFull } from "react-icons/bi";
+import { BiVolumeMute } from "react-icons/bi";
+
+const useAudio = (url) => {
+  const audioRef = useRef(new Audio(url));
   const [playing, setPlaying] = useState(true);
 
-  const toggle = () => setPlaying(!playing);
+  const toggle = () => setPlaying((prev) => !prev);
 
   useEffect(() => {
-      playing ? audio.play() : audio.pause();
-    },
-    [playing]
-  );
+    const audio = audioRef.current;
+
+    const playAudio = async () => {
+      try {
+        if (playing) {
+          await audio.play();
+        } else {
+          audio.pause();
+        }
+      } catch (error) {
+        console.error("Audio playback failed:", error);
+      }
+    };
+
+    playAudio();
+  }, [playing]);
 
   useEffect(() => {
-    audio.addEventListener('ended', () => setPlaying(false));
+    const audio = audioRef.current;
+    const handleEnded = () => setPlaying(false);
+
+    audio.addEventListener("ended", handleEnded);
+
     return () => {
-      audio.removeEventListener('ended', () => setPlaying(false));
+      audio.removeEventListener("ended", handleEnded);
     };
   }, []);
 
@@ -28,8 +45,19 @@ const Player = ({ url }) => {
 
   return (
     <div>
-      <button onClick={toggle}>{playing ? <BiVolumeFull className="text-xl lg:text-2xl text-gray-600  animate-pulse" style={{'writing-mode': 'vertical-rl',
-'text-orientation': 'sideways-right'}}/> : <BiVolumeMute className=" lg:text-xl text-base text-gray-600"/>}</button>
+      <button onClick={toggle} aria-label={playing ? "Pause audio" : "Play audio"}>
+        {playing ? (
+          <BiVolumeFull
+            className="text-xl lg:text-2xl text-gray-600 animate-pulse"
+            style={{
+              writingMode: "vertical-rl",
+              textOrientation: "sideways-right",
+            }}
+          />
+        ) : (
+          <BiVolumeMute className="lg:text-xl text-base text-gray-600" />
+        )}
+      </button>
     </div>
   );
 };
